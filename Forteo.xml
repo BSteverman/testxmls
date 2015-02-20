@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>64474</routedMedId>
+		<routedMedName>Forteo subcutaneous</routedMedName>
+		<routedGenericName>teriparatide subcutaneous</routedGenericName>
+		<etcIds>
+			<etc_id>68240000</etc_id>
+		</etcIds>
+		<medIds>
+			<medId>556442</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<?oxy_comment_start author="payaldesai" timestamp="20150205T135707-0800" comment="Per John, do DXID for now and capture High Risk For Fracture in assessments"?>
+			<fqn><?oxy_comment_end?>Post-Menopausal Osteoporosis</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>f</gender>
+			<icd9>22.2899</icd9>
+			<symbolic>ostfemaleforteo</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name>high risk of fracture</name>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<codeValues>02.16383|02.1257|02.154925|02.162097|02.92884|02.1273|02.92883|02.7835</codeValues>
+								<selectedListName>oral bisphosphonates</selectedListName>
+								<selectedListClassCode>16.01</selectedListClassCode>
+								<dur>12</dur>
+								<durUnit>months</durUnit>
+								<durModifier>ge</durModifier>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+							<treatmentLine>
+								<option>AND</option>
+								<interventionType>group</interventionType>
+								<codeValues>02.95102|02.94907|02.148235|02.148199</codeValues>
+								<selectedListName>intravenous bisphosphonates</selectedListName>
+								<selectedListClassCode>16.02</selectedListClassCode>
+								<dur>12</dur>
+								<durUnit>months</durUnit>
+								<durModifier>ge</durModifier>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion/>
+			<dosing>
+				<text>20 mg subcutaneously once a day</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<?oxy_comment_start author="payaldesai" timestamp="20150205T135325-0800" comment="Per discussion with team, represent multi dose team as such"?>
+					<medId><?oxy_comment_end?>64474</medId>
+					<initPerDayDesc/>
+					<initPerIntervalDesc>1 pen (2.4 mL) per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc>1 pen (2.4 mL) per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>2</dur>
+					<durUnit>y</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>National Osteoporosis Foundation. Clinician's Guide to Prevention and Treatment of Osteoporosis. http://nof.org/files/nof/public/content/file/2610/upload/895.pdf. Published April 1, 2014. Accessed August 1, 2014.</reference>
+				<reference>Watts NB, Adler RA, Bilezikian JP, Drake MT, Eastell R, Orwoll ES, et al. Osteoporosis in men: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2012;97:1802-22. (Also available on the Endocrine Society’s website http://www.endo-society.org/guidelines/Current-Clinical-Practice-Guidelines.cfm)</reference>
+				<reference>Kanis JA; for World Health Organization Scientific Group. Assessment of osteoporosis at the primary health care level. http://www.shef.ac.uk/FRAX/pdfs/WHO_Technical_Report.pdf. Published 2007.  Accessed August 1, 2014.</reference>
+				<reference>Forteo [package insert]. Indianapolis, IN: Eli Lilly and Company; 2012</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Hypogonadal Osteoporosis in Males</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>m</gender>
+			<icd9>23.9027</icd9>
+			<symbolic>ostmaleforteo</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<codeValues>02.16383|02.1257|02.154925|02.162097|02.92884|02.1273|02.92883|02.7835</codeValues>
+								<selectedListName>oral bisphosphonates</selectedListName>
+								<selectedListClassCode>16.01</selectedListClassCode>
+								<dur>12</dur>
+								<durUnit>months</durUnit>
+								<durModifier>ge</durModifier>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+							<treatmentLine>
+								<option>AND</option>
+								<interventionType>group</interventionType>
+								<codeValues>02.95102|02.94907|02.148235|02.148199</codeValues>
+								<selectedListName>intravenous bisphosphonates</selectedListName>
+								<selectedListClassCode>16.02</selectedListClassCode>
+								<dur>12</dur>
+								<durUnit>months</durUnit>
+								<durModifier>ge</durModifier>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion/>
+			<concurrentTherapyExclusion/>
+			<dosing>
+				<text>20 mg subcutaneously once a day</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>64474</medId>
+					<initPerDayDesc/>
+					<initPerIntervalDesc>1 pen (2.4 mL) per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc>1 pen (2.4 mL) per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>2</dur>
+					<durUnit>y</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>National Osteoporosis Foundation. Clinician's Guide to Prevention and Treatment of Osteoporosis. http://nof.org/files/nof/public/content/file/2610/upload/895.pdf. Published April 1, 2014. Accessed August 1, 2014.</reference>
+				<reference>Watts NB, Adler RA, Bilezikian JP, Drake MT, Eastell R, Orwoll ES, et al. Osteoporosis in men: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2012;97:1802-22. (Also available on the Endocrine Society’s website http://www.endo-society.org/guidelines/Current-Clinical-Practice-Guidelines.cfm)</reference>
+				<reference>Kanis JA; for World Health Organization Scientific Group. Assessment of osteoporosis at the primary health care level. http://www.shef.ac.uk/FRAX/pdfs/WHO_Technical_Report.pdf. Published 2007.  Accessed August 1, 2014.</reference>
+				<reference>Forteo [package insert]. Indianapolis, IN: Eli Lilly and Company; 2012</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			
+		</diagnosis>
+		<diagnosis>
+			<fqn>Glucocorticoid Induced Osteoporosis</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2901</icd9>
+			<symbolic/>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>oral bisphosphonates</name>
+								<codeValues>02.16383|02.1257|02.154925|02.162097|02.1273|02.7835</codeValues>
+								<selectedListName>16.01</selectedListName>
+								<selectedListClassCode/>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name>zoledronic acid</name>
+								<codeValues>01.113876| 01.113840</codeValues>
+								<selectedListName>16.04</selectedListName>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion/>
+			<concurrentTherapyExclusion/>
+			<dosing>
+				<text>20 mg subcutaneously once a day</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>64474</medId>
+					<initPerDayDesc/>
+					<initPerIntervalDesc>1 pen (2.4 mL) per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc>1 pen (2.4 mL) per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>2</dur>
+					<durUnit>y</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>National Osteoporosis Foundation. Clinician's Guide to Prevention and Treatment of Osteoporosis. http://nof.org/files/nof/public/content/file/2610/upload/895.pdf. Published April 1, 2014. Accessed August 1, 2014.</reference>
+				<reference>Kanis JA; for World Health Organization Scientific Group. Assessment of osteoporosis at the primary health care level. http://www.shef.ac.uk/FRAX/pdfs/WHO_Technical_Report.pdf. Published 2007.  Accessed August 1, 2014.</reference>
+				<reference>Forteo [package insert]. Indianapolis, IN: Eli Lilly and Company; 2012</reference>
+				<reference>Grossman JM, et al. American College of Rheumatology 2010 recommendations for the prevention and treatment of glucocorticoid-induced osteoporosis. Arthritis Care &amp; Research 2010;62(11):1515-26. DOI: 10.1002/acr.20295. (Reaffirmed 2013 Nov) </reference>
+				<reference>Management of corticosteroid-induced osteoporosis. Drug and Therapeutics Bulletin 2010;48(9):98-101. DOI: 10.1136/dtb.2010.09.0047</reference>
+				<reference>Karras D, et al. Effectiveness of teriparatide in postmenopausal women with osteoporosis and glucocorticoid use: 3-year results from the EFOS study. Journal of Rheumatology 2012;39(3):600-9</reference>
+				<reference>Devogelaer JP, et al. Baseline glucocorticoid dose and bone mineral density response with teriparatide or alendronate therapy in patients with glucocorticoid-induced osteoporosis. Journal of Rheumatology 2010;37(1):141-8</reference>
+				<reference>Saag KG, et al. Effects of teriparatide versus alendronate for treating glucocorticoid-induced osteoporosis: thirty-six-month results of a randomized, double-blind, controlled trial. Arthritis and Rheumatism 2009;60(11):3346-55</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>oral bisphosphonates</name>
+			<codeValue>16.01</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>Actonel oral</name>
+				<codeValue>02.16383</codeValue>
+			</listItem>
+			<listItem>
+				<name>alendronate oral</name>
+				<codeValue>02.1257</codeValue>
+			</listItem>
+			<listItem>
+				<name>Atelvia oral</name>
+				<codeValue>02.154925</codeValue>
+			</listItem>
+			<listItem>
+				<name>Binosto oral</name>
+				<codeValue>02.162097</codeValue>
+			</listItem>
+			<listItem>
+				<name>Boniva oral</name>
+				<codeValue>02.92884</codeValue>
+			</listItem>
+			<listItem>
+				<name>Fosamax oral</name>
+				<codeValue>02.1273</codeValue>
+			</listItem>
+			<listItem>
+				<name>ibandronate oral</name>
+				<codeValue>02.92883</codeValue>
+			</listItem>
+			<listItem>
+				<name>risedronate oral</name>
+				<codeValue>02.7835</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>intravenous bisphosphonates</name>
+			<codeValue>16.02</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>Boniva intravenous</name>
+				<codeValue>02.95102</codeValue>
+			</listItem>
+			<listItem>
+				<name>ibandronate intravenous</name>
+				<codeValue>02.94907</codeValue>
+			</listItem>
+			<listItem>
+				<name>Reclast intravenous</name>
+				<codeValue>02.148235</codeValue>
+			</listItem>
+			<listItem>
+				<name>zoledronic acid in mannitol and water intravenous</name>
+				<codeValue>02.148199</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>bisphosphonates</name>
+			<codeValue>16.03</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Fosamax</name>
+				<codeValue>01.1265</codeValue>
+			</listItem>
+			<listItem>
+				<name>risedronate</name>
+				<codeValue>01.7510</codeValue>
+			</listItem>
+			<listItem>
+				<name>alendronate</name>
+				<codeValue>01.1249</codeValue>
+			</listItem>
+			<listItem>
+				<name>Actonel</name>
+				<codeValue>01.15387</codeValue>
+			</listItem>
+			<listItem>
+				<name>ibandronate</name>
+				<codeValue>01.79193</codeValue>
+			</listItem>
+			<listItem>
+				<name>zoledronic acid-mannitol-water</name>
+				<codeValue>01.113840</codeValue>
+			</listItem>
+			<listItem>
+				<name>Boniva</name>
+				<codeValue>01.79194</codeValue>
+			</listItem>
+			<listItem>
+				<name>Reclast</name>
+				<codeValue>01.113876</codeValue>
+			</listItem>
+			<listItem>
+				<name>Atelvia</name>
+				<codeValue>01.124640</codeValue>
+			</listItem>
+			<listItem>
+				<name>Binosto</name>
+				<codeValue>01.197285</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>triedtherapyclasses</name>
+			<codeValue>ttc</codeValue>
+			<listType>internal</listType>
+			<listItem>
+				<name>bisphosphonates - excludes glucorticoid osteoporosis</name>
+				<codeValue>16.03</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>zoledronic acid</name>
+			<codeValue>16.04</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Reclast</name>
+				<codeValue>01.113876</codeValue>
+			</listItem>
+			<listItem>
+				<name>zoledronic acid-mannitol-water</name>
+				<codeValue>01.113840</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

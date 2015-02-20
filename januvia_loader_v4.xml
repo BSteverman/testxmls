@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+    <toplevel>
+        <routedMedId>145704</routedMedId>
+        <routedMedName>Januvia tablet</routedMedName>
+        <routedGenericName>sitagliptin tablet</routedGenericName>
+        <etcIds>
+            <etc_id/>
+        </etcIds>
+        <medIds>
+            <medId>547328</medId>
+            <medId>547329</medId>
+            <medId>547330</medId>
+        </medIds>
+    </toplevel>
+    <diagnoses>
+        <diagnosis>
+            <fqn>Type 2 Diabetes Mellitus</fqn>
+            <age>
+                <ageRangeType>ge</ageRangeType>
+                <ageRangeMin>18</ageRangeMin>
+                <ageRangeMax/>
+                <ageRangeUnit>y</ageRangeUnit>
+                <ageDesc/>
+            </age>
+            <gender>not specified</gender>
+            <icd9>12.E11</icd9>
+            <symbolic>typ2DiabMelli</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name/>
+                <dur/>
+                <durUnit>nocode</durUnit>
+            </subtype>
+            <prescribers>
+                <prescriber>
+                    <name>Not Applicable</name>
+                    <code>Not Applicable</code>
+                </prescriber>
+            </prescribers>
+            <comorbidity>
+                <name/>
+                <icd9/>
+                <dur/>
+                <durUnit>nocode</durUnit>
+            </comorbidity>
+            <concurrenttherapy>
+            </concurrenttherapy>
+            <triedtherapy>
+                <criteriaSet>
+                    <patientHxType>
+                       <typeName>all</typeName>
+                        <treatment>
+                            <treatmentLine>
+                                <option>OR</option>
+                                <interventionType>drug</interventionType>
+                                <name/>
+                                <codeValues/>
+                                <selectedListName/>
+                                <selectedListClassCode/>
+                            </treatmentLine>
+                        </treatment>
+                    </patientHxType>
+                    <preferredTherapy>
+                        <numRequired>any</numRequired>
+                        <treatment>
+                            <treatmentLine>
+                                <option>WITH</option>
+                                <interventionType>group</interventionType>
+                                <name/>
+                                <codeValues>02.89227|02.11294|02.20009|02.144868|02.11285|02.77963</codeValues>
+                                <selectedListName>metformin formulation</selectedListName>
+                                <selectedListClassCode>18.11285</selectedListClassCode>
+                                <durModifier>nocode</durModifier>
+                                <dur/>
+                                <durUnit>nocode</durUnit>
+                                <timeFrame>nocode</timeFrame>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                            <treatmentLine>
+                                <option>AND</option>
+                                <interventionType>group</interventionType>
+                                <name/>
+                                <codeValues>02.12297|02.3773|02.12271|02.10094|02.11773|02.10095|02.5205|02.3917|02.5235</codeValues>
+                                <selectedListName>sulfonylureas</selectedListName>
+                                <selectedListClassCode>14.2578</selectedListClassCode>
+                                <durModifier>nocode</durModifier>
+                                <dur/>
+                                <durUnit>nocode</durUnit>
+                                <timeFrame>nocode</timeFrame>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                            <treatmentLine>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <name/>
+                                <codeValues>02.17410|02.17406</codeValues>
+                                <selectedListName>pioglitazone formulation</selectedListName>
+                                <selectedListClassCode>18.17406</selectedListClassCode>
+                                <durModifier>ge</durModifier>
+                                <dur>3</dur>
+                                <durUnit>m</durUnit>
+                                <timeFrame>nocode</timeFrame>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                            <mustBeIneligible>false</mustBeIneligible>
+                            <documentationRequired>false</documentationRequired>
+                        </treatment>
+                        <treatment>
+                            <treatmentLine>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <name/>
+                                <codeValues>02.64318|02.19822|02.19823|02.94140|02.154175|02.94097</codeValues>
+                                <selectedListName>metformin combination product containing a sulfonylurea or pioglitazone</selectedListName>
+                                <selectedListClassCode>16.04</selectedListClassCode>
+                                <durModifier>ge</durModifier>
+                                <dur>3</dur>
+                                <durUnit>m</durUnit>
+                                <timeFrame>nocode</timeFrame>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                            <mustBeIneligible>false</mustBeIneligible>
+                            <documentationRequired>false</documentationRequired>
+                        </treatment>
+                    </preferredTherapy>
+                </criteriaSet>
+            </triedtherapy>
+            <dosing>
+                <text>100 mg once daily with or without food</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medId>547328</medId>
+                    <initPerDayDesc>1 tablet</initPerDayDesc>
+                    <initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+                    <renewPerDayDesc>1 tablet</renewPerDayDesc>
+                    <renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+                </qlimit>
+                <qlimit>
+                    <medId>547329</medId>
+                    <initPerDayDesc>1 tablet</initPerDayDesc>
+                    <initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+                    <renewPerDayDesc>1 tablet</renewPerDayDesc>
+                    <renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+                </qlimit>
+                <qlimit>
+                    <medId>547330</medId>
+                    <initPerDayDesc>1 tablet</initPerDayDesc>
+                    <initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+                    <renewPerDayDesc>1 tablet</renewPerDayDesc>
+                    <renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>m</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>m</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur/>
+                    <durUnit>nocode</durUnit>
+                </overallMax>
+            </durations>
+            <references>
+                <reference>Product Information: Januvia. Merck &amp; Co., Inc., 2014.</reference>
+                <reference>FDB/AHFS On-Line Pharmacy Reference.  Retrieved July 22, 2014, from http://inweb2/FDBReference/</reference>
+                <reference>American Diabetes Association.  Standards of Medical Care in Diabetes-2014. Diabetes Care, 37(Suppl), S14-S80.</reference>
+                <reference>Handelsman Y, Mechanick JI, Blonde L, et al.  American Association of Clinical Endocrinologists Medical Guidelines for Clinical Practice for Developing a Diabetes Mellitus Comprehensive Care Plan.  Endocrine Practice, 17(Suppl), 1-53.</reference>
+                <reference>Garber AJ, Abrahamson MJ, Barzilay JI, et al.  AACE Comprehensive Diabetes Management Algorithm 2013.  Endocrine Practice, 19(Suppl), 329-335.</reference>
+            </references>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+    </diagnoses>
+    <precautions>
+        <geriatric>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </geriatric>
+        <pregnancy>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </pregnancy>
+        <pediatric>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </pediatric>
+        <lactation>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </lactation>
+        <allergy>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </allergy>
+        <sideEffect>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </sideEffect>
+        <drugDisease>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </drugDisease>
+    </precautions>
+    <lists>
+        <listDef>
+            <name>metformin formulation</name>
+            <codeValue>18.11285</codeValue>
+            <listType>generic</listType>
+            <listItem>
+                <name>metformin oral</name>
+                <codeValue>02.11285</codeValue>
+            </listItem>
+            <listItem>
+                <name>RIOMET oral</name>
+                <codeValue>02.77963</codeValue>
+            </listItem>
+            <listItem>
+                <name>Glumetza oral</name>
+                <codeValue>02.144868</codeValue>
+            </listItem>
+            <listItem>
+                <name>Glucophage XR oral</name>
+                <codeValue>02.20009</codeValue>
+            </listItem>
+            <listItem>
+                <name>Glucophage oral</name>
+                <codeValue>02.11294</codeValue>
+            </listItem>
+            <listItem>
+                <name>Fortamet oral</name>
+                <codeValue>02.89227</codeValue>
+            </listItem>
+        </listDef>
+        <listDef>
+            <name>sulfonylureas</name>
+            <codeValue>14.2578</codeValue>
+            <listType>class</listType>
+            <listItem>
+                <name>Amaryl oral</name>
+                <codeValue>02.12297</codeValue>
+            </listItem>
+            <listItem>
+                <name>chlorpropamide oral</name>
+                <codeValue>02.8635</codeValue>
+            </listItem>
+            <listItem>
+                <name>Diabeta oral</name>
+                <codeValue>02.3773</codeValue>
+            </listItem>
+            <listItem>
+                <name>glimepiride oral</name>
+                <codeValue>02.12271</codeValue>
+            </listItem>
+            <listItem>
+                <name>glipizide oral</name>
+                <codeValue>02.10094</codeValue>
+            </listItem>
+            <listItem>
+                <name>Glucotrol oral</name>
+                <codeValue>02.11773</codeValue>
+            </listItem>
+            <listItem>
+                <name>Glucotrol XL oral</name>
+                <codeValue>02.10095</codeValue>
+            </listItem>
+            <listItem>
+                <name>glyburide micronized oral</name>
+                <codeValue>02.5205</codeValue>
+            </listItem>
+            <listItem>
+                <name>glyburide oral</name>
+                <codeValue>02.3917</codeValue>
+            </listItem>
+            <listItem>
+                <name>Glynase oral</name>
+                <codeValue>02.5235</codeValue>
+            </listItem>
+            <listItem>
+                <name>tolazamide oral</name>
+                <codeValue>02.8719</codeValue>
+            </listItem>
+            <listItem>
+                <name>tolbutamide oral</name>
+                <codeValue>02.3948</codeValue>
+            </listItem>
+        </listDef>
+        <listDef>
+            <name>pioglitazone formulation</name>
+            <codeValue>18.17406</codeValue>
+            <listType>generic</listType>
+            <listItem>
+                <name>Actos oral</name>
+                <codeValue>02.17410</codeValue>
+            </listItem>
+            <listItem>
+                <name>pioglitazone oral</name>
+                <codeValue>02.17406</codeValue>
+            </listItem>
+        </listDef>
+        <listDef>
+            <name>metformin combination product containing a sulfonylurea or pioglitazone</name>
+            <codeValue>16.04</codeValue>
+            <listType>adhoc</listType>
+            <listItem>
+                <name>Actoplus MET oral</name>
+                <codeValue>02.94140</codeValue>
+            </listItem>
+            <listItem>
+                <name>Actoplus Met XR oral</name>
+                <codeValue>02.154175</codeValue>
+            </listItem>
+            <listItem>
+                <name>pioglitazone-metformin oral</name>
+                <codeValue>02.94097</codeValue>
+            </listItem>
+            <listItem>
+                <name>glipizide-metformin oral</name>
+                <codeValue>02.64318</codeValue>
+            </listItem>
+            <listItem>
+                <name>Glucovance oral</name>
+                <codeValue>02.19822</codeValue>
+            </listItem>
+            <listItem>
+                <name>glyburide-metformin oral</name>
+                <codeValue>02.19823</codeValue>
+            </listItem>
+        </listDef>
+    </lists>
+</paload>

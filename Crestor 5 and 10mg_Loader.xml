@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>76704</routedMedId>
+		<routedMedName/>
+		<routedGenericName/>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>451299</medId>
+			<medId>451302</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>22.701.Hypercholesterolemia</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>E78.0</icd9>
+			<symbolic>crestcholes</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment> </treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment> </treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>anythree</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues>03.163181 | 03.209964 | 03.209275 | 03.286606 | 03.270691 | 03.223663 | 03.241540 | 03.561310 | 03.184650 | 03.294944</codeValues>
+								<selectedListName>Moderate-Intensity HMG-CoA Reductase Inhibitors</selectedListName>
+								<selectedListClassCode>10removedmany.24060800</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>5 mg orally once daily</text>
+				<text>10 mg orally once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>451302</medId>
+					<initPerDayDesc>1 tablet per day</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets for 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet per day</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets for 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>451299</medId>
+					<initPerDayDesc>1 tablet per day</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet per day</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Crestor [package insert]. Wilmington, DE: AstraZeneca Pharmaceuticals LP; 2014</reference>
+				<reference>Stone NJ, Robinson JG, Lichtenstein AH, Bairey Merz CN, Blum CB,  Eckel RH, Goldberg AC, Gordon D, Levy D, Lloyd-Jones DM, McBride P, Schwartz JS, Shero ST, Smith SC Jr, Watson K, Wilson PWF. 2013 ACC/AHA  guideline on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults: a report of the American College of Cardiology/ American Heart Association Task Force on Practice Guidelines. Circulation. 2014;129(suppl 2):S1–S45.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>23.Heterozygous Familial Hypercholesterolemia</fqn>
+			<age>
+				<ageRangeType>range</ageRangeType>
+				<ageRangeMin>10</ageRangeMin>
+				<ageRangeMax>17</ageRangeMax>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>E78.0</icd9>
+			<symbolic>cresthfh</symbolic>
+			<rating/>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion/>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment/>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment/>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>any</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues>03.163181 | 03.286606 | 03.209275 | 03.150475 | 03.245894 | 03.173289 | 03.268217 | 03.158596 | 03.294944 | 03.184650 | 03.217974 | 03.241540</codeValues>
+								<selectedListName>HMG-CoA Reductase Inhibitors Approved for Pediatric Use</selectedListName>
+								<selectedListClassCode>10removedmany.24060800</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>5 mg orally once daily</text>
+				<text>10 mg orally once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>451302</medId>
+					<initPerDayDesc>1 tablet per day</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet per day</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>451299</medId>
+					<initPerDayDesc>1 tablet per day</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet per day</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Crestor [package insert]. Wilmington, DE: AstraZeneca Pharmaceuticals LP; 2014</reference>
+				<reference>Lipitor [package insert]. New York, NY: Parke-Davis Div of Pfizer Inc; 2014</reference>
+				<reference>Zocor [package insert]. Whitehouse Station, NJ:  Merck &amp; Co, Inc; 2014</reference>
+				<reference>Pravachol [package insert]. Princeton, NJ:  Bristol-Myers Squibb Company; 2013</reference>
+				<reference>Mevacor [package insert]. Whitehouse Station, NJ:  Merck &amp; Co, Inc; 2014</reference>
+				<reference>Lescol/Lescol XL [package insert]. East Hanover, NJ: Novartis; 2012</reference>
+				<reference>Livalo [package insert]. Montgomery, AL: Kowa Pharmaceuticals America, Inc; 2013</reference>
+				<reference>Altoprev [package insert]. Atlanta, GA: Shionogi Pharma, Inc; 2010</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>23.Primary Prevention of Cardiovascular Disease</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin/>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9/>
+			<symbolic>crestprevent</symbolic>
+			<rating/>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion/>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment/>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment/>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>any</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues>03.163181 | 03.209964 | 03.209275 | 03.286606 | 03.270691 | 03.223663 | 03.241540 | 03.561310 | 03.184650 | 03.294944</codeValues>
+								<selectedListName>Moderate-Intensity HMG-CoA Reductase Inhibitors</selectedListName>
+								<selectedListClassCode>10removedmany.24060800</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>5 mg orally once daily</text>
+				<text>10 mg orally once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>451302</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per day</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per day</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>451299</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per day</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per day</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Crestor [package insert]. Wilmington, DE: AstraZeneca Pharmaceuticals LP; 2014</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>Moderate Intensity Statins</name>
+			<codeValue>03.163181| 03.209964| 03.209275| 03.286606| 03.270691| 03.223663| 03.241540| 03.561310| 03.184650</codeValue>
+			<listType>nocode</listType>
+			<listItem>
+				<name>atorvastatin 20 mg tablet </name>
+				<codeValue>163181</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lipitor 20 mg tablet</name>
+				<codeValue>209964</codeValue>
+			</listItem>
+			<listItem>
+				<name>simvastatin 40 mg tablet</name>
+				<codeValue>209275</codeValue>
+			</listItem>
+			<listItem>
+				<name/>
+				<codeValue/>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

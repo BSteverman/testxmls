@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>163617</routedMedId>
+		<routedMedName>Abilify Maintena intramuscular</routedMedName>
+		<routedGenericName>aripiprazole intramuscular</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>577284</medId>
+			<medId>577285</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Schizophrenia</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.F20</icd9>
+			<symbolic>abilimaintschizo</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>01.118405|01.64317</codeValues>
+								<selectedListName>Antipsychotic Agents</selectedListName>
+								<selectedListClassCode>10.28160804</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>4</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>400 mg intramuscularly every month (no sooner than 26 days after the previous injection)</text>
+			</dosing>
+			<instructions>
+				<instruction>After the first injection, continue treatment with oral aripiprazole (10 mg to 20 mg) or other oral antipsychotic for 14 consecutive days to maintain therapeutic antipsychotic concentrations during initiation of therapy</instruction>
+				<instruction> Establish tolerability with oral aripiprazole prior to initiating therapy with Abilify Maintena</instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>577284</medId>
+					<initPerDayDesc>1 vial </initPerDayDesc>
+					<initPerIntervalDesc>1 vial per month</initPerIntervalDesc>
+					<renewPerDayDesc>1 vial </renewPerDayDesc>
+					<renewPerIntervalDesc>1 vial per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>577285</medId>
+					<initPerDayDesc>1 vial</initPerDayDesc>
+					<initPerIntervalDesc>1 vial per month</initPerIntervalDesc>
+					<renewPerDayDesc>1 vial</renewPerDayDesc>
+					<renewPerIntervalDesc>1 vial per month</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify Maintena [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2013</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>Antipsychotic Agents</name>
+			<codeValue>10.28160804</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>Invega Sustenna</name>
+				<codeValue>01.118405</codeValue>
+			</listItem>
+			<listItem>
+				<name>Risperdal Consta</name>
+				<codeValue>01.64317</codeValue>
+			</listItem>
+		</listDef>
+	</lists>		
+</paload>

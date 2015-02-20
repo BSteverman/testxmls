@@ -1,0 +1,471 @@
+<?xml version='1.0' ?>
+<priorauth id='uuid' version='1.0' client='107' plan='1234'>
+	<concepts>
+		<concept name='padrug' compound='true' datatype='object' label='Drug' alias='brandName'>
+			<property name='brandName' datatype='string' />
+			<property name='genericName' datatype='string' />
+			<property name='customName' datatype='string' />
+			<property name='classIds' ctype='fdbclascode' datatype='string' />
+			<property name='classNames' datatype='string' />
+			<property name='medIds' ctype='medid' datatype='string' />
+			<property name='routedMedId' ctype='routed_med_id' datatype='string' />
+		</concept>
+		<concept  name='diagnoses' compound='true' datatype='collection' list='diagnoses' label="What are the patient's diagnoses" alias='fqn' >
+			<property name='fqn' datatype='string'/>
+			<property name='icd9' ctype='icd9' datatype='string'/>
+			<property name='icd9_flat' datatype='string'/>
+			<property name='snomed' ctype='snomed' datatype='string'/>
+			<property name='icd10Name'  datatype='string'/>
+			<property name='snomedName'  datatype='string'/>
+			<property name='role'  datatype='string' list='dxrolecodes'/>
+			<property name='supportedBy' ctype='assessment' datatype='objectset'/>
+			<property name='rating'  datatype='string'/>
+			<property name='inclusion'  datatype='boolean'/>
+			<property name='dur'  datatype='numeric'/>
+			<property name='durUnit'  datatype='string' ctype='durunits'/>
+			<property name='severity'  datatype='object' ctype='severity'/>
+			<property name='subtype'  datatype='object' ctype='subtype'/>
+			<property name='genotype'  datatype='object' ctype='genotype'/>
+			<property name='polymorphism'  datatype='object' ctype='polymorphism'/>
+			<property name='comorbidity'  datatype='objectset' ctype='comorbidity'/>
+			<property name='procedureHx'  datatype='objectset' ctype='procedureHx'/>
+			<property name='diet'  datatype='object' ctype='diet'/>
+			<property name='key'  datatype='string'/>
+			<property name='otherCriteria' datatype='objectset' ctype='criterion'/>
+			<property name='triedTherapy' datatype='objectset' ctype='triedtherapy'/>
+			<property name='concurrentTherapy' datatype='objectset' ctype='concurrentTherapy'/>
+			<property name='exclusionCriteria' datatype='objectset' ctype='triedTherapyExclusion'/>
+			<property name='concurrentTherapyExclusionCriteria' datatype='objectset' ctype='concurrentTherapyExclusion'/>
+			<property name='assessments' datatype='objectset' ctype='assessment'/>
+			<property name='instructions' datatype='objectset' ctype='instruction'/>
+			<property name='dosingdirections' datatype='objectset' ctype='dosing'/>
+			<property name='references' datatype='objectset' ctype='reference'/>
+			<property name='quantityLimits' datatype='objectset' ctype='quantityLimit'/>
+			<property name='prescribers' datatype='objectset' ctype='prescriber'/>
+			<property name='initialPrescription' datatype='objectset' ctype='initialDur'/>
+			<property name='renewalPrescription' datatype='objectset' ctype='renewalDur'/>
+			<property name='maxPrescription' datatype='objectset' ctype='overallMax'/>
+			<property name='gender' datatype='string' list='gender'/>
+			<property name='ageRangeType' datatype='string' list='ageranges' />
+			<property name='ageRangeMin' datatype='string'/>
+			<property name='ageRangeMax' datatype='string'/>
+			<property name='ageRangeUnit' datatype='string' list='durunits'/>
+			<!--used for adjudication with testval ageRangeUnit-->
+			<property name='ageActual' datatype='string'/>
+			<property name='ageDesc' datatype='string'/>
+			<property name='alternatives' datatype='objectset' ctype='alternative'/>
+		</concept>
+		<concept compound='true' name='severity'  datatype='collection' label='Severity' list='severity' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='name' datatype='string'/>
+			<property name='code' datatype='string'/>
+			<property name='supportedBy' ctype='assessment' datatype='objectset'/>
+			<property name='dur'  datatype='numeric'/>
+			<property name='durUnit'  datatype='string' ctype='durunits'/>
+		</concept>
+		<concept compound='true' name='genotype'  datatype='collection' label='Genotype' list='genotype' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='name' datatype='string'/>
+			<property name='supportedBy' ctype='assessment' datatype='objectset'/>
+		</concept>
+		<concept compound='true' name='polymorphism'  datatype='collection' label='Polymorphism' list='polymorphism' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='name' datatype='string'/>
+			<property name='supportedBy' ctype='assessment' datatype='objectset'/>
+		</concept>
+		<concept compound='true' name='subtype'  datatype='collection' label='Subtype' list='subtype' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='name' datatype='string'/>
+			<property name='supportedBy' ctype='assessment' datatype='objectset'/>
+		</concept>
+		<concept compound='true' name='comorbidity'  datatype='collection' label='Comorbidity' list='comorbidity' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='name' datatype='string'/>
+			<property name='code' datatype='string'/>
+			<property name='subtype_name' datatype='string'/>
+			<property name='severity_name' datatype='string'/>
+			<property name='severity_code' datatype='string'/>
+			<property name='inclusion_exclusion' datatype='string'/>
+			<property name='supportedBy' ctype='assessment' datatype='objectset'/>
+			<property name='dur'  datatype='numeric'/>
+			<property name='durUnit'  datatype='string' ctype='durunits'/>
+		</concept>
+		<concept compound='true' name='diet'  datatype='collection' label='Dietary Preference' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='name' datatype='string'/>
+			<property name='supportedBy' ctype='assessment' datatype='objectset'/>
+			<property name='dur'  datatype='numeric'/>
+			<property name='durUnit'  datatype='string' ctype='durunits'/>
+		</concept>
+		<concept name='procedureHx' compound='true' datatype='collection'>
+			<property name='procedureFor' datatype='string' ctype='clauseID' />
+			<property name='name' datatype='string' />
+			<property name='codeValue' datatype='string' />
+			<property name='codeSystem' datatype='string' />
+			<property name='inclusion'  datatype='boolean'/>
+			<property name='elapsedTime'  datatype='numeric'/>
+			<property name='elapsedTimeUnit'  datatype='string' ctype='durunits'/>
+		</concept>
+		<concept name='triedTherapy' compound='true' datatype='collection' label='' alias='#{self.name}'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='numRequired'  datatype='string' list='anyof'/>
+			<property name='patientExposure'  datatype='object' ctype='patientHx'/>
+			<property name='preferredTherapy'  datatype='objset' ctype='therapyGroup'/>
+		</concept>
+		<concept name='triedTherapyExclusion' compound='true' datatype='collection' label='' alias='#{self.name}'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='numRequired'  datatype='string' list='anyof'/>
+			<property name='excludedTherapy'  datatype='objset' ctype='therapyGroup'/>
+		</concept>
+		<concept name='concurrentTherapyExclusion' compound='true' datatype='collection' label='' alias='#{self.name}'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='numRequired'  datatype='string' list='anyof'/>
+			<property name='excludedTherapy'  datatype='objset' ctype='therapyGroup'/>
+		</concept>
+		<concept name='therapyGroup' compound='true' datatype='collection' label='Prior Therapies or interventions of interest' alias='#{self.name}'>
+			<property name='forSection' datatype='string' ctype='clauseID'/>
+			<property name='sectionType' datatype='string'/>
+			<property name='ineligibilityFlag'  datatype='string' list='truefalse'/>
+			<property name='documentationRequired'  datatype='string'/>
+			<property name='rating'  datatype='string' list='concurrentTherapyRating'/>
+			<property name='dosing'  datatype='string'/>
+			<property name='treatments'  datatype='objset' ctype='treatmentLine'/>
+		</concept>
+		<concept name='patientHx' compound='true' datatype='collection' label='Prior Therapies or Interventions' alias='#{self.name}'>
+			<property name='forSection' datatype='string' ctype='clauseID'/>
+			<property name='patientHxType'  datatype='string' list='patientTypes'/>
+			<property name='exposure' datatype='object' ctype="therapyGroup"/>
+		</concept>
+		<concept name='treatmentLine' compound='true' datatype='collection' label='Prior Therapies or interventions of interest' alias='#{self.name}'>
+			<property name='forGroup' datatype='string' ctype='clauseID'/>
+			<property name='interventionType'  datatype='string' ctype='interventiontypes' />
+			<property name='name'  datatype='string' list='triedtherapies' exlist='exclusiontherapies' concurlist='concurrenttherapies' concurexlist='concurrenttherapyexclusions'/>
+			<property name='codeValue'  datatype='string' list='triedtherapies' exlist='exclusiontherapies' concurlist='concurrenttherapies' concurexlist='concurrenttherapyexclusions'/>
+			<property name='codeSystem'  datatype='string'/>
+			<property name='dur'  datatype='numeric'/>
+			<property name='durModifier'  datatype='string' list='durmodifiers'/>
+			<property name='durUnit'  datatype='string' list='durunits'/>
+			<property name='timeFrame'  datatype='string' list='timeframes'/>
+			<property name='selectedList'  datatype='string' list='triedtherapyclasses' exlist='exclusiontherapyclasses' concurlist='concurrenttherapyclasses' concurexlist='concurrenttherapyexclusionclasses'/>
+			<property name='selectedClass'  datatype='string' list='triedtherapyclasses' exlist='exclusiontherapyclasses' concurlist='concurrenttherapyclasses' concurexlist='concurrenttherapyexclusionclasses'/>
+			<property name='numRequired'  datatype='string' list='anyof'/>
+			<property name='boolString'  datatype='string'/>
+			<property name='ltype'  datatype='string' list='linetypes'/>
+		</concept>
+		<concept name='exposure' compound='true' datatype='collection' label='Prior Therapies or interventions of interest' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='interventionType'  datatype='string' ctype=''/>
+			<property name='name'  datatype='string'/>
+			<property name='codeValue'  datatype='string'/>
+			<property name='codeSystem'  datatype='string'/>
+			<!-- will imply if this is a class or single drug -->
+			<property name='inclusion'  datatype='boolean'/>
+			<property name='dur'  datatype='numeric'/>
+			<property name='durUnit'  datatype='string' ctype='durunits'/>
+			<property name='elapsedTime'  datatype='numeric'/>
+			<property name='elapsedTimeUnit'  datatype='string' ctype='durunits'/>
+			<property name='outcome'  datatype='stringset' list='outcome.#{self.codeValue}'/>
+		</concept>
+		<concept name='concurrentTherapy' compound='true' datatype='collection' label='Therapies that must accompany PA drug' alias='name'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='patientExposure'  datatype='object' ctype='patientHx'/>
+			<property name='preferredTherapy'  datatype='objset' ctype='therapyGroup'/>
+		</concept>
+		<concept name='assessment' compound='true' datatype='collection' label='Supporting Assessments' alias='name'>
+			<property name='assessmentFor'  datatype='string' ctype='clauseID'/>
+			<!-- name of concept for which this is takes place.  e.g.  -->
+			<property name='assessmentType'  datatype='string' list='interventiontypes'/>
+			<!-- lab/biopsy, etc -->
+			<property name='name'  datatype='string'/>
+			<property name='instanceName'  datatype='string' />
+			<!-- week24 day17 -->
+			<property name='role'  datatype='string'/>
+			<!-- initial|interim|required -->
+			<property name='codeValue'  datatype='string'/>
+			<property name='inclusion_exclusion'  datatype='string'/>
+			<property name='uom'  datatype='string'/>
+			<property name='targetValue'  datatype='string'/>
+			<property name='timestamp'  datatype='string' ctype='date'/>
+			<property name='stoppingReason'  datatype='stringset' list='stopping.#{self.codeValue}'/>
+		</concept>
+		<concept compound='true' name='instruction'  datatype='collection' label='Instructions' alias='self.text'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='text' datatype='string'/>
+		</concept>
+		<concept compound='true' name='dosing'  datatype='collection' label='Dosing Directions' alias='self.text'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='text' datatype='string'/>
+		</concept>
+		<concept compound='true' name='reference'  datatype='collection' label='References' alias='self.text'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='reference' datatype='string'/>
+		</concept>
+		<concept name='prescriber' compound='true' datatype='collection' alias='#{self.name}'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='name'  datatype='string'/>
+			<property name='codeSystem'  datatype='string'/>
+			<property name='codeValue'  datatype='string'/>
+		</concept>
+		<concept name='criterion' compound='true' datatype='collection' alias='name'>
+			<property name='name'  datatype='string' />
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='codeValue'  datatype='string' list='name.list'/>
+			<property name='codeSystem'  datatype='string'/>
+			<property name='inclusion'  datatype='boolean'/>
+			<property name='appliesToDx' datatype='boolean'/>
+		</concept>
+		<concept name='age'  compound='false'  datatype='numeric' label="What is patient's age in years?" qlevel='1' />
+		<concept name='ddcontraindications' compound='true' datatype='collection' label='Drug Drug Contraindications' alias='ddstring'>
+			<property name='ddstring' datatype='string' />
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='codeValue' ctype='dxid' datatype='numeric'/>
+		</concept>
+		<concept name='allergies' compound='true' datatype='collection' label='Possible Drug Allergies' alias='alrgstring'>
+			<property name='alrgstring' datatype='string'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='codeValue' ctype='dxid' datatype='numeric'/>
+		</concept>
+		<concept name='pregnancyPrecaution' compound='true' datatype='collection' label='Precautions for Pregnant Mothers' alias='pregstring'>
+			<property name='pregstring' datatype='string'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='codeValue' ctype='dxid' datatype='numeric'/>
+		</concept>
+		<concept name='lactationPrecaution' compound='true' datatype='collection' label='Precautions for Lactating Mothers' alias='lactstring'>
+			<property name='lactstring' datatype='string'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='codeValue' ctype='dxid' datatype='numeric'/>
+		</concept>
+		<concept name='pediatricPrecaution' compound='true' datatype='collection' label='Precautions for use in Children' alias='pedstring'>
+			<property name='pedstring' datatype='string'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='codeValue' ctype='dxid' datatype='numeric'/>
+		</concept>
+		<concept name='geriatricPrecautions' compound='true' datatype='collection' label='Precautions for use in the Elderly' alias='grstring'>
+			<property name='grstring' datatype='string'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='codeValue' ctype='dxid' datatype='numeric'/>
+		</concept>
+		<concept  name='quantityLimit' compound='true' datatype='collection' label='Quantity Limit' alias='TBD'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='medId' datatype='string'/>
+			<property name='medIdDesc' datatype='string'/>
+			<property name='perDayDesc' datatype='string'/>
+			<property name='perIntervalDesc' datatype='string'/>
+			<property name='prescriptionType' datatype='string'/>
+		</concept>
+		<concept  name='initialDur' alias='#{self.number} #{self.timeunit}' datatype='collection'>
+			<property name='dur' datatype='integer'/>
+			<property name='durUnit' datatype='string' ctype='timeunit'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+		</concept>
+		<concept name='renewalDur' alias='#{self.number} #{self.timeunit}' datatype='collection'>
+			<property name='dur' datatype='integer'/>
+			<property name='durUnit' datatype='string' ctype='timeunit'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+		</concept>
+		<concept name='overallMax' alias='#{self.number} #{self.timeunit}' datatype='collection'>
+			<property name='dur' datatype='integer'/>
+			<property name='durUnit' datatype='string' ctype='timeunit'/>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+		</concept>
+		<concept name='ethnicityExclusion' compound='true' datatype='collection' list='ethnicity'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='label' datatype='string'/>
+			<property name='codeValue' datatype='string'/>
+		</concept>
+		<concept name='ethnicityInclusion' compound='true' datatype='collection' list='ethnicity'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='label' datatype='string'/>
+			<property name='codeValue' datatype='string'/>
+		</concept>
+		<concept name='alternative' datatype='collection' compound='true'>
+			<property name='forDx' datatype='string' ctype='clauseID'/>
+			<property name='altcomponents' datatype='objectset' ctype='altcomponent'/>
+		</concept>
+		<concept name='altcomponent' datatype='collection' compound='true'>
+			<property name='forAlt' datatype='string' ctype='clauseID'/>
+			<property name='brandName' datatype='string'/>
+			<property name='genericName' datatype='string'/>
+			<property name='codeValue' datatype='string'/>
+			<property name='classCode' datatype='string'/>
+		</concept>
+	</concepts>
+	<displaygroups>
+		<displaygroup name="drug" label="Drug: #{padrug.brandName}">
+			<var name='brandName' ref='padrug.brandName'/>
+			<var name='genericName' ref='padrug.genericName' />
+			<var name='customName' ref='padrug.customName' />
+			<var name='classIds' ref='padrug.classIds' />
+			<var name='classNames' ref='padrug.classNames' />
+			<var name='routedMedId' ref='padrug.routedMedId' />
+			<var name='medIds' ref='padrug.medIds' />
+		</displaygroup>
+		<displaygroup name='recdiagnoses' label='Recommended Diagnoses'>
+			<var name='diagnoses' ref='diagnoses' filter='{recommended:true}'/>
+		</displaygroup>
+		<displaygroup name= 'nonrecdiagnoses' label='Non Recommended Diagnoses'>
+			<var ref='diagnoses' filter='{recommended:false}'/>
+		</displaygroup>
+		<displaygroup name= 'precautions' label='Clinical Precautions'>
+			<var ref='ddcontraindications' name='ddcontraindications' />
+			<var ref='allergies' name='allergies' />
+			<var ref='pregnancyPrecaution' name='pregnancy'/>
+			<var ref='lactationPrecaution' name='lactation' />
+			<var ref='pediatricPrecaution' name='pediatric' />
+			<var ref='getiatricsPrecaution' name='geriatric' />
+		</displaygroup>
+	</displaygroups>
+	<responses>
+		<response/>
+	</responses>
+	<attachments>
+		<!--<document ref='dmards' label='Liver Function Test' docid='5421test.pdf' />-->
+	</attachments>
+	<assertions>
+		<assert atype='root' name='root'>
+			<or>
+				<condition ref='placeholder' ctype='assertion' />
+			</or>
+		</assert>
+	</assertions>
+	<choicelists>
+		<choicelist name="diagnoses" ctype="icd10" datatype="internal" >
+			<choiceitem label='polyarticular-course juvenile rheumatoid arthritis' codeValue='M08' snomed='1961000'  icd9='714.30' recommended='true'/>
+			<choiceitem label='moderately to severely active rheumatoid arthritis' codeValue='M05' snomed='69896004'  icd9='714.0' recommended='false'/>
+		</choicelist>
+		<choicelist name="dxrolecodes"  datatype="internal" >
+			<choiceitem label='primary diagnosis' codeValue='1' />
+			<choiceitem label='secondary diagnosis' codeValue='2' />
+		</choicelist>
+		<choicelist name="severity"  datatype="internal" >
+			<choiceitem label='moderate' codeValue='1' />
+			<choiceitem label='severe' codeValue='2' />
+			<choiceitem label='acute' codeValue='2' />
+		</choicelist>
+		<choicelist name="durunits"  datatype="internal" >
+			<choiceitem label='no unit selected' codeValue='nocode' />
+			<choiceitem label='days' codeValue='d' />
+			<choiceitem label='weeks' codeValue='w' />
+			<choiceitem label='months' codeValue='m' />
+			<choiceitem label='years' codeValue='y' />
+		</choicelist>
+		<choicelist name="durmodifiers"  datatype="internal" >
+			<choiceitem label='no duration specified' codeValue='nocode' />
+			<choiceitem label='less than' codeValue='lt' />
+			<choiceitem label='a minimum of' codeValue='ge' />
+			<choiceitem label='more than' codeValue='gt' />
+			<choiceitem label='exactly' codeValue='eq' />
+		</choicelist>
+		<choicelist name="interventiontypes"  datatype="internal" >
+			<choiceitem label='no type specified' codeValue='nocode' />
+			<choiceitem label='drug' codeValue='drug' />
+			<choiceitem label='lab test' codeValue='lab' />
+			<choiceitem label='physical exam' codeValue='phys' />
+			<choiceitem label='mri' codeValue='mri' />
+			<choiceitem label='xray' codeValue='xray' />
+		</choicelist>
+		<choicelist name="ethnicity"  datatype="internal" >
+			<choiceitem label='no ethnicity specified' codeValue='nocode' />
+			<choiceitem label='American Indian or Alaskan Native' codeValue='i' />
+			<choiceitem label='Native Hawaiian or Other Pacific Islander' codeValue='p' />
+			<choiceitem label='Asian' codeValue='a' />
+			<choiceitem label='Hispanic or Latino' codeValue='l' />
+			<choiceitem label='Black or African-American' codeValue='b' />
+			<choiceitem label='White' codeValue='w' />
+		</choicelist>
+		<choicelist name="anyof"  datatype="internal" >
+			<choiceitem label='unspecified qty' codeValue='nocode' />
+			<choiceitem label='all' codeValue='all' />
+			<choiceitem label='any' codeValue='any' />
+			<choiceitem label='any 2' codeValue='anytwo' />
+			<choiceitem label='any 3' codeValue='anythree' />
+			<choiceitem label='any 4' codeValue='anyfour' />
+			<choiceitem label='any 5' codeValue='anyfive' />
+			<choiceitem label='at least' codeValue='atleast' />
+			<choiceitem label='at least 2' codeValue='atleasttwo' />
+			<choiceitem label='at least 3' codeValue='atleastthree' />
+			<choiceitem label='at least 4' codeValue='atleastfour' />
+			<choiceitem label='at least 5' codeValue='atleastfive' />
+			<choiceitem label='all in order' codeValue='allorder' />
+		</choicelist>
+		<choicelist name="linetypes"  datatype="internal" >
+			<choiceitem label='line' codeValue='line' />
+			<choiceitem label='group' codeValue='group' />
+		</choicelist>
+		<choicelist name="triedtherapies"  datatype="internal" >
+			<choiceitem label='tdrug1' codeValue='code1' />
+		</choicelist>
+		<choicelist name="concurrenttherapies"  datatype="internal" >
+			<choiceitem label='tdrug1' codeValue='code1' />
+		</choicelist>
+		<choicelist name="concurrenttherapyexclusions"  datatype="internal" >
+		</choicelist>
+		<choicelist name="exclusiontherapies"  datatype="internal" >
+			<choiceitem label='edrug1' codeValue='code1' />
+		</choicelist>
+		<choicelist name="triedtherapyclasses"  datatype="internal" >
+			<choiceitem label='tclass1' codeValue='ccode1' />
+		</choicelist>
+		<choicelist name="concurrenttherapyclasses"  datatype="internal" >
+			<choiceitem label='cclass1' codeValue='ccode1' />
+		</choicelist>
+		<choicelist name="concurrenttherapyexclusionclasses"  datatype="internal" >
+		</choicelist>
+		<choicelist name="exclusiontherapyclasses"  datatype="internal" >
+			<choiceitem label='eclass1' codeValue='ccode1' />
+		</choicelist>
+		<choicelist name="timeframes"  datatype="internal" >
+			<choiceitem label='no timeframe specified' codeValue='nocode' />
+			<choiceitem label='within the last month' codeValue='lm1' />
+			<choiceitem label='within the last 6 months' codeValue='lm6' />
+			<choiceitem label='within the last year' codeValue='ly1' />
+			<choiceitem label='within the last 2 years' codeValue='ly2' />
+			<choiceitem label='within the last 3 years' codeValue='l3' />
+			<choiceitem label='within lifetime' codeValue='ever' />
+		</choicelist>
+		<choicelist name="timeframe_responses"  datatype="internal" >
+			<choiceitem label='Not taken' codeValue='nocode' />
+			<choiceitem label='a month ago' codeValue='lm1' />
+			<choiceitem label='6 months ago' codeValue='lm6' />
+			<choiceitem label='1 year ago' codeValue='ly1' />
+			<choiceitem label='2 years ago' codeValue='ly2' />
+			<choiceitem label='3 years ago' codeValue='l3' />
+			<choiceitem label='within lifetime' codeValue='ever' />
+		</choicelist>
+		<choicelist name="patienthxtypes"  datatype="string">
+			<choiceitem codeValue='nocode' label='no patient type specified' />
+			<choiceitem codeValue='all' label='all' />
+			<choiceitem codeValue='naive' label='treatment-naive' />
+    		<choiceitem codeValue='nonresponder' label='non-responder' />
+   			<choiceitem codeValue='experienced' label='treatment-experienced' />
+    		<choiceitem codeValue='partialresponder' label='partial-responder' />
+    		<choiceitem codeValue='relapser' label='relapser' />
+		</choicelist>
+		<choicelist name="gender"  datatype="string">
+			<choiceitem codeValue='nocode' label='Not specified' />
+			<choiceitem codeValue='m' label='Male' />
+    		<choiceitem codeValue='f' label='Female' />
+		</choicelist>
+		<choicelist name="ageranges"  datatype="string">
+			<choiceitem codeValue='nocode' label='Not specified' />
+			<choiceitem codeValue='norestrict' label='No restrictions' />
+			<choiceitem codeValue='range' label='Age range' />
+    		<choiceitem codeValue='lt' label='Less than' />
+    		<choiceitem codeValue='le' label='Less than or equal to' />
+    		<choiceitem codeValue='gt' label='Greater than' />
+    		<choiceitem codeValue='ge' label='Greater than or equal to' />
+    		<choiceitem codeValue='other' label='Other..' />
+		</choicelist>
+		<choicelist name="concurrentTherapyRating"  datatype="string">
+			<choiceitem codeValue='nocode' label='Not specified' />
+			<choiceitem codeValue='rtherapy' label='Recommended Therapy' />
+			<choiceitem codeValue='ratherapy' label='Recommended/Alternative Therapy' />
+			<choiceitem codeValue='atherapy' label='Alternative Therapy' />
+			<choiceitem codeValue='rqtherapy' label='Required Therapy' />
+		</choicelist>
+		<choicelist name="truefalse"  datatype="string">
+			<choiceitem codeValue='true' label='true' />
+			<choiceitem codeValue='false' label='false' />
+		</choicelist>
+	</choicelists>
+</priorauth>

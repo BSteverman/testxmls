@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>153875</routedMedId>
+		<routedMedName>Dexilant oral</routedMedName>
+		<routedGenericName>dexlansoprazole oral</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>560863</medId>
+			<medId>560864</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Erosive Esophagitis</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.1993</icd9>
+			<symbolic/>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues>02.164893 |02.159091 |02.159013 |02.164065 |02.166048 |02.11450 |02.166478 |02.20536 |02.147599 |02.76794 |02.3766 |02.164555 |02.17633 |02.153274 |02.11454 |02.150285 |02.7957 |02.7957 |02.77588 |02.18142</codeValues>
+								<selectedListName>Gastric Acid Secretion Reducing Agents - Proton Pump Inhibitors (PPIs)</selectedListName>
+								<selectedListClassCode>445</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>14</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anythree</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>60mg once daily for up to 8 weeks</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>560864</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets for 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets for 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Dexilant [package insert]. Deerfield, IL: Takeda Pharmaceuticals America, Inc; August 2013</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Maintaining Healing of Erosive Esophagitis</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.1994</icd9>
+			<symbolic/>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues>02.164893 |02.159091 |02.159013 |02.164065 |02.166048 |02.11450 |02.166478 |02.20536 |02.147599 |02.76794 |02.3766 |02.164555 |02.17633 |02.153274 |02.11454 |02.150285 |02.7957 |02.77588 |02.18142</codeValues>
+								<selectedListName>Gastric Acid Secretion Reducing Agents - Proton Pump Inhibitors (PPIs)</selectedListName>
+								<selectedListClassCode>445</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>14</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anythree</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>30mg once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>560863</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets for 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets for 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Dexilant [package insert]. Deerfield, IL: Takeda Pharmaceuticals America, Inc; August 2013</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Symptomatic Non-Erosive Gastroesophageal Reflux Disease</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin/>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9/>
+			<symbolic/>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.17511 |02.165356 |02.164893 |02.159091 |02.159013 |02.164065 |02.166048 |02.11450 |02.166478 |02.20536 |02.147599 |02.76794 |02.3766 |02.164555 |02.17633 |02.153274 |02.11454 |02.150285 |02.7957 |02.77588 |02.18142 |02.17504</codeValues>
+								<selectedListName>Gastric Acid Secretion Reducing Agents - Proton Pump Inhibitors (PPIs)</selectedListName>
+								<selectedListClassCode>445</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>14</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anythree</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>30mg once daily for 1 month</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>560863</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets for 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets for 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Katz PO, Gerson LB, Vela MF. Guidelines for the diagnosis and management of gastroesophageal reflux disease. Am J Gastroenterol. 2013;108(3):308-28.</reference>
+				<reference>Dexilant [package insert]. Deerfield, IL: Takeda Pharmaceuticals America, Inc; August 2013</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Zollinger-Ellison syndrome</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin/>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.608</icd9>
+			<symbolic/>
+			<rating>recommendedDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.17511 |02.165356 |02.164893 |02.159091 |02.159013 |02.164065 |02.166048 |02.11450 |02.166478 |02.20536 |02.147599 |02.76794 |02.3766 |02.164555 |02.20709 |02.17633 |02.153274 |02.11454 |02.150285 |02.7957 |02.77588 |02.20722 |02.18142 |02.17504</codeValues>
+								<selectedListName>Gastric Acid Secretion Reducing Agents - Proton Pump Inhibitors (PPIs)</selectedListName>
+								<selectedListClassCode>445</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>14</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anythree</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text/>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>560864</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets for 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet per day</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets for 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Zollinger-Ellison Syndrome. National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health. Published December 24, 2013. www.digestive.niddk.nih.gov. Accessed October 15, 2014.</reference>
+				<reference>Dexilant [package insert]. Deerfield, IL: Takeda Pharmaceuticals America, Inc; August 2013</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>Gastric Acid Secretion Reducing Agents - Proton Pump Inhibitors (PPIs)</name>
+			<codeValue>445</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<listItem>
+					<name>AcipHex oral</name>
+					<codeValue>02.17511</codeValue>
+				</listItem>
+				<listItem>
+					<name>AcipHex Sprinkle oral</name>
+					<codeValue>02.165356</codeValue>
+				</listItem>
+				<listItem>
+					<name>esomeprazole strontium oral</name>
+					<codeValue>02.164893</codeValue>
+				</listItem>
+				<listItem>
+					<name>FIRST-Lansoprazole oral</name>
+					<codeValue>02.159091</codeValue>
+				</listItem>
+				<listItem>
+					<name>FIRST-Omeprazole oral</name>
+					<codeValue>02.159013</codeValue>
+				</listItem>
+				<listItem>
+					<name>Heartburn Relief 24 Hour oral</name>
+					<codeValue>02.164065</codeValue>
+				</listItem>
+				<listItem>
+					<name>Heartburn Treatment 24 Hour oral</name>
+					<codeValue>02.166048</codeValue>
+				</listItem>
+				<listItem>
+					<name>lansoprazole oral</name>
+					<codeValue>02.11450</codeValue>
+				</listItem>
+				<listItem>
+					<name>Nexium 24HR oral</name>
+					<codeValue>02.166478</codeValue>
+				</listItem>
+				<listItem>
+					<name>Nexium oral</name>
+					<codeValue>02.20536</codeValue>
+				</listItem>
+				<listItem>
+					<name>Nexium Packet oral</name>
+					<codeValue>02.147599</codeValue>
+				</listItem>
+				<listItem>
+					<name>omeprazole magnesium oral</name>
+					<codeValue>02.76794</codeValue>
+				</listItem>
+				<listItem>
+					<name>omeprazole oral</name>
+					<codeValue>02.3766</codeValue>
+				</listItem>
+				<listItem>
+					<name>Omeprazole+SyrSpend SF Alka oral</name>
+					<codeValue>02.164555</codeValue>
+				</listItem>
+				<listItem>
+					<name>pantoprazole oral</name>
+					<codeValue>02.17633</codeValue>
+				</listItem>
+				<listItem>
+					<name>Prevacid 24Hr oral</name>
+					<codeValue>02.153274</codeValue>
+				</listItem>
+				<listItem>
+					<name>Prevacid oral</name>
+					<codeValue>02.11454</codeValue>
+				</listItem>
+				<listItem>
+					<name>Prevacid SoluTab oral</name>
+					<codeValue>02.150285</codeValue>
+				</listItem>
+				<listItem>
+					<name>Prilosec oral</name>
+					<codeValue>02.7957</codeValue>
+				</listItem>
+				<listItem>
+					<name>Prilosec OTC oral</name>
+					<codeValue>02.77588</codeValue>
+				</listItem>
+				<listItem>
+					<name>Protonix oral</name>
+					<codeValue>02.18142</codeValue>
+				</listItem>
+				<listItem>
+					<name>rabeprazole oral</name>
+					<codeValue>02.17504</codeValue>
+				</listItem>
+				<name/>
+				<codeValue/>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

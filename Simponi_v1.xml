@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<?oxy_comment_start author="paulnguyen" timestamp="20141111T135258-0800" comment="C: Need to add TB test to all diagnosises once Labs/Assessments is completed."?>
+		<routedMedId><?oxy_comment_end?>152287</routedMedId>
+		<routedMedName>Simponi subcutaneous</routedMedName>
+		<routedGenericName>golimumab subcutaneous</routedGenericName>
+		<etcIds>
+			<etc_id>5708</etc_id>
+		</etcIds>
+		<medIds>
+			<medId>558097</medId>
+			<medId>558098</medId>
+			<medId>578589</medId>
+			<medId>579329</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<?oxy_comment_start author="paulnguyen" timestamp="20141111T134701-0800" comment="C: Need to add concurrent therapy with methotrexate once that section is completed."?>
+			<fqn><?oxy_comment_end?>Rheumatoid Arthritis-moderate to severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2805</icd9>
+			<symbolic>Simponi-RA-Mod</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name>moderate to severe</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Rheumatologist</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Severe Infection</name>
+					<code>22.413</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<?oxy_comment_start author="paulnguyen" timestamp="20141111T143507-0800" comment="C: No DXID for Sepsis, just Sepsis Syndrome.  BMJ&apos;s Postgrad Med J defines sepsis syndrome as, &quot;a severe form of sepsis causing inadequate tissue perfusion and shock.&quot;"?>
+					<name><?oxy_comment_end?>Sepsis</name>
+					<code>12.A41</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi</name>
+								<codeValues>01.117904</codeValues>
+							</treatmentLine>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate sodium</name>
+								<codeValues>01.5506</codeValues>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment>
+							<dosing/>
+							<rating>rtherapy</rating>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi</name>
+								<codeValues>01.117904</codeValues>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate sodium</name>
+								<codeValues>01.5506</codeValues>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.20909|02.16551|02.6260|02.22470</codeValues>
+								<selectedListName>Disease Modifying Anti-Rheumatoid Drugs (DMARD)</selectedListName>
+								<selectedListClassCode>09.3965</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<?oxy_comment_start author="paulnguyen" timestamp="20150116T145556-0800" comment="C: Rituxan and Remicade should be taken concurrently with methotrexate.  Update once Concurrent Therapy is done."?>
+								<option><?oxy_comment_end?>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.16772|02.64713|02.16554|02.150396</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion/>
+			<concurrentTherapyExclusion>
+				<?oxy_comment_start author="paulnguyen" timestamp="20150116T150949-0800" comment="C: These should go into the contraindications section (or other appropriate section) when it is ready."?>
+				<criteriaSet>
+					<?oxy_comment_end?>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.150396|02.154223|02.154650|02.16772|02.144657|02.64713|02.144769|02.167140|02.147784|02.152021|02.16554</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165329|02.22175|02.156713|02.94819|02.165957|02.165956|02.5206|02.162865</codeValues>
+								<selectedListName>Non-TNF Biologic DMARD</selectedListName>
+								<selectedListClassCode>16.16</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</concurrentTherapyExclusion>
+			<dosing>
+				<text>50 mg by subcutaneous injection once monthly.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>558097</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>50 mg per month</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>50 mg per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>558098</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>50 mg per month</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>50 mg per month</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Simponi [package insert].  Horsham, PA: Janseen Biotech, Inc; 2014</reference>
+				<reference>Singh JA, Furst DE, Bharat A, et al.  2012 Update of the 2008 American College of Rheumatology Recommendations for the Use of Disease-Modifying Antirheumatic Drugs and Biologic Agents in the Treatment of Rheumatoid Arthritis.  Arthritis Care &amp; Research. 2012; 64: 625-39. DOI 10.1002/acr.21641</reference>
+				<reference>Saag KG, Teng GG, Patkar NM, et al.  American College of Rheumatology 2008 Recommendations for the Use of Nonbiologic and Biologic Disease-Modifying Antirheumatic Drugs in Rheumatoid Arthritis.  Arthritis Care &amp; Research.  2008; 59: 762-84.  DOI 10.1002/art.23721</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			<alternatives/>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Psoriatic Arthritis-moderate to severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2682</icd9>
+			<symbolic>Simponi-PsoriaticArthritis</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name>moderate to severe</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Dermatology</name>
+					<code>207N00000X</code>
+				</prescriber>
+				<prescriber>
+					<name>Rheumatologist</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Severe Infection</name>
+					<code>22.413</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<?oxy_comment_start author="paulnguyen" timestamp="20141111T143507-0800" comment="C: No DXID for Sepsis, just Sepsis Syndrome.  BMJ&apos;s Postgrad Med J defines sepsis syndrome as, &quot;a severe form of sepsis causing inadequate tissue perfusion and shock.&quot;"?>
+					<name><?oxy_comment_end?>Sepsis</name>
+					<code>12.A41</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy/>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.20909|02.16551|02.6260|02.22470</codeValues>
+								<selectedListName>Disease Modifying Anti-Rheumatoid Drugs (DMARD)</selectedListName>
+								<selectedListClassCode>09.3965</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.16772|02.64713|02.16554|02.150396</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion/>
+			<concurrentTherapyExclusion>
+				<?oxy_comment_start author="paulnguyen" timestamp="20150116T150949-0800" comment="C: These should go into the contraindications section (or other appropriate section) when it is ready."?>
+				<criteriaSet>
+					<?oxy_comment_end?>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.150396|02.154223|02.154650|02.16772|02.144657|02.64713|02.144769|02.167140|02.147784|02.152021|02.16554</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165329|02.22175|02.156713|02.94819|02.165957|02.165956|02.5206|02.162865</codeValues>
+								<selectedListName>Non-TNF Biologic DMARD</selectedListName>
+								<selectedListClassCode>16.16</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</concurrentTherapyExclusion>
+			<dosing>
+				<text>50 mg by subcutaneous injection once monthly.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>558097</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>50 mg per month</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>50 mg per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>558098</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>50 mg per month</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>50 mg per month</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Simponi [package insert].  Horsham, PA: Janseen Biotech, Inc; 2014</reference>
+				<reference>Gottlieb A, Korman NJ, Gordon KB, et al.  Guidelines of care for the management of psoriasis and psoriatic arthritis: Section 2.  Psoriatic arthritis: overview and guidelines of care for treatment with an emphasis on the biologics.  J Am Acad Dermatol.  2009; 58: 851-64.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			<alternatives/>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Ankylosing Spondylitis</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2827</icd9>
+			<symbolic>Enbrel-AnkylosingSpondylitis</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Rheumatologist</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Severe Infection</name>
+					<code>22.413</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<?oxy_comment_start author="paulnguyen" timestamp="20141111T143507-0800" comment="C: No DXID for Sepsis, just Sepsis Syndrome.  BMJ&apos;s Postgrad Med J defines sepsis syndrome as, &quot;a severe form of sepsis causing inadequate tissue perfusion and shock.&quot;"?>
+					<name><?oxy_comment_end?>Sepsis</name>
+					<code>12.A41</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy/>
+			<triedtherapy>
+				<?oxy_comment_start author="paulnguyen" timestamp="20150209T121239-0800" comment="C: Per Christine&apos;s QA comments and MCG content, I need to add sulfasalazine and the following criteria, &quot;Peripheral arthritis without axial involvement, and failure or intolerance of 4 or more months of therapy with sulfasalazine,&quot; when assessments is ready."?>
+				<criteriaSet>
+					<?oxy_comment_end?>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.4284|02.5988|02.214|02.8333|02.13459|02.5166|02.8880|02.5995|02.3919|02.8673|02.911|02.7005|02.5173|02.11643|02.6747|02.10942|02.8714|02.11044|02.16849</codeValues>
+								<selectedListName>NSAID analgesics</selectedListName>
+								<selectedListClassCode>16.18</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>4</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anytwo</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.16772|02.64713|02.16554|02.150396</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion/>
+			<concurrentTherapyExclusion>
+				<?oxy_comment_start author="paulnguyen" timestamp="20150116T150949-0800" comment="C: These should go into the contraindications section (or other appropriate section) when it is ready."?>
+				<criteriaSet>
+					<?oxy_comment_end?>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.150396|02.154223|02.154650|02.16772|02.144657|02.64713|02.144769|02.167140|02.147784|02.152021|02.16554</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165329|02.22175|02.156713|02.94819|02.165957|02.165956|02.5206|02.162865</codeValues>
+								<selectedListName>Non-TNF Biologic DMARD</selectedListName>
+								<selectedListClassCode>16.16</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</concurrentTherapyExclusion>
+			<dosing>
+				<text>50 mg by subcutaneous injection once monthly.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>558097</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>50 mg per month</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>50 mg per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>558098</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>50 mg per month</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>50 mg per month</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Simponi [package insert].  Horsham, PA: Janseen Biotech, Inc; 2014</reference>
+				<reference>Braun J, Berg RVD, Baraliakos X, et al.  2010 update of the ASAS/EULAR recommendations for the management of ankylosing spondylitis.  Ann Rheum Dis.  2011; 70: 896-904.  doi:10.1136/ard.2011.151027</reference>
+				<reference>Braun J, Pham T, Davis J, et al.  International ASAS consensu statement for the use of anti-tumour necrosis factor agents in patients with ankylosing spondylitis.  Ann Rheum Dis.  2003; 62: 817-24.</reference>
+				<reference>"Raffeiner B, Ometto F, Bernardi L, et al.  Inefficacy or Paradoxical Effect? Uveitis in Ankylosing Spondylitis Treated with Etanercept.  Case Reports in Medicine.  2014; 2014: 471319.  DOI 10.1155/2014/471319"</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			<alternatives/>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Ulcerative Colitis-moderate to severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2089</icd9>
+			<symbolic/>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name>moderate to severe</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Gastroenterology</name>
+					<code>207RG0100X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Severe Infection</name>
+					<code>22.413</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<?oxy_comment_start author="paulnguyen" timestamp="20141111T143507-0800" comment="C: No DXID for Sepsis, just Sepsis Syndrome.  BMJ&apos;s Postgrad Med J defines sepsis syndrome as, &quot;a severe form of sepsis causing inadequate tissue perfusion and shock.&quot;"?>
+					<name><?oxy_comment_end?>Sepsis</name>
+					<code>12.A41</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy/>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22007|02.22008|02.4997|02.6241|02.18021|02.7131|02.163364</codeValues>
+								<selectedListName>Inflammatory Bowel Agent - Glucocorticoids</selectedListName>
+								<selectedListClassCode>09.927</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.20258|02.20259|02.163103|02.9006|02.3332|02.163434|02.152452|02.151692|02.147055|02.20905|02.9791|02.9866|02.151704|02.9791|02.150711|02.14039|02.6260|02.6309|02.11925|02.22470|02.63166</codeValues>
+								<selectedListName>Inflammatory Bowel Agent - Aminosalicylates and Related Agents</selectedListName>
+								<selectedListClassCode>09.3013</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.13771|02.5903</codeValues>
+								<selectedListName>purine analogs</selectedListName>
+								<selectedListClassCode>16.14</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.64713|02.16554</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion/>
+			<concurrentTherapyExclusion>
+				<?oxy_comment_start author="paulnguyen" timestamp="20150116T150949-0800" comment="C: These should go into the contraindications section (or other appropriate section) when it is ready."?>
+				<criteriaSet>
+					<?oxy_comment_end?>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.150396|02.154223|02.154650|02.16772|02.144657|02.64713|02.144769|02.167140|02.147784|02.152021|02.16554</codeValues>
+								<selectedListName>Tumor Necrosis Factor (TNF) Inhibitors</selectedListName>
+								<selectedListClassCode>16.13</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165329|02.22175|02.156713|02.94819|02.165957|02.165956|02.5206|02.162865</codeValues>
+								<selectedListName>Non-TNF Biologic DMARD</selectedListName>
+								<selectedListClassCode>16.16</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</concurrentTherapyExclusion>
+			<dosing>
+				<text>Induction: 200mg by subcutaneous injection at week 0, followed by 100 mg by subcutaneous injection at week 2.</text>
+				<text>Maintenance: 100 mg by subcutaneous injection very 4 weeks.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>578589</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>300 mg / 3 syringes for the first 4 weeks, then 100 mg / 1 syringe every 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>100 mg / 1 syringe every 4 weeks</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>579329</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>300 mg / 3 syringes for the first 4 weeks, then 100 mg / 1 syringe every 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>100 mg / 1 syringe every 4 weeks</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Simponi [package insert].  Horsham, PA: Janseen Biotech, Inc; 2014</reference>
+				<reference>Kornbluth A, Sachar DB.  Erratum: Ulcerative Colitis Practice Guidelines in Adults: American College of Gastroenterology, Practice Parameters Committee.  Am J Gastroenterol 2010; 105: 501–23; doi:10.1038/ajg.2009.727</reference>
+				<reference>Kornbluth A, Sachar DB.  Ulcerative Colitis Practice Guidelines in Adults (Update)" American College of Gastroenterology, Practice Parameters Committe.  Am J Gastroenterol 2004; 99: 1371–85; doi:10.1111/j.1572-0241.2004.40036.x</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			<alternatives/>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<?oxy_comment_start author="paulnguyen" timestamp="20141111T144950-0800" comment="Enbrel is a non-selective TNF blocker (ETC 5707).  All other TNF blockers are selective (ETC 5708)."?>
+			<name><?oxy_comment_end?>Tumor Necrosis Factor (TNF) Inhibitors</name>
+			<codeValue>16.13</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>Enbrel subcutaneous</name>
+				<codeValue>02.16772</codeValue>
+			</listItem>
+			<listItem>
+				<name>Enbrel SureClick subcutaneous</name>
+				<codeValue>02.144657</codeValue>
+			</listItem>
+			<listItem>
+				<name>Humira Pen subcutaneous</name>
+				<codeValue>02.144769</codeValue>
+			</listItem>
+			<listItem>
+				<name>Humira subcutaneous</name>
+				<codeValue>02.64713</codeValue>
+			</listItem>
+			<listItem>
+				<name>Remicade intravenous</name>
+				<codeValue>02.16554</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cimzia Powder for Reconstitution subcutaneous</name>
+				<codeValue>02.154650</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cimzia Starter Kit subcutaneous</name>
+				<codeValue>02.154223</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cimzia subcutaneous</name>
+				<codeValue>02.150396</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Live Vaccines</name>
+			<codeValue>09.6421</codeValue>
+			<listType>drugclass</listType>
+			<listItem>
+				<name>adenovirus vaccine live type-4 and 7 oral</name>
+				<codeValue>02.164880</codeValue>
+			</listItem>
+			<listItem>
+				<name>adenovirus vaccine live type-4 oral</name>
+				<codeValue>02.164878</codeValue>
+			</listItem>
+			<listItem>
+				<name>adenovirus vaccine live type-7 oral</name>
+				<codeValue>02.164879</codeValue>
+			</listItem>
+			<listItem>
+				<name>Theracys intravesical</name>
+				<codeValue>02.15402</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tice BCG intravesical</name>
+				<codeValue>02.94519</codeValue>
+			</listItem>
+			<listItem>
+				<name>BCG vaccine, live (PF) percutaneous</name>
+				<codeValue>02.154546</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flumist Quad 2014-2015 nasal</name>
+				<codeValue>02.166545</codeValue>
+			</listItem>
+			<listItem>
+				<name>M-M-R II (PF) subcutaneous</name>
+				<codeValue>02.150450</codeValue>
+			</listItem>
+			<listItem>
+				<name>ProQuad (PF) subcutaneous</name>
+				<codeValue>02.94107</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rotarix oral</name>
+				<codeValue>02.150652</codeValue>
+			</listItem>
+			<listItem>
+				<name>RotaTeq Vaccine oral</name>
+				<codeValue>02.95020</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vivotif Berna Vaccine oral</name>
+				<codeValue>02.9755</codeValue>
+			</listItem>
+			<listItem>
+				<name>Varivax (PF) subcutaneous</name>
+				<codeValue>02.11314</codeValue>
+			</listItem>
+			<listItem>
+				<name>YF-Vax (PF) subcutaneous</name>
+				<codeValue>02.150614</codeValue>
+			</listItem>
+			<listItem>
+				<name>ZOSTAVAX  subcutaneous</name>
+				<codeValue>02.144377</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>NSAID analgesics</name>
+			<codeValue>16.18</codeValue>
+			<listType>drugclass</listType>
+			<listItem>
+				<name>Advil Liqui-Gel oral</name>
+				<codeValue>02.94173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil Migraine oral</name>
+				<codeValue>02.20833</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil oral</name>
+				<codeValue>02.6143</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aleve oral</name>
+				<codeValue>02.1098</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Pain Relief oral</name>
+				<codeValue>02.17236</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Relief oral</name>
+				<codeValue>02.89454</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox DS oral</name>
+				<codeValue>02.9771</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox oral</name>
+				<codeValue>02.10989</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ansaid oral</name>
+				<codeValue>02.10612</codeValue>
+			</listItem>
+			<listItem>
+				<name>Caldolor intravenous</name>
+				<codeValue>02.152733</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cambia oral</name>
+				<codeValue>02.154102</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cambia oral</name>
+				<codeValue>02.154102</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cataflam oral</name>
+				<codeValue>02.9836</codeValue>
+			</listItem>
+			<listItem>
+				<name>Celebrex oral</name>
+				<codeValue>02.16849</codeValue>
+			</listItem>
+			<listItem>
+				<name>Clinoril oral</name>
+				<codeValue>02.10330</codeValue>
+			</listItem>
+			<listItem>
+				<name>Daypro oral</name>
+				<codeValue>02.6746</codeValue>
+			</listItem>
+			<listItem>
+				<name>diclofenac oral</name>
+				<codeValue>02.4284</codeValue>
+			</listItem>
+			<listItem>
+				<name>diclofenac potassium oral</name>
+				<codeValue>02.5988</codeValue>
+			</listItem>
+			<listItem>
+				<name>EC-Naprosyn oral</name>
+				<codeValue>02.4057</codeValue>
+			</listItem>
+			<listItem>
+				<name>etodolac oral</name>
+				<codeValue>02.214</codeValue>
+			</listItem>
+			<listItem>
+				<name>Feldene oral</name>
+				<codeValue>02.10963</codeValue>
+			</listItem>
+			<listItem>
+				<name>fenoprofen oral</name>
+				<codeValue>02.8333</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flanax (naproxen) oral</name>
+				<codeValue>02.166687</codeValue>
+			</listItem>
+			<listItem>
+				<name>flurbiprofen oral</name>
+				<codeValue>02.13459</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibu-Drops oral</name>
+				<codeValue>02.21045</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen IB oral</name>
+				<codeValue>02.17976</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen Jr Strength oral</name>
+				<codeValue>02.74995</codeValue>
+			</listItem>
+			<listItem>
+				<name>ibuprofen oral</name>
+				<codeValue>02.5166</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin oral</name>
+				<codeValue>02.9252</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin rectal</name>
+				<codeValue>02.10968</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin oral</name>
+				<codeValue>02.8880</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin rectal</name>
+				<codeValue>02.13445</codeValue>
+			</listItem>
+			<listItem>
+				<name>I-Prin oral</name>
+				<codeValue>02.17655</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketoprofen oral</name>
+				<codeValue>02.5995</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac injection</name>
+				<codeValue>02.6419</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac intramuscular</name>
+				<codeValue>02.4688</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac oral</name>
+				<codeValue>02.3919</codeValue>
+			</listItem>
+			<listItem>
+				<name>meclofenamate oral</name>
+				<codeValue>02.8673</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mediproxen oral</name>
+				<codeValue>02.21369</codeValue>
+			</listItem>
+			<listItem>
+				<name>mefenamic acid oral</name>
+				<codeValue>02.11586</codeValue>
+			</listItem>
+			<listItem>
+				<name>meloxicam oral</name>
+				<codeValue>02.911</codeValue>
+			</listItem>
+			<listItem>
+				<name>Midol (naproxen) oral</name>
+				<codeValue>02.160419</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mobic oral</name>
+				<codeValue>02.18173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin IB oral</name>
+				<codeValue>02.9330</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin oral</name>
+				<codeValue>02.4387</codeValue>
+			</listItem>
+			<listItem>
+				<name>nabumetone oral</name>
+				<codeValue>02.7005</codeValue>
+			</listItem>
+			<listItem>
+				<name>Nalfon oral</name>
+				<codeValue>02.6919</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprelan CR oral</name>
+				<codeValue>02.153228</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprosyn oral</name>
+				<codeValue>02.1705</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen oral</name>
+				<codeValue>02.5173</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen sodium oral</name>
+				<codeValue>02.11643</codeValue>
+			</listItem>
+			<listItem>
+				<name>oxaprozin oral</name>
+				<codeValue>02.6747</codeValue>
+			</listItem>
+			<listItem>
+				<name>piroxicam oral</name>
+				<codeValue>02.10942</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ponstel oral</name>
+				<codeValue>02.11590</codeValue>
+			</listItem>
+			<listItem>
+				<name>Provil oral</name>
+				<codeValue>02.14655</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sprix nasal</name>
+				<codeValue>02.155891</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulindac oral</name>
+				<codeValue>02.8714</codeValue>
+			</listItem>
+			<listItem>
+				<name>tolmetin oral</name>
+				<codeValue>02.11044</codeValue>
+			</listItem>
+			<listItem>
+				<name>Voltaren-XR oral</name>
+				<codeValue>02.12377</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Profen oral</name>
+				<codeValue>02.92767</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Proxen oral</name>
+				<codeValue>02.93221</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zipsor oral</name>
+				<codeValue>02.152752</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zorvolex oral</name>
+				<codeValue>02.165333</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Inflammatory Bowel Agent - Glucocorticoids</name>
+			<codeValue>09.927</codeValue>
+			<listType>drugclass</listType>
+			<listItem>
+				<name>Entocort EC oral</name>
+				<codeValue>02.22007</codeValue>
+			</listItem>
+			<listItem>
+				<name>budesonide oral</name>
+				<codeValue>02.22008</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cortifoam rectal</name>
+				<codeValue>02.4997</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocortisone rectal</name>
+				<codeValue>02.6241</codeValue>
+			</listItem>
+			<listItem>
+				<name>Colocort rectal</name>
+				<codeValue>02.18021</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cortenema rectal</name>
+				<codeValue>02.7131</codeValue>
+			</listItem>
+			<listItem>
+				<name>Uceris oral</name>
+				<codeValue>02.163364</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>purine analogs</name>
+			<codeValue>16.14</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>azathioprine oral</name>
+				<codeValue>02.13771</codeValue>
+			</listItem>
+			<listItem>
+				<name>mercaptopurine oral</name>
+				<codeValue>02.5903</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Inflammatory Bowel Agent - Aminosalicylates and Related Agents</name>
+			<codeValue>09.3013</codeValue>
+			<listType>drugclass</listType>
+			<listItem>
+				<name>balsalazide oral</name>
+				<codeValue>02.20258</codeValue>
+			</listItem>
+			<listItem>
+				<name>Colazal oral</name>
+				<codeValue>02.20259</codeValue>
+			</listItem>
+			<listItem>
+				<name>Giazo oral</name>
+				<codeValue>02.163103</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asacol oral</name>
+				<codeValue>02.9006</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pentasa oral</name>
+				<codeValue>02.3332</codeValue>
+			</listItem>
+			<listItem>
+				<name>Delzicol oral</name>
+				<codeValue>02.163434</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asacol HD oral</name>
+				<codeValue>02.152452</codeValue>
+			</listItem>
+			<listItem>
+				<name>Apriso oral</name>
+				<codeValue>02.151692</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lialda oral</name>
+				<codeValue>02.147055</codeValue>
+			</listItem>
+			<listItem>
+				<name>Canasa rectal</name>
+				<codeValue>02.20905</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rowasa rectal</name>
+				<codeValue>02.9791</codeValue>
+			</listItem>
+			<listItem>
+				<name>mesalamine rectal</name>
+				<codeValue>02.9866</codeValue>
+			</listItem>
+			<listItem>
+				<name>sfRowasa rectal</name>
+				<codeValue>02.151704</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rowasa rectal</name>
+				<codeValue>02.9791</codeValue>
+			</listItem>
+			<listItem>
+				<name>mesalamine with cleansing wipes rectal</name>
+				<codeValue>02.150711</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dipentum oral</name>
+				<codeValue>02.14039</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulfasalazine oral</name>
+				<codeValue>02.6260</codeValue>
+			</listItem>
+			<listItem>
+				<name>Azulfidine EN-tabs oral</name>
+				<codeValue>02.6309</codeValue>
+			</listItem>
+			<listItem>
+				<name>Azulfidine oral</name>
+				<codeValue>02.11925</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sulfazine EC oral</name>
+				<codeValue>02.22470</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sulfazine oral</name>
+				<codeValue>02.63166</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Disease Modifying Anti-Rheumatoid Drugs (DMARD)</name>
+			<codeValue>09.3965</codeValue>
+			<?oxy_comment_start author="paulnguyen" timestamp="20141212T104214-0800" comment="C: The text form says &apos;class&apos;.  The error goes away when it is changed to &apos;drugclass&apos;.  See if &apos;class&apos; causes and upload error and if it does, then is it fixed when changed to &apos;drugclass&apos;.
+				
+Also get an error when selecting &apos;Generic Drug&apos;"?>
+			<listType><?oxy_comment_end?>drugclass</listType>
+			<listItem>
+				<name>methotrexate sodium oral</name>
+				<codeValue>02.20909</codeValue>
+			</listItem>
+			<listItem>
+				<name>leflunomide oral</name>
+				<codeValue>02.16551</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulfasalazine oral</name>
+				<codeValue>02.6260</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulfsalazine EC oral</name>
+				<codeValue>02.22470</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Non-TNF Biologic DMARD</name>
+			<codeValue>16.16</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>Actemra subcutaneous</name>
+				<codeValue>02.165329</codeValue>
+			</listItem>
+			<listItem>
+				<name>Actemra intravenous</name>
+				<codeValue>02.153521</codeValue>
+			</listItem>
+			<listItem>
+				<name>Kineret subcutaneous</name>
+				<codeValue>02.22175</codeValue>
+			</listItem>
+			<listItem>
+				<name>Orencia subcutaneous</name>
+				<codeValue>02.156713</codeValue>
+			</listItem>
+			<listItem>
+				<name>Orencia (with maltose) intravenous</name>
+				<codeValue>02.94819</codeValue>
+			</listItem>
+			<listItem>
+				<name>Otezla Starter oral</name>
+				<codeValue>02.165957</codeValue>
+			</listItem>
+			<listItem>
+				<name>Otezla oral</name>
+				<codeValue>02.165956</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rituxan intravenous</name>
+				<codeValue>02.5206</codeValue>
+			</listItem>
+			<listItem>
+				<name>Xeljanz oral</name>
+				<codeValue>02.162865</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Anti-inflammatory - Interleukin-1 beta Blockers</name>
+			<codeValue>09.6212</codeValue>
+			<listType>drugclass</listType>
+			<listItem>
+				<name>Ilaris (PF) subcutaneous</name>
+				<codeValue>02.152794</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</name>
+			<codeValue>09.6200</codeValue>
+			<listType>drugclass</listType>
+			<listItem>
+				<name>Stelara subcutaneous</name>
+				<codeValue>02.153035</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

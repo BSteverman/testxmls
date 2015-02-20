@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+    <toplevel>
+        <!--<routedMedId></routedMedId>-->
+        <routedMedId>18248</routedMedId>
+        <routedMedName>AndroGel transdermal gel pump</routedMedName>
+        <routedGenericName>testosterone transdermal gel pump</routedGenericName>
+        <etcIds>
+            <etc_id/>
+        </etcIds>
+        <medIds>
+            <medId>471188</medId>
+            <medId>564170</medId>
+        </medIds>
+    </toplevel>
+    <diagnoses>
+        <diagnosis>
+            <fqn>Male Hypogonadism</fqn>
+            <age>
+                <ageRangeType>ge</ageRangeType>
+                <ageRangeMin>18</ageRangeMin>
+                <ageRangeMax/>
+                <ageRangeUnit>y</ageRangeUnit>
+                <ageDesc/>
+            </age>
+            <gender>male</gender>
+            <icd9>22.647</icd9>
+            <symbolic>Andro-Hypogonad</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name/>
+                <dur/>
+                <durUnit>nocode</durUnit>
+            </subtype>
+            <prescribers>
+                <prescriber>
+                    <name>Not Applicable</name>
+                    <code>Not Applicable</code>
+                </prescriber>
+            </prescribers>
+            <comorbidity>
+                <name/>
+                <icd9/>
+                <dur/>
+                <durUnit>nocode</durUnit>
+            </comorbidity>
+            <concurrenttherapy>
+            </concurrenttherapy>
+            <triedtherapy>
+			</triedtherapy>
+            <triedTherapyExclusion>
+            </triedTherapyExclusion>
+            <dosing>
+                <text>AndroGel 1% - 4 pump actuations applied topically once daily in the morning.</text>
+                <text>AndroGel 1.62% - 2 pump actuations applied topically once daily in the morning.</text>
+            </dosing>
+            <instructions>
+                <instruction>AndroGel 1% - Apply to clean, dry, intact skin of shoulders and upper arms and/or abdomen.</instruction>
+                <instruction>AndroGel 1.62% - Apply to clean, dry, intact skin of the shoulders and upper arms.</instruction>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medId>471188</medId>
+                    <initPerDayDesc>100 milligrams</initPerDayDesc>
+                    <initPerIntervalDesc>300 grams per 30 days</initPerIntervalDesc>
+                    <renewPerDayDesc>100 milligrams</renewPerDayDesc>
+                    <renewPerIntervalDesc>300 grams per 30 days</renewPerIntervalDesc>
+                </qlimit>
+                <qlimit>
+                    <medId>564170</medId>
+                    <initPerDayDesc>81 milligrams</initPerDayDesc>
+                    <initPerIntervalDesc>150 grams per 30 days</initPerIntervalDesc>
+                    <renewPerDayDesc>81 milligrams</renewPerDayDesc>
+                    <renewPerIntervalDesc>150 grams per 30 days</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>6</dur>
+                    <durUnit>m</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>m</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur/>
+                    <durUnit>nocode</durUnit>
+                </overallMax>
+            </durations>
+            <references>
+                <reference>Androgel 1.62% [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+                <reference>Androgel 1% [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+                <reference>The World Professional Association for Transgender Health Standards of Care for the Health of Transsexual, Transgender, and Gender Nonconforming People, Version 7. http://www.wpath.org/uploaded_files/140/files/IJT%20SOC,%20V7.pdf.  Pubished 2012. Accessed August 25, 2014.</reference>
+                <reference>Bhasin S, Cunningham GR, Hayes FJ, et al. Testosterone therapy in men with androgen deficiency syndromes: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2010;95(6):2536-59. (Also available on the Endocrine Society’s website https://www.endocrine.org/~/media/endosociety/Files/Publications/Clinical%20Practice%20Guidelines/FINAL-Androgens-in-Men-Standalone.pdf)</reference>
+            </references>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+        <diagnosis>
+            <fqn>Gender identity disorder, unspecified (female to male)</fqn>
+            <age>
+                <ageRangeType>ge</ageRangeType>
+                <ageRangeMin>18</ageRangeMin>
+                <ageRangeMax/>
+                <ageRangeUnit>y</ageRangeUnit>
+                <ageDesc/>
+            </age>
+            <gender>not specified</gender>
+            <icd9>12.F64.9</icd9>
+            <symbolic>Andro-Transgender</symbolic>
+            <rating>recommendedDx</rating>
+            <genotype/>
+            <subtype>
+                <name/>
+                <dur/>
+                <durUnit>nocode</durUnit>
+            </subtype>
+            <prescribers>
+                <prescriber>
+                    <name>Not Applicable</name>
+                    <code>Not Applicable</code>
+                </prescriber>
+            </prescribers>
+            <comorbidity>
+                <name/>
+                <icd9/>
+                <dur/>
+                <durUnit>nocode</durUnit>
+            </comorbidity>
+            <concurrenttherapy>
+            </concurrenttherapy>
+            <triedtherapy/>
+            <triedTherapyExclusion/>
+            <dosing>
+                <text>Use as directed</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medId>471188</medId>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>300 grams per 30 days</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>300 grams per 30 days</renewPerIntervalDesc>
+                </qlimit>
+                <qlimit>
+                    <medId>564170</medId>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>150 grams per 30 days</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>150 grams per 30 days</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>6</dur>
+                    <durUnit>m</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>m</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur/>
+                    <durUnit>nocode</durUnit>
+                </overallMax>
+            </durations>
+            <references>
+                <reference/>
+            </references>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+    </diagnoses>
+    <precautions>
+        <geriatric>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </geriatric>
+        <pregnancy>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </pregnancy>
+        <pediatric>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </pediatric>
+        <lactation>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </lactation>
+        <allergy>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </allergy>
+        <sideEffect>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </sideEffect>
+        <drugDisease>
+            <caution>
+                <drug/>
+                <severity/>
+                <text/>
+            </caution>
+        </drugDisease>
+    </precautions>
+    <lists>
+	</lists>
+</paload>

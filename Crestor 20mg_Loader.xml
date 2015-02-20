@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>76704</routedMedId>
+		<routedMedName>Crestor 20 mg tablet</routedMedName>
+		<routedGenericName>rosuvastatin 20 mg tablet</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>451300</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Hypercholesterolemia</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.701</icd9>
+			<symbolic>crestcholes</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>atorvastatin 80 mg tablet </name>
+								<codeValues>158585</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>20 mg orally once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>451300</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets for 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets for 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Crestor [package insert]. Wilmington, DE: AstraZeneca Pharmaceuticals LP; 2014</reference>
+				<reference>Stone NJ, Robinson JG, Lichtenstein AH, Bairey Merz CN, Blum CB,  Eckel RH, Goldberg AC, Gordon D, Levy D, Lloyd-Jones DM, McBride P, Schwartz JS, Shero ST, Smith SC Jr, Watson K, Wilson PWF. 2013 ACC/AHA  guideline on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults: a report of the American College of Cardiology/ American Heart Association Task Force on Practice Guidelines. Circulation. 2014;129(suppl 2):S1–S45.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Heterozygous Familial Hypercholesterolemia in Pediatric Patients</fqn>
+			<age>
+				<ageRangeType>range</ageRangeType>
+				<ageRangeMin>10</ageRangeMin>
+				<ageRangeMax>17</ageRangeMax>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>23.05</icd9>
+			<symbolic>cresthfh</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>03.163181|03.286606|03.209275|03.150475|03.245894|03.173289|03.268217|03.158596|03.294944|03.184650|03.217974|03.241540</codeValues>
+								<selectedListName>HMG-CoA Reductase Inhibitors</selectedListName>
+								<selectedListClassCode>16.09</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>all</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>20 mg orally once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>451300</medId>
+					<initPerDayDesc>1 tablet per day</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet per day</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Crestor [package insert]. Wilmington, DE: AstraZeneca Pharmaceuticals LP; 2014</reference>
+				<reference>Lipitor [package insert]. New York, NY: Parke-Davis Div of Pfizer Inc; 2014</reference>
+				<reference>Zocor [package insert]. Whitehouse Station, NJ:  Merck &amp; Co, Inc; 2014</reference>
+				<reference>Pravachol [package insert]. Princeton, NJ:  Bristol-Myers Squibb Company; 2013</reference>
+				<reference>Mevacor [package insert]. Whitehouse Station, NJ:  Merck &amp; Co, Inc; 2014</reference>
+				<reference>Lescol/Lescol XL [package insert]. East Hanover, NJ: Novartis; 2012</reference>
+				<reference>Livalo [package insert]. Montgomery, AL: Kowa Pharmaceuticals America, Inc; 2013</reference>
+				<reference>Altoprev [package insert]. Atlanta, GA: Shionogi Pharma, Inc; 2010</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Primary Prevention of Cardiovascular Disease</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>23.06</icd9>
+			<symbolic>crestprevent</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>atorvastatin 80 mg tablet </name>
+								<codeValues>158585</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>all</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>20 mg orally once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>451300</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets for 30 days </initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablet for 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Crestor [package insert]. Wilmington, DE: AstraZeneca Pharmaceuticals LP; 2014</reference>
+				<reference>Stone NJ, Robinson JG, Lichtenstein AH, Bairey Merz CN, Blum CB,  Eckel RH, Goldberg AC, Gordon D, Levy D, Lloyd-Jones DM, McBride P, Schwartz JS, Shero ST, Smith SC Jr, Watson K, Wilson PWF. 2013 ACC/AHA  guideline on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults: a report of the American College of Cardiology/ American Heart Association Task Force on Practice Guidelines. Circulation. 2014;129(suppl 2):S1–S45.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>HMG-CoA Reductase Inhibitors</name>
+			<codeValue>16.09</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>atorvastatin 20 mg tablet</name>
+				<codeValue>03.163181</codeValue>
+			</listItem>
+			<listItem>
+				<name>fluvastatin 40 mg capsule</name>
+				<codeValue>03.217974</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lescol 40 mg capsule</name>
+				<codeValue>03.294944</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lescol XL 80 mg tablet,extended release</name>
+				<codeValue>03.241540</codeValue>
+			</listItem>
+			<listItem>
+				<name>lovastatin 40 mg tablet</name>
+				<codeValue>03.184650</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mevacor 40 mg tablet</name>
+				<codeValue>03.158596</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pravachol 20 mg tablet</name>
+				<codeValue>03.245894</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pravachol 40 mg tablet</name>
+				<codeValue>03.150475</codeValue>
+			</listItem>
+			<listItem>
+				<name>pravastatin 20 mg tablet</name>
+				<codeValue>03.268217</codeValue>
+			</listItem>
+			<listItem>
+				<name>pravastatin 40 mg tablet</name>
+				<codeValue>03.173289</codeValue>
+			</listItem>
+			<listItem>
+				<name>simvastatin 40 mg tablet</name>
+				<codeValue>03.209275</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zocor 40 mg tablet</name>
+				<codeValue>03.286606</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

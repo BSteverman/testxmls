@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="uuid-here" version="1.0">
+    <toplevel>
+        <routedMedId>154218</routedMedId>
+        <routedMedName>Prolia subcutaneous</routedMedName>
+        <routedGenericName>denosumab subcutaneous</routedGenericName>
+        <etcIds>
+            <etc_id>6239</etc_id>
+        </etcIds>
+        <medIds>
+            <medId>561413</medId>
+        </medIds>
+    </toplevel>
+    <diagnoses>
+        <diagnosis>
+            <fqn>Osteoporosis with high risk of fracture (female member)</fqn>
+            <icd9>22.2896</icd9>
+            <symbolic>ostfemale</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name>high risk of fracture</name>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+                <prescriber>
+                    <name>Not Appicable</name>
+                    <code>Not Applicable</code>
+                </prescriber>
+            </prescribers>
+            <age>
+            	<ageRangeType>gt</ageRangeType>
+            	<ageRangeMin>18</ageRangeMin>
+            	<ageRangeMax></ageRangeMax>	
+            	<ageRangeUnit>years</ageRangeUnit> 
+            	<ageDesc></ageDesc>           
+            </age>
+            <gender>f</gender>
+            <triedtherapy>
+                <criteriaSet>         
+                    <patientHxType>
+                        <typeName>any</typeName>
+                        <treatment/>                       
+                    </patientHxType>
+                    <preferredTherapy>
+                        <treatment>
+                            <mustBeIneligible>false</mustBeIneligible>
+                            <documentationRequired>true</documentationRequired>
+                            <treatmentLine>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>02.16383|02.1257|02.154925|02.162097|02.92884|02.1273|02.92883|02.7835</codeValues>
+                                <selectedListName>oral bisphosphonates</selectedListName>
+                                <selectedListClassCode>16.01</selectedListClassCode>
+                                <dur>12</dur>
+                                <durUnit>months</durUnit>
+                                <durModifier>at least</durModifier>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                           </treatment>
+                           <treatment>
+                            <mustBeIneligible>false</mustBeIneligible>
+                            <documentationRequired>false</documentationRequired>
+                            <treatmentLine>
+                                <option>AND</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>02.95102|02.94907|02.148235|02.148199|02.21754|02.21757</codeValues>
+                                <selectedListName>intravenous bisphosphonates</selectedListName>
+                                <selectedListClassCode>16.02</selectedListClassCode>
+                                <dur>12</dur>
+                                <durUnit>months</durUnit>
+                                <durModifier>at least</durModifier>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                        </treatment>
+                        <numRequired>all</numRequired>
+                    </preferredTherapy>
+                </criteriaSet>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>120mg per 12 months</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>120mg per 12 months</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>m</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>m</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur>Not Specified</dur>
+                    <durUnit>nocode</durUnit>
+                </overallMax>
+            </durations>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+        <diagnosis>
+            <fqn>Osteoporosis with high risk of fracture (male member)</fqn>
+            <icd9>22.2896</icd9>
+            <symbolic>ostmale</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name>high risk of fracture</name>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+                <prescriber>
+                    <name>Not Appicable</name>
+                    <code>Not Applicable</code>
+                </prescriber>
+            </prescribers>
+            <age>
+            	<ageRangeType>gt</ageRangeType>
+            	<ageRangeMin>18</ageRangeMin>
+            	<ageRangeMax></ageRangeMax>	
+            	<ageRangeUnit>years</ageRangeUnit> 
+            	<ageDesc></ageDesc>	            
+            </age>
+            <gender>m</gender>
+            <triedtherapy>
+				<criteriaSet>
+				    <patientHxType>
+				        <typeName>any</typeName>
+                        <treatment/>                
+                    </patientHxType>
+                    <preferredTherapy>
+                        <treatment>
+                            <mustBeIneligible>false</mustBeIneligible>
+                            <documentationRequired>false</documentationRequired>
+                            <treatmentLine>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>02.16383|02.1257|02.154925|02.162097|02.92884|02.1273|02.92883|02.7835</codeValues>
+                                <selectedListName>oral bisphosphonates</selectedListName>
+                                <selectedListClassCode>16.01</selectedListClassCode>
+                                <dur>12</dur>
+                                <durUnit>months</durUnit>
+                                <durModifier>at least</durModifier>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                           </treatment>
+                           <treatment>
+                            <mustBeIneligible>false</mustBeIneligible>
+                            <documentationRequired>false</documentationRequired>
+                            <treatmentLine>
+                                <option>AND</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>02.95102|02.94907|02.148235|02.148199|02.21754|02.21757</codeValues>
+                                <selectedListName>intravenous bisphosphonates</selectedListName>
+                                <selectedListClassCode>16.02</selectedListClassCode>
+                                <dur>12</dur>
+                                <durUnit>months</durUnit>
+                                <durModifier>at least</durModifier>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                        </treatment>
+                        <numRequired>all</numRequired>
+                    </preferredTherapy>
+                </criteriaSet>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>120mg per 12 months</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>120mg per 12 months</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur>Not Specified</dur>
+                    <durUnit>nocode</durUnit>
+                </overallMax>
+            </durations>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>        
+        <diagnosis>
+            <fqn>Long term (current) use of aromatase inhibitors/Malignant neoplasm of breast</fqn>
+            <icd9>12.Z79.811</icd9>
+            <symbolic>neobreast</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name/>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+            </prescribers>
+            <age>
+            	<ageRangeType>gt</ageRangeType>
+            	<ageRangeMin>18</ageRangeMin>
+            	<ageRangeMax></ageRangeMax>	
+            	<ageRangeUnit>years</ageRangeUnit> 
+            	<ageDesc></ageDesc>	            
+            </age>
+            <gender>nocode</gender>
+            <comorbidity>
+                <name>Malignant neoplasm of breast</name>
+                <icd9>12.C50</icd9>
+                <dur/>
+                <durUnit/>
+            </comorbidity>
+            <triedtherapy>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>120mg per 12 months</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>120mg per 12 months</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur>Not Specified</dur>
+                    <durUnit>nocode</durUnit>
+                </overallMax>
+            </durations>
+            <references>
+                <reference>National Osteoporosis Foundation. Clinician's Guide to Prevention and Treatment of Osteoporosis. http://nof.org/files/nof/public/content/file/2610/upload/895.pdf. Published April 1, 2014. Accessed August 1, 2014.</reference>
+                <reference>Watts NB, Adler RA, Bilezikian JP, Drake MT, Eastell R, Orwoll ES, et al. Osteoporosis in men: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2012;97:1802-22. (Also available on the Endocrine Society’s website http://www.endo-society.org/guidelines/Current-Clinical-Practice-Guidelines.cfm)</reference>
+                <reference>Kanis JA; for World Health Organization Scientific Group. Assessment of osteoporosis at the primary health care level. http://www.shef.ac.uk/FRAX/pdfs/WHO_Technical_Report.pdf. Published 2007.  Accessed August 1, 2014.</reference>
+                <reference>Prolia [package insert]. Thousand Oaks, CA: Amgen Inc; 2014</reference>
+            </references>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+        <diagnosis>
+            <fqn>Long term (current) use of aromatase inhibitors/Malignant neoplasm of prostate non-metastatic</fqn>
+            <icd9>12.Z79.811</icd9>
+            <symbolic>neoprostate</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name/>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+            </prescribers>
+            <age>
+            	<ageRangeType>gt</ageRangeType>
+            	<ageRangeMin>18</ageRangeMin>
+            	<ageRangeMax></ageRangeMax>	
+            	<ageRangeUnit>years</ageRangeUnit> 
+            	<ageDesc></ageDesc>	            
+            </age>
+            <gender>nocode</gender>
+            <comorbidity>
+                <name>Malignant neoplasm of prostate</name>
+                <icd9>12.C61</icd9>
+                <dur/>
+                <durUnit/>
+            </comorbidity>
+            <triedtherapy>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>120mg per 12 months</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>120mg per 12 months</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur>Not Specified</dur>
+                    <durUnit>nocode</durUnit>
+                </overallMax>
+            </durations>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+    </diagnoses>
+    <lists>
+        <listDef>
+            <name> oral bisphosphonates</name>
+            <codeValue>16.01</codeValue>
+            <listType>adhoc</listType>
+            <listItem>
+                <name>Actonel oral</name>
+                <codeValue>02.16383</codeValue>
+            </listItem>
+            <listItem>
+                <name>alendronate oral</name>
+                <codeValue>02.1257</codeValue>
+            </listItem>
+            <listItem>
+                <name>Atelvia oral</name>
+                <codeValue>02.154925</codeValue>
+            </listItem>
+            <listItem>
+                <name>Binosto oral</name>
+                <codeValue>02.162097</codeValue>
+            </listItem>
+            <listItem>
+                <name>Boniva oral</name>
+                <codeValue>02.92884</codeValue>
+            </listItem>
+            <listItem>
+                <name>Fosamax oral</name>
+                <codeValue>02.1273</codeValue>
+            </listItem>
+            <listItem>
+                <name>ibandronate oral</name>
+                <codeValue>02.92883</codeValue>
+            </listItem>
+            <listItem>
+                <name>risedronate oral</name>
+                <codeValue>02.7835</codeValue>
+            </listItem>
+        </listDef>
+        <listDef>
+            <name>intravenous bisphosphonates</name>
+            <codeValue>16.02</codeValue>
+            <listType>adhoc</listType>
+            <listItem>
+                <name>Boniva intravenous</name>
+                <codeValue>02.95102</codeValue>
+            </listItem>
+            <listItem>
+                <name>ibandronate intravenous</name>
+                <codeValue>02.94907</codeValue>
+            </listItem>
+            <listItem>
+                <name>Reclast intravenous</name>
+                <codeValue>02.148235</codeValue>
+            </listItem>
+            <listItem>
+                <name>zoledronic acid in mannitol and water intravenous</name>
+                <codeValue>02.148199</codeValue>
+            </listItem>
+            <listItem>
+            	<name>zoledronic acid intravenous</name><codeValue>02.21754</codeValue>
+            	</listItem>
+            <listItem>
+            	<name>Zometa intravenous</name>
+            	<codeValue>02.21757</codeValue></listItem>
+        </listDef>
+        <listDef>
+            <name>bisphosphonates</name>
+            <codeValue>16.03</codeValue>
+            <listType>class</listType>
+            <listItem>
+                <name>Fosamax</name>
+                <codeValue>01.1265</codeValue>
+            </listItem>
+            <listItem>
+                <name>risedronate</name>
+                <codeValue>01.7510</codeValue>
+            </listItem>
+            <listItem>
+                <name>alendronate</name>
+                <codeValue>01.1249</codeValue>
+            </listItem>
+            <listItem>
+                <name>Actonel</name>
+                <codeValue>01.15387</codeValue>
+            </listItem>
+            <listItem>
+                <name>zoledronic acid</name>
+                <codeValue>01.20382</codeValue>
+            </listItem>
+            <listItem>
+                <name>Zometa</name>
+                <codeValue>01.20384</codeValue>
+            </listItem>
+            <listItem>
+                <name>ibandronate</name>
+                <codeValue>01.79193</codeValue>
+            </listItem>
+            <listItem>
+                <name>zoledronic acid-mannitol-water</name>
+                <codeValue>01.113840</codeValue>
+            </listItem>
+            <listItem>
+                <name>Boniva</name>
+                <codeValue>01.79194</codeValue>
+            </listItem>
+            <listItem>
+                <name>Reclast</name>
+                <codeValue>01.113876</codeValue>
+            </listItem>
+            <listItem>
+                <name>Atelvia</name>
+                <codeValue>01.124640</codeValue>
+            </listItem>
+            <listItem>
+                <name>Binosto</name>
+                <codeValue>01.197285</codeValue>
+            </listItem>
+        </listDef>
+    </lists>
+</paload>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<?oxy_comment_start author="paulnguyen" timestamp="20141031T145036-0700" comment="Contra: Presence of prosthetic heart valve (ICD10: 12.Z95.2)"?>
+		<routedMedId><?oxy_comment_end?>156265</routedMedId>
+		<routedMedName>Xarelto 15 mg tablet</routedMedName>
+		<routedGenericName>rivaroxaban 15 mg tablet</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>568101</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Pulmonary Thromboembolism</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.1475</icd9>
+			<symbolic>PulmThromEmb</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.4096|02.77321|02.3949|02.163073|02.154839</codeValues>
+								<selectedListName>anticoagulant</selectedListName>
+								<selectedListClassCode>16.10</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>15 mg orally 2 times per day for 21 days, then 20 mg orally once per day</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>568101</medId>
+					<initPerDayDesc>2 tablets</initPerDayDesc>
+					<initPerIntervalDesc>42 per 21 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not Specified</renewPerDayDesc>
+					<renewPerIntervalDesc>Not Specified</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>21</dur>
+					<durUnit>d</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Product Information: Xarelto. Janssen Pharmaceuticals, Inc., 2014.</reference>
+				<reference>FDB/AHFS On-Line Pharmacy Reference.  Retrieved June 4, 2014, from http://inweb2/FDBReference/</reference>
+				<reference>Guyatt GH, Akl EA, Crowther M, et al.  Executive Summary : Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.  CHEST, 141(Suppl), 7S-47S.</reference>
+				<reference>The EINSTEIN-PE Investigators.  Oral Rivaroxaban for the Treatment of Symptomatic Pulmonary Embolism.  N Engl J Med, 366, 1287-97.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Deep Venous Thrombosis</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.1686</icd9>
+			<symbolic>DVT</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.4096|02.77321|02.3949|02.163073|02.154830</codeValues>
+								<selectedListName>anticoagulant</selectedListName>
+								<selectedListClassCode>16.10</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>15 mg orally 2 times per day for 21 days, then 20 mg orally once per day</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>568101</medId>
+					<initPerDayDesc>2 tablets</initPerDayDesc>
+					<initPerIntervalDesc>42 tablets per 21 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not Specified</renewPerDayDesc>
+					<renewPerIntervalDesc>Not Specified</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>21</dur>
+					<durUnit>d</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Product Information: Xarelto. Janssen Pharmaceuticals, Inc., 2014.</reference>
+				<reference>FDB/AHFS On-Line Pharmacy Reference.  Retrieved June 4, 2014, from http://inweb2/FDBReference/</reference>
+				<reference>Guyatt GH, Akl EA, Crowther M, et al.  Executive Summary : Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.  CHEST, 141(Suppl), 7S-47S.</reference>
+				<reference>The EINSTEIN-PE Investigators.  Oral Rivaroxaban for the Treatment of Symptomatic Venous Thromboembolism.  N Engl J Med, 363, 2499-510.</reference>
+				<reference>Prins MH, Lensing AW, Bauersachs R, et al.  Oral Rivaroxaban versus Standard Therapy for the Treatment of Symptomatic venous Thromboembolism: A Pooled Analysis of the EINSTEIN-DVT and PE Randomized Studies.  Thromobsis Journal, 11, 21.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Prevention of Thromboembolism with Chronic Atrial Fibrillation</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.5673</icd9>
+			<symbolic>PrevenThromEmbolwithChAFib</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.4096|02.77321|02.3949|02.163073|02.154839</codeValues>
+								<selectedListName>anticoagulant</selectedListName>
+								<selectedListClassCode>16.10</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>CrCl 15 to 50 mL/min: 15 mg once daily</text>
+				<text>CrCl >50 mL/min: 20 mg once daily</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>568101</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>1 tablet per day</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>1 tablet per day</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Product Information: Xarelto. Janssen Pharmaceuticals, Inc., 2014.</reference>
+				<reference>FDB/AHFS On-Line Pharmacy Reference.  Retrieved June 4, 2014, from http://inweb2/FDBReference/</reference>
+				<reference>Guyatt GH, Akl EA, Crowther M, et al.  Executive Summary : Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.  CHEST, 141(Suppl), 7S-47S.</reference>
+				<reference>Patel MR, Mahaffey KW, Garg J, et al.  Rivaroxaban versus Warfarin in Nonvalvular Atrial Fibrillation.  N Engl J Med, 365, 883-91.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>warfarin oral</name>
+			<codeValue>18.3949</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Coumadin oral</name>
+				<codeValue>02.4096</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jantoven oral</name>
+				<codeValue>02.77321</codeValue>
+			</listItem>
+			<listItem>
+				<name>warfarin oral</name>
+				<codeValue>02.3949</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>anticoagulant</name>
+			<codeValue>16.10</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>enoxaparin subcutaneous</name>
+				<codeValue>02.3475</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lovenox subcutaneous</name>
+				<codeValue>02.1837</codeValue>
+			</listItem>
+			<listItem>
+				<name>fondaparinux subcutaneous</name>
+				<codeValue>02.22499</codeValue>
+			</listItem>
+			<listItem>
+				<name>Arixtra subcutaneous</name>
+				<codeValue>02.22498</codeValue>
+			</listItem>
+			<listItem>
+				<name>Fragmin subcutaneous</name>
+				<codeValue>02.7320</codeValue>
+			</listItem>
+			<listItem>
+				<name>warfarin oral</name>
+				<codeValue>02.3949</codeValue>
+			</listItem>
+			<listItem>
+				<name>Coumadin oral</name>
+				<codeValue>02.4096</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jantoven oral</name>
+				<codeValue>02.77321</codeValue>
+			</listItem>
+			<listItem>
+				<name>Eliquis oral</name>
+				<codeValue>02.163073</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pradaxa oral</name>
+				<codeValue>02.154839</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

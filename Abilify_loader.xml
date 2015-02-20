@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>64439</routedMedId>
+		<routedMedName>Abilify oral</routedMedName>
+		<routedGenericName>aripiprazole oral</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>03.473182</medId>
+			<medId>03.446836</medId>
+			<medId>03.446837</medId>
+			<medId>03.476034</medId>
+			<medId>03.446838</medId>
+			<medId>03.446839</medId>
+			<medId>03.451010</medId>
+			<medId>03.545817</medId>
+			<medId>03.545818</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>23butMilifound13.Bipolar I Disorder</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>10</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.F31.0 | 12.F31.1 | 12.F31.2 | 12.F31.3 | 12. F31.4 | 12. F31.5 | 12. F31.6 | 12. F31.7 |  12.F31.8 |  12.F31.9</icd9>
+			<symbolic>abilibipolar</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment/>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment/>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>anytwo</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>162761 152902 1644 1699 19876 4689 4718 148614 75142 9846 6283 20575 20568</codeValues>
+								<selectedListName>Atypical Antipsychotics</selectedListName>
+								<selectedListClassCode>10.28160804 </selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>4 to 6</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anytwo</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>15 mg given once daily as  monotherapy</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>473182</medId>
+					<initPerDayDesc>30 mL</initPerDayDesc>
+					<initPerIntervalDesc>900 mL per month</initPerIntervalDesc>
+					<renewPerDayDesc>30 mL</renewPerDayDesc>
+					<renewPerIntervalDesc>900 mL per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId> 446836 446837 476034 446838 446839 451010 545817 545818 </medId>
+					<initPerDayDesc>30 mg</initPerDayDesc>
+					<initPerIntervalDesc>30 mg per day</initPerIntervalDesc>
+					<renewPerDayDesc>30 mg</renewPerDayDesc>
+					<renewPerIntervalDesc>30 mg per day</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>22.Schizophrenia</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin>13</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>F20.1 | 12. F20.2 | 12. F20.3 | 12. F20.4 | F20.5 | 12. F20.6 | 12. F20.7 |  12.F20.8 |  12.F20.9</icd9>
+			<symbolic>abilischizo</symbolic>
+			<rating/>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion/>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment/>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment/>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>any</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues>162761 152902 1644 1699 19876 4689 4718 148614 75142 9846 6283 20575 20568 153413 146745</codeValues>
+								<selectedListName>Atypical Antipsychotics</selectedListName>
+								<selectedListClassCode>10.28160804 </selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>2-6</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anytwo</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>10 mg/day or 15 mg/day administered on a once-a-day schedule without regard to meals</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>473182</medId>
+					<initPerDayDesc>30 mL </initPerDayDesc>
+					<initPerIntervalDesc>900 mL per month</initPerIntervalDesc>
+					<renewPerDayDesc>30 mL </renewPerDayDesc>
+					<renewPerIntervalDesc>30 mL  per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId> 446836 446837 476034 446838 446839 451010 545817 545818 </medId>
+					<initPerDayDesc>30 mg</initPerDayDesc>
+					<initPerIntervalDesc>30 mg  per day</initPerIntervalDesc>
+					<renewPerDayDesc>30 mg</renewPerDayDesc>
+					<renewPerIntervalDesc>30 mg per day</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>23.03.Adjunctive Treatment of Major Depressive Disorder </fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9/>
+			<symbolic>abilidepress</symbolic>
+			<rating/>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion/>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment/>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment/>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues>8611 1919 11034 151973 78613 146637 13507 162178 13509 14211 76851 8603 1701 1776 1305 8323 6936 165310 163933 164859 150251 8647 91491 91490 63989 63990 1774 6997 1049 150188 8664 7047 7049 7048 11985 165446 8672 13706 13707 20404 4286 10710 1820 78206 78212 78102 6969 32900 6968 2846 9353 8827 12167 12169 95354 1 35 6965 6966 154303 11188 7031 7032 4896 4870 155880 165188</codeValues>
+								<selectedListName>Antidepressants</selectedListName>
+								<selectedListClassCode>removedfew9.526</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>6</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>anythree</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>8611 1919 11034 151973 78613 146637 13507 162178 13509 14211 76851 8603 1701 1776 1305 8323 6936 165310 163933 164859 150251 8647 91491 91490 63989 63990 1774 6997 1049 150188 8664 7047 7049 7048 11985 165446 8672 13706 13707 20404 4286 10710 1820 78206 78212 78102 6969 32900 6968 2846 9353 8827 12167 12169 95354 1 35 6965 6966 154303 11188 7031 7032 4896 4870 155880 165188</codeValues>
+								<selectedListName>Antidepressants</selectedListName>
+								<selectedListClassCode>removedfew9.526</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur>6</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anythree</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>5-10mg/day (titrated from 2 mg/day)</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>473182</medId>
+					<initPerDayDesc>15 mL</initPerDayDesc>
+					<initPerIntervalDesc>450 mL per month</initPerIntervalDesc>
+					<renewPerDayDesc>15 mL </renewPerDayDesc>
+					<renewPerIntervalDesc>450 mL per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId> 446836 446837 476034 446838 446839 451010 545817 545818 </medId>
+					<initPerDayDesc>15 mg</initPerDayDesc>
+					<initPerIntervalDesc>15 mg per day</initPerIntervalDesc>
+					<renewPerDayDesc>15 mg </renewPerDayDesc>
+					<renewPerIntervalDesc>15 mg per day</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+				<reference>Fava M. Diagnosis and definition of treatment-resistant depression. Biol Psychiatry. 2003;53(8):649-59.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>23.04.Irritability Associated with Autistic Disorder</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin>6</ageRangeMin>
+				<ageRangeMax>17</ageRangeMax>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>299.0</icd9>
+			<symbolic>abiliautis</symbolic>
+			<rating/>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>not applicable</name>
+					<code>not applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion/>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment/>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment/>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>any</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name>Risperdal</name>
+								<codeValues>9846 | 75142 </codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>4</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>line</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Dosing should be initiated at 2 mg/day. The dose should be increased to 5 mg/day, with  subsequent increases to 10 mg/day or 15 mg/day if needed. </text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>473182</medId>
+					<initPerDayDesc>15 mL</initPerDayDesc>
+					<initPerIntervalDesc>450 mL per month</initPerIntervalDesc>
+					<renewPerDayDesc>15 mL</renewPerDayDesc>
+					<renewPerIntervalDesc>450 mL per month</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId> 446836 446837 476034 446838 446839 451010 545817 545818 </medId>
+					<initPerDayDesc>15 mg</initPerDayDesc>
+					<initPerIntervalDesc>15 mg per day</initPerIntervalDesc>
+					<renewPerDayDesc>15mg</renewPerDayDesc>
+					<renewPerIntervalDesc>15 mg per day</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+	</lists>
+</paload>

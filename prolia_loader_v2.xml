@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="uuid-here" version="1.0">
+    <toplevel>
+        <routedMedId>154218</routedMedId>
+        <routedMedName>Prolia subcutaneous</routedMedName>
+        <routedGenericName>denosumab subcutaneous</routedGenericName>
+        <etcIds>
+            <etc_id>6239</etc_id>
+        </etcIds>
+        <medIds>
+            <medId>561413</medId>
+        </medIds>
+    </toplevel>
+    <diagnoses>
+        <diagnosis>
+            <fqn>Osteoporosis with high risk of fracture (female member)</fqn>
+            <icd9>2896</icd9>
+            <symbolic>ostfemale</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name>high risk of fracture</name>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+                <prescriber>
+                    <name>Not Appicable</name>
+                    <code>Not Applicable</code>
+                </prescriber>
+            </prescribers>
+            <age>Greater than 18 years</age>
+            <triedtherapy>
+                <criteriaSet>
+                    <patientHxType>
+                        <typeName>any</typeName>
+                        <treatment/>
+                    </patientHxType>
+                    <preferredTherapy>
+                        <treatment>
+                            <treatmentLine>
+                                <ineligibilityFlag>true</ineligibilityFlag>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>01.1265|01.15387|01.1249|01.124640|01.197285|01.79194|01.79193|01.113876|01.7510|01.20382|01.113840|01.20384</codeValues>
+                                <selectedListName>Bone Resorption Inhibitors - Bisphosphonates</selectedListName>
+                                <selectedListClassCode>01.176</selectedListClassCode>
+                                <dur></dur>
+                                <durUnit/>
+                                <durModifier/>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                           </treatment>
+                           <treatment>
+                            <treatmentLine>
+                                <ineligibilityFlag>false</ineligibilityFlag>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>01.1265|01.15387|01.1249|01.124640|01.197285|01.79194|01.79193|01.113876|01.7510|01.20382|01.113840|01.20384</codeValues>
+                                <selectedListName>Bone Resorption Inhibitors - Bisphosphonates</selectedListName>
+                                <selectedListClassCode>01.176</selectedListClassCode>
+                                <dur>12</dur>
+                                <durUnit>months</durUnit>
+                                <durModifier>at least</durModifier>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any 2</numRequired>
+                            </treatmentLine>
+                        </treatment>
+                        <numRequired>any</numRequired>
+                    </preferredTherapy>
+                </criteriaSet>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur/>
+                    <durUnit/>
+                </overallMax>
+            </durations>
+            <references>
+                <reference>
+                    <indicationName/>
+                    <indicationCode/>
+                    <citation/>
+                </reference>
+            </references>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+        <diagnosis>
+            <fqn>Osteoporosis with high risk of fracture (male member)</fqn>
+            <icd9>2896</icd9>
+            <symbolic>ostmale</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name>high risk of fracture</name>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+                <prescriber>
+                    <name>Not Appicable</name>
+                    <code>Not Applicable</code>
+                </prescriber>
+            </prescribers>
+            <age>Greater than 18 years</age>
+            <triedtherapy>
+                <criteriaSet>
+                    <patientHxType>
+                        <typeName>any</typeName>
+                        <treatment/>
+                    </patientHxType>
+                    <preferredTherapy>
+                        <treatment>
+                            <treatmentLine>
+                                <ineligibilityFlag>true</ineligibilityFlag>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>01.1265|01.15387|01.1249|01.124640|01.197285|01.79194|01.79193|01.113876|01.7510|01.20382|01.113840|01.20384</codeValues>
+                                <selectedListName>Bone Resorption Inhibitors - Bisphosphonates</selectedListName>
+                                <selectedListClassCode>01.176</selectedListClassCode>
+                                <dur/>
+                                <durUnit/>
+                                <durModifier/>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any</numRequired>
+                            </treatmentLine>
+                           </treatment>
+                           <treatment>
+                            <treatmentLine>
+                                <ineligibilityFlag>false</ineligibilityFlag>
+                                <option>OR</option>
+                                <interventionType>group</interventionType>
+                                <codeValues>01.1265|01.15387|01.1249|01.124640|01.197285|01.79194|01.79193|01.113876|01.7510|01.20382|01.113840|01.20384</codeValues>
+                                <selectedListName>Bone Resorption Inhibitors - Bisphosphonates</selectedListName>
+                                <selectedListClassCode>01.176</selectedListClassCode>
+                                <dur>12</dur>
+                                <durUnit>months</durUnit>
+                                <durModifier>at least</durModifier>
+                                <timeframe>no timeframe specified</timeframe>
+                                <numRequired>any 2</numRequired>
+                            </treatmentLine>
+                        </treatment>
+                        <numRequired>any</numRequired>
+                    </preferredTherapy>
+                </criteriaSet>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur/>
+                    <durUnit/>
+                </overallMax>
+            </durations>
+            <references>
+                <reference>
+                    <indicationName/>
+                    <indicationCode/>
+                    <citation/>
+                </reference>
+            </references>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+        <diagnosis>
+            <fqn>Long term (current) use of aromatase inhibitors/Malignant neoplasm of breast</fqn>
+            <icd9>Z79.811</icd9>
+            <symbolic>neobreast</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name/>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+            </prescribers>
+            <age>Greater than 18 years</age>
+            <comorbidity>
+                <name>Malignant neoplasm of breast</name>
+                <icd9>C50</icd9>
+                <dur/>
+                <durUnit/>
+            </comorbidity>
+            <triedtherapy>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur/>
+                    <durUnit/>
+                </overallMax>
+            </durations>
+            <references>
+                <reference>
+                    <indicationName/>
+                    <indicationCode/>
+                    <citation>National Osteoporosis Foundation. Clinician's Guide to Prevention and Treatment of Osteoporosis. http://nof.org/files/nof/public/content/file/2610/upload/895.pdf. Published April 1, 2014. Accessed August 1, 2014.</citation>
+                </reference>
+                <reference>
+                    <indicationName/>
+                    <indicationCode/>
+                    <citation>Watts NB, Adler RA, Bilezikian JP, Drake MT, Eastell R, Orwoll ES, et al. Osteoporosis in men: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2012;97:1802-22. (Also available on the Endocrine Society’s website http://www.endo-society.org/guidelines/Current-Clinical-Practice-Guidelines.cfm)</citation>
+                </reference>
+                <reference>
+                    <indicationName/>
+                    <indicationCode/>
+                    <citation>Kanis JA; World Health Organization Scientific Group. Assessment of osteoporosis at the primary health care level. http://www.shef.ac.uk/FRAX/pdfs/WHO_Technical_Report.pdf. Published 2007.  Accessed August 1, 2014.
+ </citation>
+                </reference>
+            </references>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+        <diagnosis>
+            <fqn>Bone Loss Secondary to Cancer Treatment/Malignant neoplasm of prostate</fqn>
+            <icd9/>
+            <symbolic>neoprostate</symbolic>
+            <rating>labeledDx</rating>
+            <genotype/>
+            <subtype>
+                <name/>
+                <dur/>
+                <durUnit/>
+            </subtype>
+            <prescribers>
+            </prescribers>
+            <age>Greater than 18 years</age>
+            <comorbidity>
+                <name>Malignant neoplasm of prostate</name>
+                <icd9>C61</icd9>
+                <dur/>
+                <durUnit/>
+            </comorbidity>
+            <triedtherapy>
+            </triedtherapy>
+            <dosing>
+                <text>60 mg subcutaneously once every 6 months</text>
+            </dosing>
+            <instructions>
+                <instruction/>
+            </instructions>
+            <qlimits>
+                <qlimit>
+                    <medid>561413</medid>
+                    <initPerDayDesc>Not Specified</initPerDayDesc>
+                    <initPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</initPerIntervalDesc>
+                    <renewPerDayDesc>Not Specified</renewPerDayDesc>
+                    <renewPerIntervalDesc>60mg per 6 months (1 injection per 6 months)</renewPerIntervalDesc>
+                </qlimit>
+            </qlimits>
+            <durations>
+                <initialDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </initialDur>
+                <renewalDur>
+                    <dur>12</dur>
+                    <durUnit>months</durUnit>
+                </renewalDur>
+                <overallMax>
+                    <dur/>
+                    <durUnit/>
+                </overallMax>
+            </durations>
+            <references>
+                <reference>
+                    <indicationName/>
+                    <indicationCode/>
+                    <citation/>
+                </reference>
+            </references>
+            <exclusions/>
+            <precautions>
+                <precaution>
+                    <text/>
+                    <severity/>
+                </precaution>
+            </precautions>
+        </diagnosis>
+    </diagnoses>
+    <precautions>
+    </precautions>
+    <lists>
+        <listDef>
+            <name>Bone Resorption Inhibitors - Bisphosphonates</name>
+            <codeValue>01.176</codeValue>
+            <listType>drugclass</listType>
+            <listItem>
+                <name>Fosamax</name>
+                <codeValue>01.1265</codeValue>
+            </listItem>
+            <listItem>
+                <name>risedronate</name>
+                <codeValue>01.7510</codeValue>
+            </listItem>
+            <listItem>
+                <name>alendronate</name>
+                <codeValue>01.1249</codeValue>
+            </listItem>
+            <listItem>
+                <name>Actonel</name>
+                <codeValue>01.15387</codeValue>
+            </listItem>
+            <listItem>
+                <name>zoledronic acid</name>
+                <codeValue>01.20382</codeValue>
+            </listItem>
+            <listItem>
+                <name>Zometa</name>
+                <codeValue>01.20384</codeValue>
+            </listItem>
+            <listItem>
+                <name>ibandronate</name>
+                <codeValue>01.79193</codeValue>
+            </listItem>
+            <listItem>
+                <name>zoledronic acid-mannitol-water</name>
+                <codeValue>01.113840</codeValue>
+            </listItem>
+            <listItem>
+                <name>Boniva</name>
+                <codeValue>01.79194</codeValue>
+            </listItem>
+            <listItem>
+                <name>Reclast</name>
+                <codeValue>01.113876</codeValue>
+            </listItem>
+            <listItem>
+                <name>Atelvia</name>
+                <codeValue>01.124640</codeValue>
+            </listItem>
+            <listItem>
+                <name>Binosto</name>
+                <codeValue>01.197285</codeValue>
+            </listItem>
+        </listDef>
+    </lists>
+</paload>

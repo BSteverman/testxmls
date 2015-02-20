@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>17549</routedMedId>
+		<routedMedName>Lidoderm 5% (700mg/patch) adhesive patch</routedMedName>
+		<routedGenericName>lidocaine 5% (700mg/patch) adhesive patch</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>228950</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Neuropathic Pain Well-Localized</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin/>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.13795</icd9>
+			<symbolic>NeuropathPain</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment> </treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment> </treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>anytwo</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.14208|02.156747|02.156765|02.154312|02.9845</codeValues>
+								<selectedListName>gabapentin oral</selectedListName>
+								<selectedListClassCode>18.14208</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Lyrica oral</name>
+								<codeValues>02.93965</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.91490|02.91491</codeValues>
+								<selectedListName>duloxetine oral</selectedListName>
+								<selectedListClassCode>18.91490</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.4896|02.4870</codeValues>
+								<selectedListName>venlaflaxine oral</selectedListName>
+								<selectedListClassCode>18.4870</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.8611|02.11034|02.1776|02.1305|02.8323|02.8647|02.8664|02.7049|02.8672|02.6936|02.10710|02.1820|02.12167|02.7031|02.7047|02.7048|02.7032|02.12169</codeValues>
+								<selectedListName>Antidepressant - Tricyclics &amp; Related (Non-Select Reuptake Inhibitors) </selectedListName>
+								<selectedListClassCode>14.2589</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Lidoderm 5 % (700 mg/patch) topically 1- 3 patches every day; apply up to 12 hours in a 24 hour period</text>
+			</dosing>
+			<instructions>
+				<instruction>Skin to where patch is applied must be intact.</instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>228950</medId>
+					<initPerDayDesc>3 patches</initPerDayDesc>
+					<initPerIntervalDesc>90 patches per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>3 patches</renewPerDayDesc>
+					<renewPerIntervalDesc/>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference/>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Postherpetic Neuralgia</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin/>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.166</icd9>
+			<symbolic>PostHerpNeur</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment> </treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment> </treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>anytwo</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.14208|02.156747|02.156765|02.154312|02.9845</codeValues>
+								<selectedListName>gabapentin oral</selectedListName>
+								<selectedListClassCode>18.14208</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>30</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Lyrica oral</name>
+								<codeValues>02.93965</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>30</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.8611|02.11034|02.1776|02.1305|02.8323|02.8647|02.8664|02.7049|02.8672|02.6936|02.10710|02.1820|02.12167|02.7031|02.7047|02.7048|02.7032|02.12169</codeValues>
+								<selectedListName>Antidepressant - Tricyclics &amp; Related (Non-Select Reuptake Inhibitors) </selectedListName>
+								<selectedListClassCode>14.2589</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>30</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.61856|02.4181|02.162771|02.150180|02.61857|02.415|02.146012|02.162821|02.22058|02.16986|02.12192|02.9750|02.11290|02.11201|02.153531|02.6042|02.165700</codeValues>
+								<selectedListName>capsaicin topical</selectedListName>
+								<selectedListClassCode>18.4181</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>30</dur>
+								<durUnit>d</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Lidoderm 5 % (700 mg/patch) topically 1- 3 patches every day; apply up to 12 hours in a 24 hour period</text>
+			</dosing>
+			<instructions>
+				<instruction>Skin to where patch is applied must be intact.</instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>228950</medId>
+					<initPerDayDesc>3 patches</initPerDayDesc>
+					<initPerIntervalDesc>90 patches per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>3 patches</renewPerDayDesc>
+					<renewPerIntervalDesc/>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference/>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Non-neuropathic chronic pain</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin/>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>23.01</icd9>
+			<symbolic>NonNeuroChronPain</symbolic>
+			<rating>recommendedDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment> </treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment> </treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>anythree</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.8611|02.11034|02.1776|02.1305|02.8323|02.8647|02.8664|02.7049|02.8672|02.6936|02.10710|02.1820|02.12167|02.7031|02.7047|02.7048|02.7032|02.12169</codeValues>
+								<selectedListName>Antidepressant - Tricyclics &amp; Related (Non-Select Reuptake Inhibitors) </selectedListName>
+								<selectedListClassCode>14.2589</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.91490|02.91491</codeValues>
+								<selectedListName>duloxetine oral</selectedListName>
+								<selectedListClassCode>18.91490</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.4896|02.4870</codeValues>
+								<selectedListName>venlaflaxine oral</selectedListName>
+								<selectedListClassCode>18.4870</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>01.79373|01.6428|01.117057|01.886|01.361|01.115622|01.181868|01.114870|01.57386|01.48364|01.119621|01.8623|01.15742|01.113927|01.190866|01.122800|01.3909|01.8678|01.78603|01.56954|01.150173|01.114019|01.78592|01.80255|01.123900|01.218047|01.88|01.56108|01.17154|01.138265|01.9256|01.15700|01.50627|01.80676|01.7877|01.578|01.15396|01.4801|01.522|01.3796|01.5453|01.6224|01.126504|01.110190|01.119398|01.5012|01.3327|01.20515|01.799|01.26425|01.223|01.3328|01.124720|01.110032|01.114358|01.1074|01.237025|01.3899|01.3898|01.123100|01.63179|01.63207|01.18952|01.80775|01.3133|01.194645|01.6808|01.20506|01.9030</codeValues>
+								<selectedListName>acetaminophen</selectedListName>
+								<selectedListClassCode>17.361</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.155249|02.16877|02.6592|02.17303|02.9008|02.32971|02.7420|02.156872|02.94436|02.3914|02.4334|02.92245|02.153686|02.9130|02.11561|02.152569|02.4101|02.14008|02.9629|02.153887|02.152015|02.153048|02.18497|02.21447|02.151654|02.156501|02.6253|02.145471|02.153047|02.151870|02.148416|02.21373|02.151871|02.156682|02.1423|02.154569|02.6102|02.11338|02.89226|02.1509|02.157448|02.8600|02.94294|02.20054|02.5598|02.4055|02.19907|02.155959|02.4105|02.11996|02.156918|02.2671|02.9730|02.160326|02.151835|02.94443|02.162500|02.4348|02.76151|02.91700|02.21423|02.20055|02.21372|02.3891|02.148127|02.18436|02.327|02.6508|02.1507|02.156955|02.152563|02.153023|02.144617|02.148225|02.144616|02.1508|02.159330|02.1025|02.2798|02.144614|02.3499|02.154029|02.152125|02.159333|02.4398|02.94892|02.11276|02.165699</codeValues>
+								<selectedListName>Analgesic Narcotic Agonists</selectedListName>
+								<selectedListClassCode>14.583</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.78568|02.251|02.4636|02.150021|02.166108|02.15828|02.3453|02.3452|02.166144|02.166142|02.166143|02.78569|02.7292|02.20041|02.63|02.90483|02.3456|02.166562|02.15915|02.3471|02.3459|02.4635|02.144032|02.144489|02.144488|02.166917|02.150977|02.154962|02.3460</codeValues>
+								<selectedListName>Analgesic Narcotic Hydrocodone Combinations</selectedListName>
+								<selectedListClassCode>14.589</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94173|02.20833|02.6143|02.1098|02.17236|02.89454|02.9771|02.10989|02.10612|02.152733|02.154102|02.154102|02.9836|02.10330|02.6746|02.4284|02.5988|02.4057|02.214|02.10963|02.8333|02.166687|02.13459|02.21045|02.17976|02.74995|02.5166|02.9252|02.10968|02.8880|02.13445|02.17655|02.5995|02.6419|02.4688|02.3919|02.8673|02.16712|02.16712|02.21369|02.11586|02.911|02.160419|02.18173|02.9330|02.4387|02.7005|02.6919|02.153228|02.1705|02.5173|02.11643|02.6747|02.10942|02.11590|02.14655|02.155891|02.8714|02.11044|02.12377|02.92767|02.93221|02.152752|02.165333</codeValues>
+								<selectedListName>NSAID Analgesics (Cyclooxygenase Inhibitors-Non-Selective)</selectedListName>
+								<selectedListClassCode>14.6220</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Celebrex oral</name>
+								<codeValues>02.16849</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Lidoderm 5 % (700 mg/patch) topically 1- 3 patches every day; apply up to 12 hours in a 24 hour period</text>
+			</dosing>
+			<instructions>
+				<instruction>Skin to where patch is applied must be intact.</instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>228950</medId>
+					<initPerDayDesc>3 patches</initPerDayDesc>
+					<initPerIntervalDesc>90 patches per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>3 patches</renewPerDayDesc>
+					<renewPerIntervalDesc/>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference/>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>gabapentin oral</name>
+			<codeValue>18.14208</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Fanatrex oral</name>
+				<codeValue>02.154312</codeValue>
+			</listItem>
+			<listItem>
+				<name>gabapentin oral</name>
+				<codeValue>02.14208</codeValue>
+			</listItem>
+			<listItem>
+				<name>Gralise oral</name>
+				<codeValue>02.156747</codeValue>
+			</listItem>
+			<listItem>
+				<name>Gralise 30-Day Starter Pack oral</name>
+				<codeValue>02.156765</codeValue>
+			</listItem>
+			<listItem>
+				<name>Neurontin oral</name>
+				<codeValue>02.9845</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>duloxetine oral</name>
+			<codeValue>18.91490</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Cymbalta oral</name>
+				<codeValue>02.91491</codeValue>
+			</listItem>
+			<listItem>
+				<name>duloxetine oral</name>
+				<codeValue>02.91490</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>venlaflaxine oral</name>
+			<codeValue>18.4870</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Effexor XR oral</name>
+				<codeValue>02.4896</codeValue>
+			</listItem>
+			<listItem>
+				<name>venlaflaxine oral</name>
+				<codeValue>02.4870</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Antidepressant - Tricyclics &amp; Related (Non-Select Reuptake Inhibitors) </name>
+			<codeValue>14.2589</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>amitriptyline oral</name>
+				<codeValue>02.8611</codeValue>
+			</listItem>
+			<listItem>
+				<name>amoxapine oral</name>
+				<codeValue>02.11034</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anafranil oral</name>
+				<codeValue>02.1776</codeValue>
+			</listItem>
+			<listItem>
+				<name>clomipramine oral</name>
+				<codeValue>02.1305</codeValue>
+			</listItem>
+			<listItem>
+				<name>desipramine oral</name>
+				<codeValue>02.8323</codeValue>
+			</listItem>
+			<listItem>
+				<name>doxepin oral</name>
+				<codeValue>02.8647</codeValue>
+			</listItem>
+			<listItem>
+				<name>imipramine oral</name>
+				<codeValue>02.8664</codeValue>
+			</listItem>
+			<listItem>
+				<name>imipramine pamoate oral</name>
+				<codeValue>02.7049</codeValue>
+			</listItem>
+			<listItem>
+				<name>maprotiline oral </name>
+				<codeValue>02.8672</codeValue>
+			</listItem>
+			<listItem>
+				<name>Norpramin oral</name>
+				<codeValue>02.6936</codeValue>
+			</listItem>
+			<listItem>
+				<name>nortriptyline oral</name>
+				<codeValue>02.10710</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pamelor oral</name>
+				<codeValue>02.1820</codeValue>
+			</listItem>
+			<listItem>
+				<name>protriptyline oral</name>
+				<codeValue>02.12167</codeValue>
+			</listItem>
+			<listItem>
+				<name>Surmontil oral</name>
+				<codeValue>02.7031</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tofranil oral</name>
+				<codeValue>02.7047</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tofranil-PM oral</name>
+				<codeValue>02.7048</codeValue>
+			</listItem>
+			<listItem>
+				<name>trimipramine oral</name>
+				<codeValue>02.7032</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vivactil oral</name>
+				<codeValue>02.12169</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>capsaicin topical</name>
+			<codeValue>18.4181</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Arthritis Pain Relief (capsaicin) topical</name>
+				<codeValue>02.61856</codeValue>
+			</listItem>
+			<listItem>
+				<name>capsaicin topical</name>
+				<codeValue>02.4181</codeValue>
+			</listItem>
+			<listItem>
+				<name>Capsicum topical</name>
+				<codeValue>02.162771</codeValue>
+			</listItem>
+			<listItem>
+				<name>Capzasin topical</name>
+				<codeValue>02.150180</codeValue>
+			</listItem>
+			<listItem>
+				<name>Capzasin-HP topical</name>
+				<codeValue>02.61857</codeValue>
+			</listItem>
+			<listItem>
+				<name>Capzasin-P topical</name>
+				<codeValue>02.415</codeValue>
+			</listItem>
+			<listItem>
+				<name>High Potency Capsaicin topical</name>
+				<codeValue>02.146012</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medicated Heat Patch topical</name>
+				<codeValue>02.162821</codeValue>
+			</listItem>
+			<listItem>
+				<name>Muscle Relief topical</name>
+				<codeValue>02.22058</codeValue>
+			</listItem>
+			<listItem>
+				<name>Salonpas-Hot topical</name>
+				<codeValue>02.16986</codeValue>
+			</listItem>
+			<listItem>
+				<name>Theragen topical</name>
+				<codeValue>02.12192</codeValue>
+			</listItem>
+			<listItem>
+				<name>Trixaicin topical</name>
+				<codeValue>02.9750</codeValue>
+			</listItem>
+			<listItem>
+				<name>Trixaicin HP topical</name>
+				<codeValue>02.11290</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zostrix topical</name>
+				<codeValue>02.11201</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zostrix Diabetic topical</name>
+				<codeValue>02.153531</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zostrix-HP topical</name>
+				<codeValue>02.6042</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zostrix-HP Foot topical</name>
+				<codeValue>02.165700</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>acetaminophen</name>
+			<codeValue>17.361</codeValue>
+			<listType>generic</listType>	
+			
+			<listItem>
+				<name>8 HOUR PAIN RELIEVER</name>
+				<codeValue>01.79373</codeValue>
+			</listItem>
+			<listItem>
+				<name>Acephen</name>
+				<codeValue>01.6428</codeValue>
+			</listItem>
+			<listItem>
+				<name>AcetaDrink</name>
+				<codeValue>01.117057</codeValue>
+			</listItem>
+			<listItem>
+				<name>Acetaminophen Extra Strength</name>
+				<codeValue>01.886</codeValue>
+			</listItem>
+			<listItem>
+				<name>acetaminophen</name>
+				<codeValue>01.361</codeValue>
+			</listItem>
+			<listItem>
+				<name>Acetaminophen Pain Relief</name>
+				<codeValue>01.115622</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aphen</name>
+				<codeValue>01.181868</codeValue>
+			</listItem>
+			<listItem>
+				<name>Arthritis Pain Relief (acetam)</name>
+				<codeValue>01.114870</codeValue>
+			</listItem>
+			<listItem>
+				<name>Arthritis Pain Reliever</name>
+				<codeValue>01.57386</codeValue>
+			</listItem>
+			<listItem>
+				<name>Athenol</name>
+				<codeValue>01.48364</codeValue>
+			</listItem>
+			<listItem>
+				<name>BetaTemp</name>
+				<codeValue>01.119621</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ed-APAP</name>
+				<codeValue>01.8623</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ex-Strength Medi-Tabs</name>
+				<codeValue>01.15742</codeValue>
+			</listItem>
+			<listItem>
+				<name>Extended Pain Relief</name>
+				<codeValue>01.113927</codeValue>
+			</listItem>
+			<listItem>
+				<name>Fever Reducer &amp; Pain Reliever</name>
+				<codeValue>01.190866</codeValue>
+			</listItem>
+			<listItem>
+				<name>Fever Reducer</name>
+				<codeValue>01.122800</codeValue>
+			</listItem>
+			<listItem>
+				<name>Feverall</name>
+				<codeValue>01.3909</codeValue>
+			</listItem>
+			<listItem>
+				<name>Genapap</name>
+				<codeValue>01.8678</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jr Str Non-Aspirin Quick Melts</name>
+				<codeValue>01.78603</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jr. Acetaminophen</name>
+				<codeValue>01.56954</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jr. Str Non-Aspirin Pain</name>
+				<codeValue>01.150173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jr. Strength Pain Reliever</name>
+				<codeValue>01.114019</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jr. Tylenol Meltaways</name>
+				<codeValue>01.78592</codeValue>
+			</listItem>
+			<listItem>
+				<name>Junior Mapap</name>
+				<codeValue>01.80255</codeValue>
+			</listItem>
+			<listItem>
+				<name>Little Fevers</name>
+				<codeValue>01.123900</codeValue>
+			</listItem>
+			<listItem>
+				<name>Little Remedies Fever &amp; Pain</name>
+				<codeValue>01.218047</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mapap (acetaminophen)</name>
+				<codeValue>01.88</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mapap Arthritis Pain</name>
+				<codeValue>01.56108</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mapap Extra Strength</name>
+				<codeValue>01.17154</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mapap Infants'</name>
+				<codeValue>01.138265</codeValue>
+			</listItem>
+			<listItem>
+				<name>Masophen</name>
+				<codeValue>01.9256</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Tabs</name>
+				<codeValue>01.15700</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Tabs Pain Reliever</name>
+				<codeValue>01.50627</codeValue>
+			</listItem>
+			<listItem>
+				<name>NON-ASPIRIN 8 HOUR</name>
+				<codeValue>01.80676</codeValue>
+			</listItem>
+			<listItem>
+				<name>Non-Aspirin Extra Strength</name>
+				<codeValue>01.7877</codeValue>
+			</listItem>
+			<listItem>
+				<name>Non-Aspirin Infant</name>
+				<codeValue>01.578</codeValue>
+			</listItem>
+			<listItem>
+				<name>Non-Aspirin Infants</name>
+				<codeValue>01.15396</codeValue>
+			</listItem>
+			<listItem>
+				<name>Non-Aspirin Jr Strength</name>
+				<codeValue>01.4801</codeValue>
+			</listItem>
+			<listItem>
+				<name>Non-Aspirin</name>
+				<codeValue>01.522</codeValue>
+			</listItem>
+			<listItem>
+				<name>Non-Aspirin Pain Relief</name>
+				<codeValue>01.3796</codeValue>
+			</listItem>
+			<listItem>
+				<name>Non-Aspirin Pain Reliever</name>
+				<codeValue>01.5453</codeValue>
+			</listItem>
+			<listItem>
+				<name>Nortemp</name>
+				<codeValue>01.6224</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ofirmev</name>
+				<codeValue>01.126504</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain &amp; Fever</name>
+				<codeValue>01.110190</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Relief Adult</name>
+				<codeValue>01.119398</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Relief Extra Strength</name>
+				<codeValue>01.5012</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Relief</name>
+				<codeValue>01.3327</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Relief Regular Strength</name>
+				<codeValue>01.20515</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Reliever Extra Strength</name>
+				<codeValue>01.799</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Reliever Jr Strength</name>
+				<codeValue>01.26425</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Reliever</name>
+				<codeValue>01.223</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pain Relieving</name>
+				<codeValue>01.3328</codeValue>
+			</listItem>
+			<listItem>
+				<name>PediaCare Fever Reducer</name>
+				<codeValue>01.124720</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pharbetol</name>
+				<codeValue>01.110032</codeValue>
+			</listItem>
+			<listItem>
+				<name>Q-PAP Extra Strength</name>
+				<codeValue>01.114358</codeValue>
+			</listItem>
+			<listItem>
+				<name>Q-PAP</name>
+				<codeValue>01.1074</codeValue>
+			</listItem>
+			<listItem>
+				<name>Silapap</name>
+				<codeValue>01.237025</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tactinal Extra Strength</name>
+				<codeValue>01.3899</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tactinal</name>
+				<codeValue>01.3898</codeValue>
+			</listItem>
+			<listItem>
+				<name>Triaminic Fever Reducer</name>
+				<codeValue>01.123100</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol 8 Hour</name>
+				<codeValue>01.63179</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol Arthritis</name>
+				<codeValue>01.63207</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol Arthritis Pain</name>
+				<codeValue>01.18952</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol Ex Str Arthritis Pain</name>
+				<codeValue>01.80775</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol Extra Strength</name>
+				<codeValue>01.3133</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol Ex Str Rapid Release</name>
+				<codeValue>01.194645</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol</name>
+				<codeValue>01.6808</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylenol Sore Throat</name>
+				<codeValue>01.20506</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tylophen</name>
+				<codeValue>01.9030</codeValue>
+			</listItem>	
+		</listDef>
+		<listDef>
+			<name>Analgesic Narcotic Agonists</name>
+			<codeValue>14.583</codeValue>
+			<listType>class</listType>	
+			<listItem>
+				<name>Abstral sublingual</name>
+				<codeValue>02.155249</codeValue>
+			</listItem>
+			<listItem>
+				<name>Actiq buccal</name>
+				<codeValue>02.16877</codeValue>
+			</listItem>
+			<listItem>
+				<name>Alfenta injection</name>
+				<codeValue>02.6592</codeValue>
+			</listItem>
+			<listItem>
+				<name>alfentanil injection</name>
+				<codeValue>02.17303</codeValue>
+			</listItem>
+			<listItem>
+				<name>Astramorph-PF injection</name>
+				<codeValue>02.9008</codeValue>
+			</listItem>
+			<listItem>
+				<name>Avinza oral</name>
+				<codeValue>02.32971</codeValue>
+			</listItem>
+			<listItem>
+				<name>codeine sulfate oral</name>
+				<codeValue>02.7420</codeValue>
+			</listItem>
+			<listItem>
+				<name>ConZip oral</name>
+				<codeValue>02.156872</codeValue>
+			</listItem>
+			<listItem>
+				<name>Demerol (PF) injection</name>
+				<codeValue>02.94436</codeValue>
+			</listItem>
+			<listItem>
+				<name>Demerol injection</name>
+				<codeValue>02.3914</codeValue>
+			</listItem>
+			<listItem>
+				<name>Demerol oral</name>
+				<codeValue>02.4334</codeValue>
+			</listItem>
+			<listItem>
+				<name>DepoDur (PF) epidural</name>
+				<codeValue>02.92245</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dilaudid (PF) injection</name>
+				<codeValue>02.153686</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dilaudid oral</name>
+				<codeValue>02.9130</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dilaudid-HP (PF) injection</name>
+				<codeValue>02.11561</codeValue>
+			</listItem>
+			<listItem>
+				<name>Diskets oral</name>
+				<codeValue>02.152569</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dolophine oral</name>
+				<codeValue>02.4101</codeValue>
+			</listItem>
+			<listItem>
+				<name>Duragesic transdermal</name>
+				<codeValue>02.14008</codeValue>
+			</listItem>
+			<listItem>
+				<name>Duramorph (PF) injection</name>
+				<codeValue>02.9629</codeValue>
+			</listItem>
+			<listItem>
+				<name>Exalgo ER oral</name>
+				<codeValue>02.153887</codeValue>
+			</listItem>
+			<listItem>
+				<name>fentanyl (PF) intravenous</name>
+				<codeValue>02.152015</codeValue>
+			</listItem>
+			<listItem>
+				<name>fentanyl citrate (PF) epidural</name>
+				<codeValue>02.153048</codeValue>
+			</listItem>
+			<listItem>
+				<name>fentanyl citrate buccal</name>
+				<codeValue>02.18497</codeValue>
+			</listItem>
+			<listItem>
+				<name>fentanyl in 0.9 % sodium chloride (PF) injection</name>
+				<codeValue>02.21447</codeValue>
+			</listItem>
+			<listItem>
+				<name>fentanyl in 0.9 % sodium chloride (PF) intravenous</name>
+				<codeValue>02.151654</codeValue>
+			</listItem>
+			<listItem>
+				<name>fentanyl in D5W (PF) intravenous</name>
+				<codeValue>02.156501</codeValue>
+			</listItem>
+			<listItem>
+				<name>fentanyl transdermal</name>
+				<codeValue>02.6253</codeValue>
+			</listItem>
+			<listItem>
+				<name>Fentora buccal</name>
+				<codeValue>02.145471</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone (PF) in 0.9 % sodium chloride epidural</name>
+				<codeValue>02.153047</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone (PF) in 0.9 % sodium chloride intravenous</name>
+				<codeValue>02.151870</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone (PF) injection</name>
+				<codeValue>02.148416</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone in 0.9 % sodium chloride injection</name>
+				<codeValue>02.21373</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone in 0.9 % sodium chloride intravenous</name>
+				<codeValue>02.151871</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone in D5W (PF) intravenous</name>
+				<codeValue>02.156682</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone injection</name>
+				<codeValue>02.1423</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone intravenous</name>
+				<codeValue>02.154569</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone oral</name>
+				<codeValue>02.6102</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydromorphone rectal</name>
+				<codeValue>02.11338</codeValue>
+			</listItem>
+			<listItem>
+				<name>Infumorph P/F injection</name>
+				<codeValue>02.89226</codeValue>
+			</listItem>
+			<listItem>
+				<name>Kadian oral</name>
+				<codeValue>02.1509</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lazanda nasal</name>
+				<codeValue>02.157448</codeValue>
+			</listItem>
+			<listItem>
+				<name>levorphanol tartrate oral</name>
+				<codeValue>02.8600</codeValue>
+			</listItem>
+			<listItem>
+				<name>meperidine (PF) injection</name>
+				<codeValue>02.94294</codeValue>
+			</listItem>
+			<listItem>
+				<name>meperidine in 0.9% sod.chloride intravenous</name>
+				<codeValue>02.20054</codeValue>
+			</listItem>
+			<listItem>
+				<name>meperidine injection</name>
+				<codeValue>02.5598</codeValue>
+			</listItem>
+			<listItem>
+				<name>meperidine oral</name>
+				<codeValue>02.4055</codeValue>
+			</listItem>
+			<listItem>
+				<name>Meperitab oral</name>
+				<codeValue>02.19907</codeValue>
+			</listItem>
+			<listItem>
+				<name>methadone in 0.9 % sodium chloride intravenous</name>
+				<codeValue>02.155959</codeValue>
+			</listItem>
+			<listItem>
+				<name>methadone injection</name>
+				<codeValue>02.4105</codeValue>
+			</listItem>
+			<listItem>
+				<name>Methadone Intensol oral</name>
+				<codeValue>02.11996</codeValue>
+			</listItem>
+			<listItem>
+				<name>methadone intravenous</name>
+				<codeValue>02.156918</codeValue>
+			</listItem>
+			<listItem>
+				<name>methadone oral</name>
+				<codeValue>02.2671</codeValue>
+			</listItem>
+			<listItem>
+				<name>Methadose oral</name>
+				<codeValue>02.9730</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine (PF) in 0.9% sodium chloride injection</name>
+				<codeValue>02.160326</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine (PF) in 0.9% sodium chloride intravenous</name>
+				<codeValue>02.151835</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine (PF) in dextrose 5 % intravenous</name>
+				<codeValue>02.94443</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine (PF) in sodium chloride,iso-osmotic intrathecal</name>
+				<codeValue>02.162500</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine (PF) injection</name>
+				<codeValue>02.4348</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine (PF) intravenous</name>
+				<codeValue>02.76151</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine concentrate oral</name>
+				<codeValue>02.91700</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine in 0.9 % sodium chloride injection</name>
+				<codeValue>02.21423</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine in 0.9 % sodium chloride intravenous</name>
+				<codeValue>02.20055</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine in dextrose 5 % injection</name>
+				<codeValue>02.21372</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine injection</name>
+				<codeValue>02.3891</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine intramuscular</name>
+				<codeValue>02.148127</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine intravenous</name>
+				<codeValue>02.18436</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine oral</name>
+				<codeValue>02.327</codeValue>
+			</listItem>
+			<listItem>
+				<name>morphine rectal</name>
+				<codeValue>02.6508</codeValue>
+			</listItem>
+			<listItem>
+				<name>MS Contin oral</name>
+				<codeValue>02.1507</codeValue>
+			</listItem>
+			<listItem>
+				<name>Nucynta ER oral</name>
+				<codeValue>02.156955</codeValue>
+			</listItem>
+			<listItem>
+				<name>Nucynta oral</name>
+				<codeValue>02.152563</codeValue>
+			</listItem>
+			<listItem>
+				<name>Onsolis buccal</name>
+				<codeValue>02.153023</codeValue>
+			</listItem>
+			<listItem>
+				<name>Opana ER oral</name>
+				<codeValue>02.144617</codeValue>
+			</listItem>
+			<listItem>
+				<name>Opana injection</name>
+				<codeValue>02.148225</codeValue>
+			</listItem>
+			<listItem>
+				<name>Opana oral</name>
+				<codeValue>02.144616</codeValue>
+			</listItem>
+			<listItem>
+				<name>Oramorph SR oral</name>
+				<codeValue>02.1508</codeValue>
+			</listItem>
+			<listItem>
+				<name>Oxecta oral</name>
+				<codeValue>02.159330</codeValue>
+			</listItem>
+			<listItem>
+				<name>oxycodone oral</name>
+				<codeValue>02.1025</codeValue>
+			</listItem>
+			<listItem>
+				<name>OxyContin oral</name>
+				<codeValue>02.2798</codeValue>
+			</listItem>
+			<listItem>
+				<name>oxymorphone oral</name>
+				<codeValue>02.144614</codeValue>
+			</listItem>
+			<listItem>
+				<name>Roxicodone oral</name>
+				<codeValue>02.3499</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rybix ODT oral</name>
+				<codeValue>02.154029</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ryzolt oral</name>
+				<codeValue>02.152125</codeValue>
+			</listItem>
+			<listItem>
+				<name>Subsys sublingual</name>
+				<codeValue>02.159333</codeValue>
+			</listItem>
+			<listItem>
+				<name>tramadol oral</name>
+				<codeValue>02.4398</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ultram ER oral</name>
+				<codeValue>02.94892</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ultram oral</name>
+				<codeValue>02.11276</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zohydro ER oral</name>
+				<codeValue>02.165699</codeValue>
+			</listItem>					
+		</listDef>
+		<listDef>
+			<name>Analgesic Narcotic Hydrocodone Combinations</name>
+			<codeValue>14.589</codeValue>
+			<listType>class</listType>
+			
+			<listItem>
+				<name>Hycet oral</name>
+				<codeValue>02.78568</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocodone-acetaminophen oral</name>
+				<codeValue>02.251</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocodone-ibuprofen oral</name>
+				<codeValue>02.4636</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibudone oral</name>
+				<codeValue>02.150021</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lorcet (hydrocodone) oral</name>
+				<codeValue>02.166108</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lorcet 10/650 oral</name>
+				<codeValue>02.15828</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lorcet HD oral</name>
+				<codeValue>02.3453</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lorcet Plus oral</name>
+				<codeValue>02.3452</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lortab 10-325 oral</name>
+				<codeValue>02.166144</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lortab 5-325 oral</name>
+				<codeValue>02.166142</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lortab 7.5-325 oral</name>
+				<codeValue>02.166143</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lortab Elixir oral</name>
+				<codeValue>02.78569</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lortab oral</name>
+				<codeValue>02.7292</codeValue>
+			</listItem>
+			<listItem>
+				<name>Maxidone oral</name>
+				<codeValue>02.20041</codeValue>
+			</listItem>
+			<listItem>
+				<name>Norco oral</name>
+				<codeValue>02.63</codeValue>
+			</listItem>
+			<listItem>
+				<name>Reprexain oral</name>
+				<codeValue>02.90483</codeValue>
+			</listItem>
+			<listItem>
+				<name>Stagesic oral</name>
+				<codeValue>02.3456</codeValue>
+			</listItem>
+			<listItem>
+				<name>Verdrocet oral</name>
+				<codeValue>02.166562</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vicodin ES oral</name>
+				<codeValue>02.15915</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vicodin HP oral</name>
+				<codeValue>02.3471</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vicodin oral</name>
+				<codeValue>02.3459</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vicoprofen oral</name>
+				<codeValue>02.4635</codeValue>
+			</listItem>
+			<listItem>
+				<name>Xodol 10/300 oral</name>
+				<codeValue>02.144032</codeValue>
+			</listItem>
+			<listItem>
+				<name>Xodol 5/300 oral</name>
+				<codeValue>02.144489</codeValue>
+			</listItem>
+			<listItem>
+				<name>Xodol 7.5/300 oral</name>
+				<codeValue>02.144488</codeValue>
+			</listItem>
+			<listItem>
+				<name>Xylon 10 oral</name>
+				<codeValue>02.166917</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zamicet oral</name>
+				<codeValue>02.150977</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zolvit oral</name>
+				<codeValue>02.154962</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zydone oral</name>
+				<codeValue>02.3460</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>NSAID Analgesics (Cyclooxygenase Inhibitors-Non-Selective)</name>
+			<codeValue>14.6220</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Advil Liqui-Gel oral</name>
+				<codeValue>02.94173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil Migraine oral</name>
+				<codeValue>02.20833</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil oral</name>
+				<codeValue>02.6143</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aleve oral</name>
+				<codeValue>02.1098</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Pain Relief oral</name>
+				<codeValue>02.17236</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Relief oral</name>
+				<codeValue>02.89454</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox DS oral</name>
+				<codeValue>02.9771</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox oral</name>
+				<codeValue>02.10989</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ansaid oral</name>
+				<codeValue>02.10612</codeValue>
+			</listItem>
+			<listItem>
+				<name>Caldolor intravenous</name>
+				<codeValue>02.152733</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cambia oral</name>
+				<codeValue>02.154102</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cambia oral</name>
+				<codeValue>02.154102</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cataflam oral</name>
+				<codeValue>02.9836</codeValue>
+			</listItem>
+			<listItem>
+				<name>Clinoril oral</name>
+				<codeValue>02.10330</codeValue>
+			</listItem>
+			<listItem>
+				<name>Daypro oral</name>
+				<codeValue>02.6746</codeValue>
+			</listItem>
+			<listItem>
+				<name>diclofenac oral</name>
+				<codeValue>02.4284</codeValue>
+			</listItem>
+			<listItem>
+				<name>diclofenac potassium oral</name>
+				<codeValue>02.5988</codeValue>
+			</listItem>
+			<listItem>
+				<name>EC-Naprosyn oral</name>
+				<codeValue>02.4057</codeValue>
+			</listItem>
+			<listItem>
+				<name>etodolac oral</name>
+				<codeValue>02.214</codeValue>
+			</listItem>
+			<listItem>
+				<name>Feldene oral</name>
+				<codeValue>02.10963</codeValue>
+			</listItem>
+			<listItem>
+				<name>fenoprofen oral</name>
+				<codeValue>02.8333</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flanax (naproxen) oral</name>
+				<codeValue>02.166687</codeValue>
+			</listItem>
+			<listItem>
+				<name>flurbiprofen oral</name>
+				<codeValue>02.13459</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibu-Drops oral</name>
+				<codeValue>02.21045</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen IB oral</name>
+				<codeValue>02.17976</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen Jr Strength oral</name>
+				<codeValue>02.74995</codeValue>
+			</listItem>
+			<listItem>
+				<name>ibuprofen oral</name>
+				<codeValue>02.5166</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin oral</name>
+				<codeValue>02.9252</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin rectal</name>
+				<codeValue>02.10968</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin oral</name>
+				<codeValue>02.8880</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin rectal</name>
+				<codeValue>02.13445</codeValue>
+			</listItem>
+			<listItem>
+				<name>I-Prin oral</name>
+				<codeValue>02.17655</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketoprofen oral</name>
+				<codeValue>02.5995</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac injection</name>
+				<codeValue>02.6419</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac intramuscular</name>
+				<codeValue>02.4688</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac oral</name>
+				<codeValue>02.3919</codeValue>
+			</listItem>
+			<listItem>
+				<name>meclofenamate oral</name>
+				<codeValue>02.8673</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mediproxen oral</name>
+				<codeValue>02.21369</codeValue>
+			</listItem>
+			<listItem>
+				<name>mefenamic acid oral</name>
+				<codeValue>02.11586</codeValue>
+			</listItem>
+			<listItem>
+				<name>meloxicam oral</name>
+				<codeValue>02.911</codeValue>
+			</listItem>
+			<listItem>
+				<name>Midol (naproxen) oral</name>
+				<codeValue>02.160419</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mobic oral</name>
+				<codeValue>02.18173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin IB oral</name>
+				<codeValue>02.9330</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin oral</name>
+				<codeValue>02.4387</codeValue>
+			</listItem>
+			<listItem>
+				<name>nabumetone oral</name>
+				<codeValue>02.7005</codeValue>
+			</listItem>
+			<listItem>
+				<name>Nalfon oral</name>
+				<codeValue>02.6919</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprelan CR oral</name>
+				<codeValue>02.153228</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprosyn oral</name>
+				<codeValue>02.1705</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen oral</name>
+				<codeValue>02.5173</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen sodium oral</name>
+				<codeValue>02.11643</codeValue>
+			</listItem>
+			<listItem>
+				<name>oxaprozin oral</name>
+				<codeValue>02.6747</codeValue>
+			</listItem>
+			<listItem>
+				<name>piroxicam oral</name>
+				<codeValue>02.10942</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ponstel oral</name>
+				<codeValue>02.11590</codeValue>
+			</listItem>
+			<listItem>
+				<name>Provil oral</name>
+				<codeValue>02.14655</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sprix nasal</name>
+				<codeValue>02.155891</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulindac oral</name>
+				<codeValue>02.8714</codeValue>
+			</listItem>
+			<listItem>
+				<name>tolmetin oral</name>
+				<codeValue>02.11044</codeValue>
+			</listItem>
+			<listItem>
+				<name>Voltaren-XR oral</name>
+				<codeValue>02.12377</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Profen oral</name>
+				<codeValue>02.92767</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Proxen oral</name>
+				<codeValue>02.93221</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zipsor oral</name>
+				<codeValue>02.152752</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zorvolex oral</name>
+				<codeValue>02.165333</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

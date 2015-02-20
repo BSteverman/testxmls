@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>64439</routedMedId>
+		<routedMedName>Abilify oral</routedMedName>
+		<routedGenericName>aripiprazole oral</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>476034</medId>
+			<medId>451010</medId>
+			<medId>446836</medId>
+			<medId>446837</medId>
+			<medId>446838</medId>
+			<medId>446839</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Bipolar I disorder</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>10</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>13.371596008</icd9>
+			<symbolic>abilibipolar</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162761|02.152902|02.1644|02.1699|02.19876|02.4689|02.4718|02.148614|02.75142|02.9846|02.6283|02.20575|02.20568</codeValues>
+								<selectedListName>Atypical Antipsychotics</selectedListName>
+								<selectedListClassCode>10.28160804</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>4 to 6</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anytwo</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>15 mg orally every day given as monotherapy</text>
+			</dosing>
+			<instructions>
+				<instruction></instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>476034</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>451010</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446836</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446837</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446838</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446839</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Schizophrenia</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>13</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.F20</icd9>
+			<symbolic>abilischizo</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162761|02.152902|02.1644|02.1699|02.19876|02.4689|02.4718|02.148614|02.75142|02.9846|02.6283|02.20575|02.20568|02.153413|02.146745</codeValues>
+								<selectedListName>Atypical Antipsychotics</selectedListName>
+								<selectedListClassCode>10.28160804</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>2 to 6</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anytwo</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>10 mg orally every day or 15 mg orally every day</text>
+			</dosing>
+			<instructions>
+				<instruction></instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>476034</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>451010</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446836</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446837</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446838</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446839</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Adjunctive Treatment of Major Depressive Disorder</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9/>
+			<symbolic>abilidepress</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.8611|02.1919|02.11034|02.1776|02.151973|02.165188|02.78613|02.146637|02.13507|02.8603|02.1701|02.1305|02.91491|02.8323|02.165310|02.163933|02.8647|02.91490|02.4896|02.95354|02.63989|02.165446|02.1774|02.1049|02.162178|02.8664|02.7049|02.164859|02.63990|02.150188|02.8672|02.11985|02.13706|02.9353|02.4286|02.6936|02.10710|02.78206|02.154303|02.1820|02.6965|02.6969|02.32900|02.6968|02.2846|02.78102|02.8827|02.150251|02.12167|02.6997|02.13707|02.20404|02.1|02.7031|02.78212|02.7047|02.7048|02.6966|02.11188|02.7032|02.4870|02.155880|02.12169|02.13509|02.14211|02.76851|02.35</codeValues>
+								<selectedListName>Antidepressants</selectedListName>
+								<selectedListClassCode>09.526</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur>6</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>anythree</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>5-10 mg orally every day (titrated from 2 mg orally every day)</text>
+			</dosing>
+			<instructions>
+				<instruction></instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>476034</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>451010</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446836</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446837</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446838</medId>
+					<initPerDayDesc>0.5 tablets</initPerDayDesc>
+					<initPerIntervalDesc>15 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>0.5 tablets</renewPerDayDesc>
+					<renewPerIntervalDesc>15 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446839</medId>
+					<initPerDayDesc>0.5 tablets</initPerDayDesc>
+					<initPerIntervalDesc>15 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>0.5 tablets</renewPerDayDesc>
+					<renewPerIntervalDesc>15 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+				<reference>Fava M. Diagnosis and definition of treatment-resistant depression. Biol Psychiatry. 2003;53(8):649-59.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Irritability Associated with Autistic Disorder</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>6</ageRangeMin>
+				<ageRangeMax></ageRangeMax>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>23.04|12.299.0</icd9>
+			<symbolic>abiliautis</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.75142|02.9846|02.6283</codeValues>
+								<selectedListName>risperidone oral</selectedListName>
+								<selectedListClassCode>18.6283</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>4</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Dosing should be initiated at 2 mg/day. The dose should be increased to 5 mg/day, with  subsequent increases to 10 mg/day or 15 mg/day if needed. </text>
+			</dosing>
+			<instructions>
+				<instruction></instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>476034</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>451010</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446836</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446837</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>30 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>1 tablet</renewPerDayDesc>
+					<renewPerIntervalDesc>30 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446838</medId>
+					<initPerDayDesc>0.5 tablets</initPerDayDesc>
+					<initPerIntervalDesc>15 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>0.5 tablets</renewPerDayDesc>
+					<renewPerIntervalDesc>15 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>446839</medId>
+					<initPerDayDesc>0.5 tablets</initPerDayDesc>
+					<initPerIntervalDesc>15 tablets per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>0.5 tablets</renewPerDayDesc>
+					<renewPerIntervalDesc>15 tablets per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Abilify [package insert]. Tokyo, Japan: Otsuka America Pharmaceutical, Inc; 2014</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>risperidone oral</name>
+			<codeValue>18.6283</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Risperdal M-Tab oral</name>
+				<codeValue>02.75142</codeValue>
+			</listItem>
+			<listItem>
+				<name>Risperdal oral</name>
+				<codeValue>02.9846</codeValue>
+			</listItem>
+			<listItem>
+				<name>risperidone oral</name>
+				<codeValue>02.6283</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Atypical Antipsychotics</name>
+			<codeValue>10.28160804</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Fanapt oral</name>
+				<codeValue>02.153413</codeValue>
+			</listItem>
+			<listItem>
+				<name>Geodon oral</name>
+				<codeValue>02.20575</codeValue>
+			</listItem>
+			<listItem>
+				<name>Invega oral</name>
+				<codeValue>02.146745</codeValue>
+			</listItem>
+			<listItem>
+				<name>olanzapine oral</name>
+				<codeValue>02.1644</codeValue>
+			</listItem>
+			<listItem>
+				<name>quetiapine oral</name>
+				<codeValue>02.4689</codeValue>
+			</listItem>
+			<listItem>
+				<name>Risperdal M-TAB oral</name>
+				<codeValue>02.75142</codeValue>
+			</listItem>
+			<listItem>
+				<name>Risperdal oral</name>
+				<codeValue>02.9846</codeValue>
+			</listItem>
+			<listItem>
+				<name>risperidone oral</name>
+				<codeValue>02.6283</codeValue>
+			</listItem>
+			<listItem>
+				<name>Saphris (black cherry) sublingual</name>
+				<codeValue>02.162761</codeValue>
+			</listItem>
+			<listItem>
+				<name>Saphris sublingual</name>
+				<codeValue>02.152902</codeValue>
+			</listItem>
+			<listItem>
+				<name>Seroquel oral</name>
+				<codeValue>02.4718</codeValue>
+			</listItem>
+			<listItem>
+				<name>Seroquel XR oral</name>
+				<codeValue>02.148614</codeValue>
+			</listItem>
+			<listItem>
+				<name>ziprasidone oral</name>
+				<codeValue>02.20568</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zyprexa oral</name>
+				<codeValue>02.1699</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zyprexa Zydis oral</name>
+				<codeValue>02.19876</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Antidepressants</name>
+			<codeValue>09.526</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>amitriptyline oral</name>
+				<codeValue>02.8611</codeValue>
+			</listItem>
+			<listItem>
+				<name>amitriptyline-chlordiazepoxide oral</name>
+				<codeValue>02.1919</codeValue>
+			</listItem>
+			<listItem>
+				<name>amoxapine oral</name>
+				<codeValue>02.11034</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anafranil oral</name>
+				<codeValue>02.1776</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aplenzin oral</name>
+				<codeValue>02.151973</codeValue>
+			</listItem>
+			<listItem>
+				<name>Brintellix oral</name>
+				<codeValue>02.165188</codeValue>
+			</listItem>
+			<listItem>
+				<name>Budeprion SR oral</name>
+				<codeValue>02.78613</codeValue>
+			</listItem>
+			<listItem>
+				<name>Budeprion XL oral</name>
+				<codeValue>02.146637</codeValue>
+			</listItem>
+			<listItem>
+				<name>bupropion HCl oral</name>
+				<codeValue>02.13507</codeValue>
+			</listItem>
+			<listItem>
+				<name>Celexa oral</name>
+				<codeValue>02.8603</codeValue>
+			</listItem>
+			<listItem>
+				<name>citalopram oral</name>
+				<codeValue>02.1701</codeValue>
+			</listItem>
+			<listItem>
+				<name>clomipramine oral</name>
+				<codeValue>02.1305</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cymbalta oral</name>
+				<codeValue>02.91491</codeValue>
+			</listItem>
+			<listItem>
+				<name>desipramine oral</name>
+				<codeValue>02.8323</codeValue>
+			</listItem>
+			<listItem>
+				<name>desvenlafaxine fumarate oral</name>
+				<codeValue>02.165310</codeValue>
+			</listItem>
+			<listItem>
+				<name>desvenlafaxine oral</name>
+				<codeValue>02.163933</codeValue>
+			</listItem>
+			<listItem>
+				<name>doxepin oral</name>
+				<codeValue>02.8647</codeValue>
+			</listItem>
+			<listItem>
+				<name>duloxetine oral</name>
+				<codeValue>02.91490</codeValue>
+			</listItem>
+			<listItem>
+				<name>Effexor XR oral</name>
+				<codeValue>02.4896</codeValue>
+			</listItem>
+			<listItem>
+				<name>Emsam transdermal</name>
+				<codeValue>02.95354</codeValue>
+			</listItem>
+			<listItem>
+				<name>escitalopram oral</name>
+				<codeValue>02.63989</codeValue>
+			</listItem>
+			<listItem>
+				<name>Fetzima oral</name>
+				<codeValue>02.165446</codeValue>
+			</listItem>
+			<listItem>
+				<name>fluoxetine oral</name>
+				<codeValue>02.1774</codeValue>
+			</listItem>
+			<listItem>
+				<name>fluvoxamine oral</name>
+				<codeValue>02.1049</codeValue>
+			</listItem>
+			<listItem>
+				<name>Forfivo XL oral</name>
+				<codeValue>02.162178</codeValue>
+			</listItem>
+			<listItem>
+				<name>imipramine oral</name>
+				<codeValue>02.8664</codeValue>
+			</listItem>
+			<listItem>
+				<name>imipramine pamoate oral</name>
+				<codeValue>02.7049</codeValue>
+			</listItem>
+			<listItem>
+				<name>Khedezla oral</name>
+				<codeValue>02.164859</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lexapro oral</name>
+				<codeValue>02.63990</codeValue>
+			</listItem>
+			<listItem>
+				<name>Luvox CR oral</name>
+				<codeValue>02.150188</codeValue>
+			</listItem>
+			<listItem>
+				<name>maprotiline oral</name>
+				<codeValue>02.8672</codeValue>
+			</listItem>
+			<listItem>
+				<name>Marplan oral</name>
+				<codeValue>02.11985</codeValue>
+			</listItem>
+			<listItem>
+				<name>mirtazapine oral</name>
+				<codeValue>02.13706</codeValue>
+			</listItem>
+			<listItem>
+				<name>Nardil oral</name>
+				<codeValue>02.9353</codeValue>
+			</listItem>
+			<listItem>
+				<name>nefazodone oral</name>
+				<codeValue>02.4286</codeValue>
+			</listItem>
+			<listItem>
+				<name>Norpramin oral</name>
+				<codeValue>02.6936</codeValue>
+			</listItem>
+			<listItem>
+				<name>nortriptyline oral</name>
+				<codeValue>02.10710</codeValue>
+			</listItem>
+			<listItem>
+				<name>olanzapine-fluoxetine oral</name>
+				<codeValue>02.78206</codeValue>
+			</listItem>
+			<listItem>
+				<name>Oleptro ER oral</name>
+				<codeValue>02.154303</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pamelor oral</name>
+				<codeValue>02.1820</codeValue>
+			</listItem>
+			<listItem>
+				<name>Parnate oral</name>
+				<codeValue>02.6965</codeValue>
+			</listItem>
+			<listItem>
+				<name>paroxetine oral</name>
+				<codeValue>02.6969</codeValue>
+			</listItem>
+			<listItem>
+				<name>Paxil CR oral</name>
+				<codeValue>02.32900</codeValue>
+			</listItem>
+			<listItem>
+				<name>Paxil oral</name>
+				<codeValue>02.6968</codeValue>
+			</listItem>
+			<listItem>
+				<name>perphenazine-amitriptyline oral</name>
+				<codeValue>02.2846</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pexeva oral</name>
+				<codeValue>02.78102</codeValue>
+			</listItem>
+			<listItem>
+				<name>phenelzine oral</name>
+				<codeValue>02.8827</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pristiq oral</name>
+				<codeValue>02.150251</codeValue>
+			</listItem>
+			<listItem>
+				<name>protriptyline oral</name>
+				<codeValue>02.12167</codeValue>
+			</listItem>
+			<listItem>
+				<name>Prozac oral</name>
+				<codeValue>02.6997</codeValue>
+			</listItem>
+			<listItem>
+				<name>Remeron oral</name>
+				<codeValue>02.13707</codeValue>
+			</listItem>
+			<listItem>
+				<name>Remeron SolTab oral</name>
+				<codeValue>02.20404</codeValue>
+			</listItem>
+			<listItem>
+				<name>sertraline oral</name>
+				<codeValue>02.1</codeValue>
+			</listItem>
+			<listItem>
+				<name>Surmontil oral</name>
+				<codeValue>02.7031</codeValue>
+			</listItem>
+			<listItem>
+				<name>Symbyax oral</name>
+				<codeValue>02.78212</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tofranil oral</name>
+				<codeValue>02.7047</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tofranil-PM oral</name>
+				<codeValue>02.7048</codeValue>
+			</listItem>
+			<listItem>
+				<name>tranylcypromine oral</name>
+				<codeValue>02.6966</codeValue>
+			</listItem>
+			<listItem>
+				<name>trazodone oral</name>
+				<codeValue>02.11188</codeValue>
+			</listItem>
+			<listItem>
+				<name>trimipramine oral</name>
+				<codeValue>02.7032</codeValue>
+			</listItem>
+			<listItem>
+				<name>venlafaxine oral</name>
+				<codeValue>02.4870</codeValue>
+			</listItem>
+			<listItem>
+				<name>Viibryd oral</name>
+				<codeValue>02.155880</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vivactil oral</name>
+				<codeValue>02.12169</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wellbutrin oral</name>
+				<codeValue>02.13509</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wellbutrin SR oral</name>
+				<codeValue>02.14211</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wellbutrin XL oral</name>
+				<codeValue>02.76851</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zoloft oral</name>
+				<codeValue>02.35</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

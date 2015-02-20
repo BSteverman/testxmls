@@ -1,0 +1,5402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>02.64713|02.144769|02.147784|02.152021</routedMedId>
+		<routedMedName>Humira subcutaneous</routedMedName>
+		<routedGenericName>adalimumab subcutaneous</routedGenericName>
+		<etcIds>
+			<etc_id>09.5708</etc_id>
+		</etcIds>
+		<medIds>
+			<medId/>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Rheumatoid Arthritis-Moderate to severely active</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.M06</icd9>
+			<symbolic>Humira-RA-Mod</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name>Moderate to severely active</name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Rheumatologist</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>all</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel SureClick subcutaneous</name>
+								<codeValues>02.144657</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel subcutaneous</name>
+								<codeValues>02.16772</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi ARIA intravenous</name>
+								<codeValues>02.164798</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi subcutaneous</name>
+								<codeValues>02.152287</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Powder for Reconstitution subcutaneous</name>
+								<codeValues>02.154650</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Starter Kit subcutaneous</name>
+								<codeValues>02.154223</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia subcutaneous</name>
+								<codeValues>02.150396</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Kineret subcutaneous</name>
+								<codeValues>02.22175</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra intravenous</name>
+								<codeValues>02.153521</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra subcutaneous</name>
+								<codeValues>02.165329</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia (with maltose) intravenous</name>
+								<codeValues>02.94819</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia subcutaneous</name>
+								<codeValues>02.156713</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Rituxan intravenous</name>
+								<codeValues>02.5206</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Xeljanz oral</name>
+								<codeValues>02.162865</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>40 mg subcutaneously every other week.</text>
+				<text>Alternative: 40 mg subcutaneously every week in patients not concurrently taking methotrexate.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg per week / 4 pens per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg per week / 4 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg per week / 4 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg per week / 4 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Singh JA, Furst DE, Bharat A, et al.  2012 Update of the 2008 American College of Rheumatology Recommendations for the Use of Disease-Modifying Antirheumatic Drugs and Biologic Agents in the Treatment of Rheumatoid Arthritis.  Arthritis Care &amp; Research. 2012; 64: 625-39. DOI 10.1002/acr.21641</reference>
+				<reference>Saag KG, Teng GG, Patkar NM, et al.  American College of Rheumatology 2008 Recommendations for the Use of Nonbiologic and Biologic Disease-Modifying Antirheumatic Drugs in Rheumatoid Arthritis.  Arthritis Care &amp; Research.  2008; 59: 762-84.  DOI 10.1002/art.23721</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Rheumatoid Arthritis-Mildly active</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.M06</icd9>
+			<symbolic>Enbrel-RA-Mild</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Mildly active</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Rheumatologist</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>azathioprine oral</name>
+								<codeValues>02.13771</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>hydroxychloroquine oral</name>
+								<codeValues>02.5482</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>lefluonmide oral</name>
+								<codeValues>02.16551</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate sodium oral</name>
+								<codeValues>02.20909</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>minocycline oral</name>
+								<codeValues>02.7722</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>sulfasalazine oral</name>
+								<codeValues>02.63166</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>sulfasalazine EC oral</name>
+								<codeValues>02.22470</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel SureClick subcutaneous</name>
+								<codeValues>02.144657</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel subcutaneous</name>
+								<codeValues>02.16772</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi ARIA intravenous</name>
+								<codeValues>02.164798</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi subcutaneous</name>
+								<codeValues>02.152287</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Powder for Reconstitution subcutaneous</name>
+								<codeValues>02.154650</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Starter Kit subcutaneous</name>
+								<codeValues>02.154223</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia subcutaneous</name>
+								<codeValues>02.150396</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Kineret subcutaneous</name>
+								<codeValues>02.22175</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra intravenous</name>
+								<codeValues>02.153521</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra subcutaneous</name>
+								<codeValues>02.165329</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia (with maltose) intravenous</name>
+								<codeValues>02.94819</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia subcutaneous</name>
+								<codeValues>02.156713</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Rituxan intravenous</name>
+								<codeValues>02.5206</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Xeljanz oral</name>
+								<codeValues>02.162865</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>40 mg subcutaneously every other week.</text>
+				<text>Alternative: 40 mg subcutaneously every week in patients not concurrently taking methotrexate.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg per week / 4 pens per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg per week / 4 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg per week / 4 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg per week / 4 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Singh JA, Furst DE, Bharat A, et al.  2012 Update of the 2008 American College of Rheumatology Recommendations for the Use of Disease-Modifying Antirheumatic Drugs and Biologic Agents in the Treatment of Rheumatoid Arthritis.  Arthritis Care &amp; Research. 2012; 64: 625-39. DOI 10.1002/acr.21641</reference>
+				<reference>Saag KG, Teng GG, Patkar NM, et al.  American College of Rheumatology 2008 Recommendations for the Use of Nonbiologic and Biologic Disease-Modifying Antirheumatic Drugs in Rheumatoid Arthritis.  Arthritis Care &amp; Research.  2008; 59: 762-84.  DOI 10.1002/art.23721</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Juvenile Rheumatoid Arthritis-Moderate to severely active</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>4</ageRangeMin>
+				<ageRangeMax>17</ageRangeMax>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.M08.0</icd9>
+			<symbolic>Humira-JRA-Mod</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Moderate to severely active</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Pediatric Rheumatology</name>
+					<code>2080P0216X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.8951|02.8952|02.6576|02.5589|02.156971|02.154500|02.8456|02.6730|02.8641|02.6160|02.159920|02.16235|02.1027|02.147015|02.6751|02.144972|02.18160|02.162098|02.156314|02.6731|02.6829|02.9275|02.11321|02.6469|02.4454|02.6470|02.3398|02.18427|02.152249|02.150393|02.150393|02.144840|02.20260|02.13558|02.6307|02.13557|02.14590|02.6007|02.565|02.162206|02.154003|02.6125|02.153539|02.153540|02.6135|02.152303|02.9|02.151444</codeValues>
+								<selectedListName>glucocorticoids, oral or IV</selectedListName>
+								<selectedListClassCode>09.2750</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94173|02.20833|02.6143|02.1098|02.17236|02.89454|02.9771|02.10989|02.10612|02.152733|02.154102|02.154102|02.9836|02.10330|02.6746|02.4284|02.5988|02.4057|02.214|02.10963|02.8333|02.166687|02.13459|02.21045|02.17976|02.74995|02.5166|02.9252|02.10968|02.8880|02.13445|02.17655|02.5995|02.6419|02.4688|02.3919|02.8673|02.16712|02.16712|02.21369|02.11586|02.911|02.160419|02.18173|02.9330|02.4387|02.7005|02.6919|02.153228|02.1705|02.5173|02.11643|02.6747|02.10942|02.11590|02.14655|02.155891|02.8714|02.11044|02.12377|02.92767|02.93221|02.152752|02.165333|02.16849</codeValues>
+								<selectedListName>NSAID Analgesics Pediatric</selectedListName>
+								<selectedListClassCode>16.05</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Kineret subcutaneous</name>
+								<codeValues>02.22175</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate sodium oral</name>
+								<codeValues>02.20909</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>lefluonmide oral</name>
+								<codeValues>02.16551</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel SureClick subcutaneous</name>
+								<codeValues>02.144657</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel subcutaneous</name>
+								<codeValues>02.16772</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra intravenous</name>
+								<codeValues>02.153521</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra subcutaneous</name>
+								<codeValues>02.165329</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia (with maltose) intravenous</name>
+								<codeValues>02.94819</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia subcutaneou</name>
+								<codeValues>02.156713</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Ilaris</name>
+								<codeValues>02.152794</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>15 kg (33 lbs) to &lt;30 kg (66 lbs): 20 mg subcutaneuosly every other week.</text>
+				<text>≥30 kg (66 lbs): 40 mg subcutaneously every other week.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 pens per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.554452</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>20 mg every other week / 2 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>20 mg every other week / 2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Ringold S, Weiss PF, Beukelman T, et al.  2013 Update of the 2011 American College of Rheumatology Recommendations for the Treatment of Juvenile Idiopathic Arthritis.  Arthritis &amp; Rheumatism.  2013; 65: 2499-2512.  DOI 10.1002/art.38092</reference>
+				<reference>Simonini G, Druce K, Cimaz R, et al.  Current Evidence of Anti-Tumor Necrosis Factor alpha Treatment Efficacy in Childhood Chronic Uveitis: A systematic Review and Meta-Analysis Approach of Individual Drugs.  Arthritis Care &amp; Research.  2014; 66: 1073-84.  DOI 10.1002/acr.22214</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Juvenile Rheumatoid Arthritis-Mildy active</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>4</ageRangeMin>
+				<ageRangeMax>17</ageRangeMax>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.M08.0</icd9>
+			<symbolic>Humira-JRA-Mild</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Mildly active</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Pediatric Rheumatology</name>
+					<code>2080P0216X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.8951|02.8952|02.6576|02.5589|02.156971|02.154500|02.8456|02.6730|02.8641|02.6160|02.159920|02.16235|02.1027|02.147015|02.6751|02.144972|02.18160|02.162098|02.156314|02.6731|02.6829|02.9275|02.11321|02.6469|02.4454|02.6470|02.3398|02.18427|02.152249|02.150393|02.150393|02.144840|02.20260|02.13558|02.6307|02.13557|02.14590|02.6007|02.565|02.162206|02.154003|02.6125|02.153539|02.153540|02.6135|02.152303|02.9|02.151444</codeValues>
+								<selectedListName>glucocorticoids, oral or IV</selectedListName>
+								<selectedListClassCode>09.2750</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94173|02.20833|02.6143|02.1098|02.17236|02.89454|02.9771|02.10989|02.10612|02.152733|02.154102|02.154102|02.9836|02.10330|02.6746|02.4284|02.5988|02.4057|02.214|02.10963|02.8333|02.166687|02.13459|02.21045|02.17976|02.74995|02.5166|02.9252|02.10968|02.8880|02.13445|02.17655|02.5995|02.6419|02.4688|02.3919|02.8673|02.16712|02.16712|02.21369|02.11586|02.911|02.160419|02.18173|02.9330|02.4387|02.7005|02.6919|02.153228|02.1705|02.5173|02.11643|02.6747|02.10942|02.11590|02.14655|02.155891|02.8714|02.11044|02.12377|02.92767|02.93221|02.152752|02.165333|02.16849</codeValues>
+								<selectedListName>NSAID Analgesics Pediatric</selectedListName>
+								<selectedListClassCode>16.05</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate sodium oral</name>
+								<codeValues>02.20909</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>lefluonmide oral</name>
+								<codeValues>02.16551</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel SureClick subcutaneous</name>
+								<codeValues>02.144657</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel subcutaneous</name>
+								<codeValues>02.16772</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Kineret subcutaneous</name>
+								<codeValues>02.22175</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra intravenous</name>
+								<codeValues>02.153521</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Actemra subcutaneous</name>
+								<codeValues>02.165329</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia (with maltose) intravenous</name>
+								<codeValues>02.94819</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Orencia subcutaneous</name>
+								<codeValues>02.156713</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>15 kg (33 lbs) to &lt;30 kg (66 lbs): 20 mg subcutaneuosly every other week.</text>
+				<text>≥30 kg (66 lbs): 40 mg subcutaneously every other week.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 pens per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.554452</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>20 mg every other week / 2 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>20 mg every other week / 2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Ringold S, Weiss PF, Beukelman T, et al.  2013 Update of the 2011 American College of Rheumatology Recommendations for the Treatment of Juvenile Idiopathic Arthritis.  Arthritis &amp; Rheumatism.  2013; 65: 2499-2512.  DOI 10.1002/art.38092</reference>
+				<reference>Simonini G, Druce K, Cimaz R, et al.  Current Evidence of Anti-Tumor Necrosis Factor alpha Treatment Efficacy in Childhood Chronic Uveitis: A systematic Review and Meta-Analysis Approach of Individual Drugs.  Arthritis Care &amp; Research.  2014; 66: 1073-84.  DOI 10.1002/acr.22214</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Psoriatic Arthritis-Moderate to severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.L40.5</icd9>
+			<symbolic>Humira-PsoriaticArthritis</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Moderate to severe</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Rheumatology</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate sodium oral</name>
+								<codeValues>02.20909</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>lefluonmide oral</name>
+								<codeValues>02.16551</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>sulfasalazine oral</name>
+								<codeValues>02.63166</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>sulfasalazine EC oral</name>
+								<codeValues>02.22470</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel SureClick subcutaneous</name>
+								<codeValues>02.144657</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel subcutaneous</name>
+								<codeValues>02.16772</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi ARIA intravenous</name>
+								<codeValues>02.164798</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi subcutaneous</name>
+								<codeValues>02.152287</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Powder for Reconstitution subcutaneous</name>
+								<codeValues>02.154650</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Starter Kit subcutaneous</name>
+								<codeValues>02.154223</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia subcutaneous</name>
+								<codeValues>02.150396</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Stelara subcutaneous</name>
+								<codeValues>02.153024</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Otezla Starter oral</name>
+								<codeValues>02.165957</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Otezla oral</name>
+								<codeValues>02.165956</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>40 mg subcutaneously every other week.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 pens per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Gottlieb A, Korman NJ, Gordon KB, et al.  Guidelines of care for the management of psoriasis and psoriatic arthritis: Section 2.  Psoriatic arthritis: overview and guidelines of care for treatment with an emphasis on the biologics.  J Am Acad Dermatol.  2009; 58: 851-64.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Ankylosing spondylitis</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.M45</icd9>
+			<symbolic>Humira-AnkylosingSpondylitis</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Rheumatology</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues>02.94173|02.20833|02.6143|02.1098|02.17236|02.89454|02.9771|02.10989|02.10612|02.152733|02.154102|02.154102|02.9836|02.10330|02.6746|02.4284|02.5988|02.4057|02.214|02.10963|02.8333|02.166687|02.13459|02.21045|02.17976|02.74995|02.5166|02.9252|02.10968|02.8880|02.13445|02.17655|02.5995|02.6419|02.4688|02.3919|02.8673|02.16712|02.16712|02.21369|02.11586|02.911|02.160419|02.18173|02.9330|02.4387|02.7005|02.6919|02.153228|02.1705|02.5173|02.11643|02.6747|02.10942|02.11590|02.14655|02.155891|02.8714|02.11044|02.12377|02.92767|02.93221|02.152752|02.165333|02.16849</codeValues>
+								<selectedListName>NSAID Analgesics</selectedListName>
+								<selectedListClassCode>14.6220|14.2657</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>anytwo</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>40 mg subcutaneously every other week.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 pens per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>40 mg every other week / 2 kits per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>40 mg every other week / 2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Braun J, Berg RVD, Baraliakos X, et al.  2010 update of the ASAS/EULAR recommendations for the management of ankylosing spondylitis.  Ann Rheum Dis.  2011; 70: 896-904.  doi:10.1136/ard.2011.151027</reference>
+				<reference>Braun J, Pham T, Davis J, et al.  International ASAS consensu statement for the use of anti-tumour necrosis factor agents in patients with ankylosing spondylitis.  Ann Rheum Dis.  2003; 62: 817-24.</reference>
+				<reference>"Raffeiner B, Ometto F, Bernardi L, et al.  Inefficacy or Paradoxical Effect? Uveitis in Ankylosing Spondylitis Treated with Etanercept.  Case Reports in Medicine.  2014; 2014: 471319.  DOI 10.1155/2014/471319"</reference>
+				<reference>Mease PJ, Goffe BS, Metz J, et al. Etanercept in the treatment of psoriatic arthritis and psoriasis: a randomised trial. Lancet. 2000; 356: 385-90.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Plaque Psoriasis-Moderate to Severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.L40.0</icd9>
+			<symbolic>Humira-PlaquePsoriasis</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Moderate to severe</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Dermatology</name>
+					<code>207N00000X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>group</interventionType>
+								<name>UV Phototherapy</name>
+								<codeValues>24.96900|24.96910|24.96912|24.96913|24.96920|24.96921|24.96922</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate sodium oral</name>
+								<codeValues>02.20909</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>cyclosporine oral</name>
+								<codeValues>02.5645</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>cyclosporine modified oral</name>
+								<codeValues>02.20252</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>acitretin oral</name>
+								<codeValues>02.5571</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>3</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel SureClick subcutaneous</name>
+								<codeValues>02.144657</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Enbrel subcutaneous</name>
+								<codeValues>02.16772</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Stelara subcutaneous</name>
+								<codeValues>02.153024</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144657|02.16772|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Initial Dose: 80 mg subcutaneously.</text>
+				<text>Maintenance Dose: 40 mg subcutaneously every other week starting one week after initial dose.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.557680</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>1 starter pack for the first 28 days only</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>None allowed</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>4 pens per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>4 kits per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Hsu S, Papp KA, Lebwohl MG, et al.  Consensus Guidelines for the Management of Plaque Psoriasis.  Arch Dermatol.  2012; 148: 95-102.  DOI 10.1001/archdermatol.2011.1410</reference>
+				<reference>Voorhees AV, Feldman SR, Koo JYM, et al.  The Psoriasis and Psoriatic Arthritis Pocket Guide: Treatment algorithms and management options.  National Psoriasis Foundation.  http://www.psoriasis.org/document.doc?id=354.  Published 2009.  Accessed September 4, 2014.</reference>
+				<reference>Mrowietz U, Kragballe K, Reich K, et al.  Definition of treatment goals for moderate to severe psoriasis: a European consensus.  Arch Dermatol Res.  2011; 303: 1–10. DOI 10.1007/s00403-010-1080-1</reference>
+				<reference>Mease PJ, Goffe BS, Metz J, et al. Etanercept in the treatment of psoriatic arthritis and psoriasis: a randomised trial. Lancet. 2000; 356: 385-90.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Ulcerative Collitis-Moderate to Severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.K51</icd9>
+			<symbolic>Humira-UC</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Moderate to severe</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Gastroenterology</name>
+					<code>207RG0100X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues>02.22007|02.22008|02.4997|02.6241|02.18021|02.7131|02.163364|</codeValues>
+								<selectedListName>Inflammatory Bowel Agent - Glucocorticoids</selectedListName>
+								<selectedListClassCode>09.927</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues>02.20258|02.20259|02.163103|02.9006|02.3332|02.163434|02.152452|02.151692|02.147055|02.20905|02.9791|02.9866|02.151704|02.9791|02.150711|02.14039|02.6260|02.6309|02.11925|02.22470|02.63166</codeValues>
+								<selectedListName>Inflammatory Bowel Agent - Aminosalicylates and Related Agents</selectedListName>
+								<selectedListClassCode>09.3013</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>mercaptopurine oral</name>
+								<codeValues>02.5903</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>azathioprine oral</name>
+								<codeValues>02.13771</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Simponi subcutaneous</name>
+								<codeValues>02.152287</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Entyvio intravenous</name>
+								<codeValues>02.166319</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144769|02.64713|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Initial dose (Day 1): 160 mg (four 40 mg injections in one day or two 40 mg injections per day for two consecutive days).</text>
+				<text>Second dose two weeks later (Day 15): 80 mg</text>
+				<text>Two weeks later (Day 29): Begin a maintenance dose of 40 mg every other week.</text>
+			</dosing>
+			<instructions>
+				<instruction>For patients with Ulcerative Colitis only: Only continue HUMIRA in patients who have shown evidence of clinical remission by eight weeks (Day 57) of therapy.</instruction>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.550079</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>1 starter pack for the first 28 days only</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>None allowed</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>6 pens per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>6 kits per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>8</dur>
+					<durUnit>w</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Kornbluth A, Sachar DB.  Erratum: Ulcerative Colitis Practice Guidelines in Adults: American College of Gastroenterology, Practice Parameters Committee.  Am J Gastroenterol 2010; 105: 501–23; doi:10.1038/ajg.2009.727</reference>
+				<reference>Kornbluth A, Sachar DB.  Ulcerative Colitis Practice Guidelines in Adults (Update)" American College of Gastroenterology, Practice Parameters Committe.  Am J Gastroenterol 2004; 99: 1371–85; doi:10.1111/j.1572-0241.2004.40036.x</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Crohn's Disease-Moderately to severely active</fqn>
+			<age>
+				<ageRangeType>gt</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.K50</icd9>
+			<symbolic>Humira-CrohnsDisease</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Moderately to severely active</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Gastroenterology</name>
+					<code>207RG0100X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.9|02.565|02.1027|02.3398|02.4454|02.5714|02.5720|02.6007|02.6125|02.6135|02.6160|02.6307|02.6469|02.6470|02.6730|02.6731|02.6751|02.6829|02.8456|02.8641|02.8951|02.8952|02.9275|02.11321|02.13557|02.13558|02.14590|02.16235|02.18160|02.18427|02.20260|02.22007|02.22008|02.144840|02.144972|02.147015|02.150393|02.151444|02.152249|02.152303|02.153539|02.153540|02.154003|02.156314|02.159920|02.162098|02.162206|02.150393</codeValues>
+								<selectedListName>Crohns Disease - glucocorticoids</selectedListName>
+								<selectedListClassCode>16.06</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.3332|02.9006|02.147055|02.151692|02.152452|02.163434|02.6260|02.6309|02.11925|02.22470|02.63166|02.11410|02.14039</codeValues>
+								<selectedListName>Crohns Disease - Aminosalicylates and Related Agents</selectedListName>
+								<selectedListClassCode>16.07</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.11928|02.64887|02.13771|02.13983</codeValues>
+								<selectedListName>Immunosuppressive - Purine Analogs</selectedListName>
+								<selectedListClassCode>09.1251</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5903|02.1370|02.166385</codeValues>
+								<selectedListName>Antineoplastic - Antimetabolite - Purine Analogs</selectedListName>
+								<selectedListClassCode>09.2848</selectedListClassCode>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia subcutaneous</name>
+								<codeValues>02.150396</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Starter Kit subcutaneous</name>
+								<codeValues>02.154223</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Cimzia Powder for Reconstitution subcutaneous</name>
+								<codeValues>02.154650</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Entyvio intravenous</name>
+								<codeValues>02.166319</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144769|02.64713|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Initial dose (Day 1): 160 mg (four 40 mg injections in one day or two 40 mg injections per day for two consecutive days).</text>
+				<text>Second dose two weeks later (Day 15): 80 mg</text>
+				<text>Two weeks later (Day 29): Begin a maintenance dose of 40 mg every other week.</text>
+				<text>Note: Some patients may require a maintenance dose of 40 mg every week</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.550079</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>1 starter pack for the first 28 days only</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>None allowed</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>6 pens per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>6 kits per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Lichtenstein GR, Hanauer SB, Sandborn WJ.  Management of Crohn's Disease in Adutls.  Am J Gastroenterol.  2009; 104: 465-83.  doi: 10.1038/ajg.2008.168</reference>
+				<reference>Sandborn WJ, Feagan BG, Lichtenstein GR.  Medical management of mild to moderate Crohn's disease: evidence-based treatment algorithms for induction and maintenance of remission.  Aliment Pharmacol Ther.  2007; 26: 987-1003.</reference>
+				<reference>Thomson ABR, Gupta M, Freeman HJ.  Use of the tumor necrosis factor-blockers for Crohn's disease.  World J Gastroenterol.  2012; 18: 4823-54.  doi:10.3748/wjg.v18.i35.4823</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Pediatric Crohn's Disease</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin>6</ageRangeMin>
+				<ageRangeMax>17</ageRangeMax>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.K50</icd9>
+			<symbolic>Humira-PedCrohnsDisease</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Moderate to severely active</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Pediatric Gastroenterology</name>
+					<code>2080P0206X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name/>
+					<severity_code>Serious</severity_code>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>prednisone oral</name>
+								<codeValues>02.6007</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>prednisolone oral</name>
+								<codeValues>02.6307</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>methylprednisolone sodium succ intravenous</name>
+								<codeValues>02.18427</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>budesonide oral</name>
+								<codeValues>02.22008</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Entocort oral</name>
+								<codeValues>02.22007</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>w</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Pentasa oral</name>
+								<codeValues>02.3332</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Asacol oral</name>
+								<codeValues>02.9006</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>sulfasalazine oral</name>
+								<codeValues>02.6260</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Azulfidine oral</name>
+								<codeValues>02.11925</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Azulfidine EN-tabs oral</name>
+								<codeValues>02.6309</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Sulfazine oral</name>
+								<codeValues>02.63166</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Sulfazine EC oral</name>
+								<codeValues>02.22470</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>methotrexate oral</name>
+								<codeValues>02.20909</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>mercaptopurine</name>
+								<codeValues>02.5903</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>azathioprine oral</name>
+								<codeValues>20.13771</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>1</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>true</mustBeIneligible>
+							<documentationRequired>true</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144769|02.64713|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Initial dose for members 17 kg (37 lbs) to &lt; 40 kg (88 lbs): 80 mg (two 40 mg injections in one day)</text>
+				<text>Second dose two weeks later (Day 15) for members 17 kg (37 lbs) to &lt; 40 kg (88 lbs): 40 mg</text>
+				<text>Maintence dose two weeks later (Day 29) for members 17 kg (37 lbs) to &lt; 40 kg (88 lbs): 20 mg every other week.</text>
+				<text>Initial dose for members ≥ 40 kg (88 lbs): 160 mg (four 40 mg injections in one day or two 40 mg injections per day for two consecutive days)</text>
+				<text>Second dose two weeks later (Day 15) for members ≥ 40 kg (88 lbs): 80 mg (two 40 mg injections in one day)</text>
+				<text>Maintence dose two weeks later (Day 29) for members ≥ 40 kg (88 lbs): 40 mg every other week.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.550079</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>1 starter pack for the first 28 days only</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>None allowed</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>6 pens per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>6 kits per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>3.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>2 pens per 28 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Humira [package insert]. North Chicago, IL: AbbVie Inc; 2014</reference>
+				<reference>Ruemmele FM, et al, Consensus guidelines of ECCO/ESPGHAN on the medical management of pediatric Crohn's disease, J Crohns Colitis (2014), http://dx.doi.org/10.1016/j.crohns.2014.04.005</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Hidrandenitis Suppurativa-Refractory</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>12.L73.2</icd9>
+			<symbolic>Humira-HS</symbolic>
+			<rating>recommendedDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name>Refractory</name>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Dermatology</name>
+					<code>207N00000X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Infection</name>
+					<code/>
+					<severity_name>Serious</severity_name>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allinorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>acitretin oral</name>
+								<codeValues>02.5571</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Soriatane oral</name>
+								<codeValues>02.4719</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>true</mustBeIneligible>
+							<documentationRequired>true</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Remicade intravenous</name>
+								<codeValues>02.16554</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>ge</durModifier>
+								<dur>2</dur>
+								<durUnit>m</durUnit>
+								<timeFrame>ever</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>true</mustBeIneligible>
+							<documentationRequired>true</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.144769|02.64713|02.154650|02.154223|02.150396|02.164798|02.152287|02.16554</codeValues>
+								<selectedListName>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</selectedListName>
+								<selectedListClassCode>09.5708</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.22175</codeValues>
+								<selectedListName>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</selectedListName>
+								<selectedListClassCode>09.4541</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153521|02.165329</codeValues>
+								<selectedListName>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</selectedListName>
+								<selectedListClassCode>09.6210</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.94819|02.156713</codeValues>
+								<selectedListName>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</selectedListName>
+								<selectedListClassCode>09.5913</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.5206</codeValues>
+								<selectedListName>DMARD - B Cell Targeted Agents</selectedListName>
+								<selectedListClassCode>09.6488</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.162865</codeValues>
+								<selectedListName>DMARD - Janus Kinase (JAK) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6387</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.164880|02.164878|02.164879|02.15402|02.94519|02.154546|02.166545|02.150450|02.94107|02.150652|02.95020|02.9755|02.11314|02.150614|02.144377</codeValues>
+								<selectedListName>Live Vaccines</selectedListName>
+								<selectedListClassCode>09.6421</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.152794</codeValues>
+								<selectedListName>Anti-inflammatory - Interleukin-1 beta Blockers</selectedListName>
+								<selectedListClassCode>09.6212</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.153035</codeValues>
+								<selectedListName>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</selectedListName>
+								<selectedListClassCode>09.6200</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.165957|02.165956</codeValues>
+								<selectedListName>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</selectedListName>
+								<selectedListClassCode>09.6436</selectedListClassCode>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>Initial Dose: 80 mg subcutaneously.</text>
+				<text>Maintenance Dose: 40 mg subcutaneously every other week starting one week after initial dose.</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>03.557680</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>1 starter pack for the first 28 days only</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>None allowed</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.545909</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>4 pens per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 pens per 28 days</renewPerIntervalDesc>
+				</qlimit>
+				<qlimit>
+					<medId>03.448215</medId>
+					<initPerDayDesc>Not specified</initPerDayDesc>
+					<initPerIntervalDesc>4 kits per 28 days for the first 4 weeks</initPerIntervalDesc>
+					<renewPerDayDesc>Not specified</renewPerDayDesc>
+					<renewPerIntervalDesc>2 kits per 28 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>1</dur>
+					<durUnit>y</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>Not specified</dur>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Arenbergerova M, Gkalpakiotis S, Arenberger P. Effective long-term control of refractory hidradenitis suppurativa with adalimumab after failure of conventional therapy.  International Journal of Dermatology. 2010; 49; 1445–49.</reference>
+				<reference>Blok JL, Hattem Sv, Jonkman, MF, Horva ́th B.  Systemic therapy with immunosuppressive agents and retinoids in hidradenitis suppurativa: a systematic review.  British Journal of Dermatology.  2013; 168: 243-52.  DOI 10.1111/bjd.12104</reference>
+				<reference>Kimball AB, Kerdel F, Adams D, et al.  Adalimumab for the Treatment of Moderate to Severe Hidradenitis Suppurativa: A Parallel Randomized Trial.  Ann Intern Med. 2012; 157: 846-55.</reference>
+				<reference>Miller I, Lynggaard CD, Lophaven S, Zachariae C, Dufour DN, Jemec GBE.  A double-blind placebo-controlled randomized trial of adalimumab in the treatment of hidradenitis suppurativa.  British Journal of Dermatology.  2011; 165: 391-98.  DOI 10.1111/j.1365-2133.2011.10339.x</reference>
+				<reference>Boer J, Nazary M.  Long-term results of acitretin therapy for hidradenitis suppurativa. Is acne inversa also a misnomer?  British Journal of Dermatology.  2011; 164: 170-75.  DOI: 10.1111/j.1365-2133.2010.10071.x</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,Sel</name>
+			<codeValue>09.5708</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Enbrel SureClick subcutaneous</name>
+				<codeValue>02.144657</codeValue>
+			</listItem>
+			<listItem>
+				<name>Enbrel subcutaneous</name>
+				<codeValue>02.16772</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cimzia Powder for Reconstitution subcutaneous</name>
+				<codeValue>02.154650</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cimzia Starter Kit subcutaneous</name>
+				<codeValue>02.154223</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cimzia subcutaneous</name>
+				<codeValue>02.150396</codeValue>
+			</listItem>
+			<listItem>
+				<name>Simponi ARIA intravenous</name>
+				<codeValue>02.164798</codeValue>
+			</listItem>
+			<listItem>
+				<name>Simponi subcutaneous</name>
+				<codeValue>02.152287</codeValue>
+			</listItem>
+			<listItem>
+				<name>Remicade intravenous</name>
+				<codeValue>02.16554</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>DMARD - Interleukin-1 Receptor Antagonist (IL-1Ra)</name>
+			<codeValue>09.4541</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Kineret subcutaneous</name>
+				<codeValue>02.22175</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>DMARD - Interleukin-6 (IL-6) Receptor Inhibitors, Monoclonal Antibody</name>
+			<codeValue>09.6210</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Actemra intravenous</name>
+				<codeValue>02.153521</codeValue>
+			</listItem>
+			<listItem>
+				<name>Actemra subcutaneous</name>
+				<codeValue>02.165329</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib.</name>
+			<codeValue>09.5913</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Orencia (with maltose) intravenous</name>
+				<codeValue>02.94819</codeValue>
+			</listItem>
+			<listItem>
+				<name>Orencia subcutaneous</name>
+				<codeValue>02.156713</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>DMARD - B Cell Targeted Agents</name>
+			<codeValue>09.6488</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Rituxan intravenous</name>
+				<codeValue>02.5206</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>DMARD - Janus Kinase (JAK) Inhibitors</name>
+			<codeValue>09.6387</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Xeljanz oral</name>
+				<codeValue>02.162865</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Live Vaccines</name>
+			<codeValue>09.6421</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>adenovirus vaccine live type-4 and 7 oral</name>
+				<codeValue>02.164880</codeValue>
+			</listItem>
+			<listItem>
+				<name>adenovirus vaccine live type-4 oral</name>
+				<codeValue>02.164878</codeValue>
+			</listItem>
+			<listItem>
+				<name>adenovirus vaccine live type-7 oral</name>
+				<codeValue>02.164879</codeValue>
+			</listItem>
+			<listItem>
+				<name>Theracys intravesical</name>
+				<codeValue>02.15402</codeValue>
+			</listItem>
+			<listItem>
+				<name>Tice BCG intravesical</name>
+				<codeValue>02.94519</codeValue>
+			</listItem>
+			<listItem>
+				<name>BCG vaccine, live (PF) percutaneous</name>
+				<codeValue>02.154546</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flumist Quad 2014-2015 nasal</name>
+				<codeValue>02.166545</codeValue>
+			</listItem>
+			<listItem>
+				<name>M-M-R II (PF) subcutaneous</name>
+				<codeValue>02.150450</codeValue>
+			</listItem>
+			<listItem>
+				<name>ProQuad (PF) subcutaneous</name>
+				<codeValue>02.94107</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rotarix oral</name>
+				<codeValue>02.150652</codeValue>
+			</listItem>
+			<listItem>
+				<name>RotaTeq Vaccine oral</name>
+				<codeValue>02.95020</codeValue>
+			</listItem>
+			<listItem>
+				<name>Vivotif Berna Vaccine oral</name>
+				<codeValue>02.9755</codeValue>
+			</listItem>
+			<listItem>
+				<name>Varivax (PF) subcutaneous</name>
+				<codeValue>02.11314</codeValue>
+			</listItem>
+			<listItem>
+				<name>YF-Vax (PF) subcutaneous</name>
+				<codeValue>02.150614</codeValue>
+			</listItem>
+			<listItem>
+				<name>ZOSTAVAX  subcutaneous</name>
+				<codeValue>02.144377</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Anti-inflammatory - Interleukin-1 beta Blockers</name>
+			<codeValue>09.6212</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Ilaris (PF) subcutaneous</name>
+				<codeValue>02.152794</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Antipsoriatic Agents - MC Antibody, Human Interleukin 12/23 Inhibitors</name>
+			<codeValue>09.6200</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Stelara subcutaneous</name>
+				<codeValue>02.153035</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>DMARD - Phosphodiesterase-4 (PDE4) Inhibitors</name>
+			<codeValue>09.6436</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Otezla Starter oral</name>
+				<codeValue>02.165957</codeValue>
+			</listItem>
+			<listItem>
+				<name>Otezla oral</name>
+				<codeValue>02.165956</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>NSAID Analgesics Pediatric</name>
+			<codeValue>16.05</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Advil Liqui-Gel oral</name>
+				<codeValue>02.94173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil Migraine oral</name>
+				<codeValue>02.20833</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil oral</name>
+				<codeValue>02.6143</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aleve oral</name>
+				<codeValue>02.1098</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Pain Relief oral</name>
+				<codeValue>02.17236</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Relief oral</name>
+				<codeValue>02.89454</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox DS oral</name>
+				<codeValue>02.9771</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox oral</name>
+				<codeValue>02.10989</codeValue>
+			</listItem>
+			<listItem>
+				<name>Daypro oral</name>
+				<codeValue>02.6746</codeValue>
+			</listItem>
+			<listItem>
+				<name>EC-Naprosyn oral</name>
+				<codeValue>02.4057</codeValue>
+			</listItem>
+			<listItem>
+				<name>etodolac oral</name>
+				<codeValue>02.214</codeValue>
+			</listItem>
+			<listItem>
+				<name>Feldene oral</name>
+				<codeValue>02.10963</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flanax (naproxen) oral</name>
+				<codeValue>02.166687</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibu-Drops oral</name>
+				<codeValue>02.21045</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen IB oral</name>
+				<codeValue>02.17976</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen Jr Strength oral</name>
+				<codeValue>02.74995</codeValue>
+			</listItem>
+			<listItem>
+				<name>ibuprofen oral</name>
+				<codeValue>02.5166</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin oral</name>
+				<codeValue>02.9252</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin rectal</name>
+				<codeValue>02.10968</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin oral</name>
+				<codeValue>02.8880</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin rectal</name>
+				<codeValue>02.13445</codeValue>
+			</listItem>
+			<listItem>
+				<name>I-Prin oral</name>
+				<codeValue>02.17655</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mediproxen oral</name>
+				<codeValue>02.21369</codeValue>
+			</listItem>
+			<listItem>
+				<name>mefenamic acid oral</name>
+				<codeValue>02.11586</codeValue>
+			</listItem>
+			<listItem>
+				<name>meloxicam oral</name>
+				<codeValue>02.911</codeValue>
+			</listItem>
+			<listItem>
+				<name>Midol (naproxen) oral</name>
+				<codeValue>02.160419</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mobic oral</name>
+				<codeValue>02.18173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin IB oral</name>
+				<codeValue>02.9330</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin oral</name>
+				<codeValue>02.4387</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprelan CR oral</name>
+				<codeValue>02.153228</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprosyn oral</name>
+				<codeValue>02.1705</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen oral</name>
+				<codeValue>02.5173</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen sodium oral</name>
+				<codeValue>02.11643</codeValue>
+			</listItem>
+			<listItem>
+				<name>oxaprozin oral</name>
+				<codeValue>02.6747</codeValue>
+			</listItem>
+			<listItem>
+				<name>piroxicam oral</name>
+				<codeValue>02.10942</codeValue>
+			</listItem>
+			<listItem>
+				<name>Provil oral</name>
+				<codeValue>02.14655</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulindac oral</name>
+				<codeValue>02.8714</codeValue>
+			</listItem>
+			<listItem>
+				<name>tolmetin oral</name>
+				<codeValue>02.11044</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Profen oral</name>
+				<codeValue>02.92767</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Proxen oral</name>
+				<codeValue>02.93221</codeValue>
+			</listItem>
+			<listItem>
+				<name>Celebrex oral</name>
+				<codeValue>02.16849</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>NSAID Analgesics</name>
+			<codeValue>14.6220|14.2657</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Advil Liqui-Gel oral</name>
+				<codeValue>02.94173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil Migraine oral</name>
+				<codeValue>02.20833</codeValue>
+			</listItem>
+			<listItem>
+				<name>Advil oral</name>
+				<codeValue>02.6143</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aleve oral</name>
+				<codeValue>02.1098</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Pain Relief oral</name>
+				<codeValue>02.17236</codeValue>
+			</listItem>
+			<listItem>
+				<name>All Day Relief oral</name>
+				<codeValue>02.89454</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox DS oral</name>
+				<codeValue>02.9771</codeValue>
+			</listItem>
+			<listItem>
+				<name>Anaprox oral</name>
+				<codeValue>02.10989</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ansaid oral</name>
+				<codeValue>02.10612</codeValue>
+			</listItem>
+			<listItem>
+				<name>Caldolor intravenous</name>
+				<codeValue>02.152733</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cambia oral</name>
+				<codeValue>02.154102</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cambia oral</name>
+				<codeValue>02.154102</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cataflam oral</name>
+				<codeValue>02.9836</codeValue>
+			</listItem>
+			<listItem>
+				<name>Clinoril oral</name>
+				<codeValue>02.10330</codeValue>
+			</listItem>
+			<listItem>
+				<name>Daypro oral</name>
+				<codeValue>02.6746</codeValue>
+			</listItem>
+			<listItem>
+				<name>diclofenac oral</name>
+				<codeValue>02.4284</codeValue>
+			</listItem>
+			<listItem>
+				<name>diclofenac potassium oral</name>
+				<codeValue>02.5988</codeValue>
+			</listItem>
+			<listItem>
+				<name>EC-Naprosyn oral</name>
+				<codeValue>02.4057</codeValue>
+			</listItem>
+			<listItem>
+				<name>etodolac oral</name>
+				<codeValue>02.214</codeValue>
+			</listItem>
+			<listItem>
+				<name>Feldene oral</name>
+				<codeValue>02.10963</codeValue>
+			</listItem>
+			<listItem>
+				<name>fenoprofen oral</name>
+				<codeValue>02.8333</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flanax (naproxen) oral</name>
+				<codeValue>02.166687</codeValue>
+			</listItem>
+			<listItem>
+				<name>flurbiprofen oral</name>
+				<codeValue>02.13459</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibu-Drops oral</name>
+				<codeValue>02.21045</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen IB oral</name>
+				<codeValue>02.17976</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ibuprofen Jr Strength oral</name>
+				<codeValue>02.74995</codeValue>
+			</listItem>
+			<listItem>
+				<name>ibuprofen oral</name>
+				<codeValue>02.5166</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin oral</name>
+				<codeValue>02.9252</codeValue>
+			</listItem>
+			<listItem>
+				<name>Indocin rectal</name>
+				<codeValue>02.10968</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin oral</name>
+				<codeValue>02.8880</codeValue>
+			</listItem>
+			<listItem>
+				<name>indomethacin rectal</name>
+				<codeValue>02.13445</codeValue>
+			</listItem>
+			<listItem>
+				<name>I-Prin oral</name>
+				<codeValue>02.17655</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketoprofen oral</name>
+				<codeValue>02.5995</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac injection</name>
+				<codeValue>02.6419</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac intramuscular</name>
+				<codeValue>02.4688</codeValue>
+			</listItem>
+			<listItem>
+				<name>ketorolac oral</name>
+				<codeValue>02.3919</codeValue>
+			</listItem>
+			<listItem>
+				<name>meclofenamate oral</name>
+				<codeValue>02.8673</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medi-Profen oral</name>
+				<codeValue>02.16712</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mediproxen oral</name>
+				<codeValue>02.21369</codeValue>
+			</listItem>
+			<listItem>
+				<name>mefenamic acid oral</name>
+				<codeValue>02.11586</codeValue>
+			</listItem>
+			<listItem>
+				<name>meloxicam oral</name>
+				<codeValue>02.911</codeValue>
+			</listItem>
+			<listItem>
+				<name>Midol (naproxen) oral</name>
+				<codeValue>02.160419</codeValue>
+			</listItem>
+			<listItem>
+				<name>Mobic oral</name>
+				<codeValue>02.18173</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin IB oral</name>
+				<codeValue>02.9330</codeValue>
+			</listItem>
+			<listItem>
+				<name>Motrin oral</name>
+				<codeValue>02.4387</codeValue>
+			</listItem>
+			<listItem>
+				<name>nabumetone oral</name>
+				<codeValue>02.7005</codeValue>
+			</listItem>
+			<listItem>
+				<name>Nalfon oral</name>
+				<codeValue>02.6919</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprelan CR oral</name>
+				<codeValue>02.153228</codeValue>
+			</listItem>
+			<listItem>
+				<name>Naprosyn oral</name>
+				<codeValue>02.1705</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen oral</name>
+				<codeValue>02.5173</codeValue>
+			</listItem>
+			<listItem>
+				<name>naproxen sodium oral</name>
+				<codeValue>02.11643</codeValue>
+			</listItem>
+			<listItem>
+				<name>oxaprozin oral</name>
+				<codeValue>02.6747</codeValue>
+			</listItem>
+			<listItem>
+				<name>piroxicam oral</name>
+				<codeValue>02.10942</codeValue>
+			</listItem>
+			<listItem>
+				<name>Ponstel oral</name>
+				<codeValue>02.11590</codeValue>
+			</listItem>
+			<listItem>
+				<name>Provil oral</name>
+				<codeValue>02.14655</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sprix nasal</name>
+				<codeValue>02.155891</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulindac oral</name>
+				<codeValue>02.8714</codeValue>
+			</listItem>
+			<listItem>
+				<name>tolmetin oral</name>
+				<codeValue>02.11044</codeValue>
+			</listItem>
+			<listItem>
+				<name>Voltaren-XR oral</name>
+				<codeValue>02.12377</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Profen oral</name>
+				<codeValue>02.92767</codeValue>
+			</listItem>
+			<listItem>
+				<name>Wal-Proxen oral</name>
+				<codeValue>02.93221</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zipsor oral</name>
+				<codeValue>02.152752</codeValue>
+			</listItem>
+			<listItem>
+				<name>Zorvolex oral</name>
+				<codeValue>02.165333</codeValue>
+			</listItem>
+			<listItem>
+				<name>Celebrex oral</name>
+				<codeValue>02.16849</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>glucocorticoids, oral or IV</name>
+			<codeValue>09.2750</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>A-Hydrocort injection</name>
+				<codeValue>02.8951</codeValue>
+			</listItem>
+			<listItem>
+				<name>A-Methapred injection</name>
+				<codeValue>02.8952</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aristospan Intra-Articular injection</name>
+				<codeValue>02.6576</codeValue>
+			</listItem>
+			<listItem>
+				<name>Aristospan Intralesional injection</name>
+				<codeValue>02.5589</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asmalpred oral</name>
+				<codeValue>02.156971</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asmalpred Plus oral</name>
+				<codeValue>02.154500</codeValue>
+			</listItem>
+			<listItem>
+				<name>Celestone oral</name>
+				<codeValue>02.8456</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cortef oral</name>
+				<codeValue>02.6730</codeValue>
+			</listItem>
+			<listItem>
+				<name>cortisone oral</name>
+				<codeValue>02.8641</codeValue>
+			</listItem>
+			<listItem>
+				<name>Depo-Medrol injection</name>
+				<codeValue>02.6160</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone in 0.9 % sodium chloride intravenous</name>
+				<codeValue>02.159920</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dexamethasone Intensol oral</name>
+				<codeValue>02.16235</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone oral</name>
+				<codeValue>02.1027</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone sodium phosphate (PF) injection</name>
+				<codeValue>02.147015</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone sodium phosphate injection</name>
+				<codeValue>02.6751</codeValue>
+			</listItem>
+			<listItem>
+				<name>DexPak 10 day oral</name>
+				<codeValue>02.144972</codeValue>
+			</listItem>
+			<listItem>
+				<name>DexPak 13 Day oral</name>
+				<codeValue>02.18160</codeValue>
+			</listItem>
+			<listItem>
+				<name>DexPak 6 Day oral</name>
+				<codeValue>02.162098</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flo-Pred oral</name>
+				<codeValue>02.156314</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocortisone oral</name>
+				<codeValue>02.6731</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocortisone sodium succinate injection</name>
+				<codeValue>02.6829</codeValue>
+			</listItem>
+			<listItem>
+				<name>Kenalog injection</name>
+				<codeValue>02.9275</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medrol (Pak) oral</name>
+				<codeValue>02.11321</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medrol oral</name>
+				<codeValue>02.6469</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone acetate injection</name>
+				<codeValue>02.4454</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone oral</name>
+				<codeValue>02.6470</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone sodium succ injection</name>
+				<codeValue>02.3398</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone sodium succ intravenous</name>
+				<codeValue>02.18427</codeValue>
+			</listItem>
+			<listItem>
+				<name>Millipred DP oral</name>
+				<codeValue>02.152249</codeValue>
+			</listItem>
+			<listItem>
+				<name>Millipred oral</name>
+				<codeValue>02.150393</codeValue>
+			</listItem>
+			<listItem>
+				<name>Millipred oral</name>
+				<codeValue>02.150393</codeValue>
+			</listItem>
+			<listItem>
+				<name>Orapred ODT oral</name>
+				<codeValue>02.144840</codeValue>
+			</listItem>
+			<listItem>
+				<name>Orapred oral</name>
+				<codeValue>02.20260</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pediapred oral</name>
+				<codeValue>02.13558</codeValue>
+			</listItem>
+			<listItem>
+				<name>prednisolone oral</name>
+				<codeValue>02.6307</codeValue>
+			</listItem>
+			<listItem>
+				<name>prednisolone sodium phosphate oral</name>
+				<codeValue>02.13557</codeValue>
+			</listItem>
+			<listItem>
+				<name>Prednisone Intensol oral</name>
+				<codeValue>02.14590</codeValue>
+			</listItem>
+			<listItem>
+				<name>prednisone oral</name>
+				<codeValue>02.6007</codeValue>
+			</listItem>
+			<listItem>
+				<name>Prelone oral</name>
+				<codeValue>02.565</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rayos oral</name>
+				<codeValue>02.162206</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Cortef (PF) injection</name>
+				<codeValue>02.154003</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Cortef injection</name>
+				<codeValue>02.6125</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol (PF) injection</name>
+				<codeValue>02.153539</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol (PF) intravenous</name>
+				<codeValue>02.153540</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol injection</name>
+				<codeValue>02.6135</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol intravenous</name>
+				<codeValue>02.152303</codeValue>
+			</listItem>
+			<listItem>
+				<name>triamcinolone acetonide injection</name>
+				<codeValue>02.9</codeValue>
+			</listItem>
+			<listItem>
+				<name>Veripred 20 oral</name>
+				<codeValue>02.151444</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Inflammatory Bowel Agent - Glucocorticoids </name>
+			<codeValue>09.927</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Entocort EC oral</name>
+				<codeValue>02.22007</codeValue>
+			</listItem>
+			<listItem>
+				<name>budesonide oral</name>
+				<codeValue>02.22008</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cortifoam rectal</name>
+				<codeValue>02.4997</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocortisone rectal</name>
+				<codeValue>02.6241</codeValue>
+			</listItem>
+			<listItem>
+				<name>Colocort rectal</name>
+				<codeValue>02.18021</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cortenema rectal</name>
+				<codeValue>02.7131</codeValue>
+			</listItem>
+			<listItem>
+				<name>Uceris oral</name>
+				<codeValue>02.163364</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Inflammatory Bowel Agent - Aminosalicylates and Related Agents</name>
+			<codeValue>09.3013</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>balsalazide oral</name>
+				<codeValue>02.20258</codeValue>
+			</listItem>
+			<listItem>
+				<name>Colazal oral</name>
+				<codeValue>02.20259</codeValue>
+			</listItem>
+			<listItem>
+				<name>Giazo oral</name>
+				<codeValue>02.163103</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asacol oral</name>
+				<codeValue>02.9006</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pentasa oral</name>
+				<codeValue>02.3332</codeValue>
+			</listItem>
+			<listItem>
+				<name>Delzicol oral</name>
+				<codeValue>02.163434</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asacol HD oral</name>
+				<codeValue>02.152452</codeValue>
+			</listItem>
+			<listItem>
+				<name>Apriso oral</name>
+				<codeValue>02.151692</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lialda oral</name>
+				<codeValue>02.147055</codeValue>
+			</listItem>
+			<listItem>
+				<name>Canasa rectal</name>
+				<codeValue>02.20905</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rowasa rectal</name>
+				<codeValue>02.9791</codeValue>
+			</listItem>
+			<listItem>
+				<name>mesalamine rectal</name>
+				<codeValue>02.9866</codeValue>
+			</listItem>
+			<listItem>
+				<name>sfRowasa rectal</name>
+				<codeValue>02.151704</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rowasa rectal</name>
+				<codeValue>02.9791</codeValue>
+			</listItem>
+			<listItem>
+				<name>mesalamine with cleansing wipes rectal</name>
+				<codeValue>02.150711</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dipentum oral</name>
+				<codeValue>02.14039</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulfasalazine oral</name>
+				<codeValue>02.6260</codeValue>
+			</listItem>
+			<listItem>
+				<name>Azulfidine EN-tabs oral</name>
+				<codeValue>02.6309</codeValue>
+			</listItem>
+			<listItem>
+				<name>Azulfidine oral</name>
+				<codeValue>02.11925</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sulfazine EC oral</name>
+				<codeValue>02.22470</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sulfazine oral</name>
+				<codeValue>02.63166</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Crohns Disease - glucocorticoids</name>
+			<codeValue>16.06</codeValue>
+			<listType>adhoc</listType>
+			
+			<listItem>
+				<name>triamcinolone acetonide injection</name>
+				<codeValue>02.9</codeValue>
+			</listItem>
+			<listItem>
+				<name>Prelone oral</name>
+				<codeValue>02.565</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone oral</name>
+				<codeValue>02.1027</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone sodium succ injection</name>
+				<codeValue>02.3398</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone acetate injection</name>
+				<codeValue>02.4454</codeValue>
+			</listItem>
+			<listItem>
+				<name>betamethasone acetate and sodium phosphate injection</name>
+				<codeValue>02.5714</codeValue>
+			</listItem>
+			<listItem>
+				<name>Celestone Soluspan injection</name>
+				<codeValue>02.5720</codeValue>
+			</listItem>
+			<listItem>
+				<name>prednisone oral</name>
+				<codeValue>02.6007</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Cortef injection</name>
+				<codeValue>02.6125</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol injection</name>
+				<codeValue>02.6135</codeValue>
+			</listItem>
+			<listItem>
+				<name>Depo-Medrol injection</name>
+				<codeValue>02.6160</codeValue>
+			</listItem>
+			<listItem>
+				<name>prednisolone oral</name>
+				<codeValue>02.6307</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medrol oral</name>
+				<codeValue>02.6469</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone oral</name>
+				<codeValue>02.6470</codeValue>
+			</listItem>
+			<listItem>
+				<name>Cortef oral</name>
+				<codeValue>02.6730</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocortisone oral</name>
+				<codeValue>02.6731</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone sodium phosphate injection</name>
+				<codeValue>02.6751</codeValue>
+			</listItem>
+			<listItem>
+				<name>hydrocortisone sodium succinate injection</name>
+				<codeValue>02.6829</codeValue>
+			</listItem>
+			<listItem>
+				<name>Celestone oral</name>
+				<codeValue>02.8456</codeValue>
+			</listItem>
+			<listItem>
+				<name>cortisone oral</name>
+				<codeValue>02.8641</codeValue>
+			</listItem>
+			<listItem>
+				<name>A-Hydrocort injection</name>
+				<codeValue>02.8951</codeValue>
+			</listItem>
+			<listItem>
+				<name>A-Methapred injection</name>
+				<codeValue>02.8952</codeValue>
+			</listItem>
+			<listItem>
+				<name>Kenalog injection</name>
+				<codeValue>02.9275</codeValue>
+			</listItem>
+			<listItem>
+				<name>Medrol (Pak) oral</name>
+				<codeValue>02.11321</codeValue>
+			</listItem>
+			<listItem>
+				<name>prednisolone sodium phosphate oral</name>
+				<codeValue>02.13557</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pediapred oral</name>
+				<codeValue>02.13558</codeValue>
+			</listItem>
+			<listItem>
+				<name>Prednisone Intensol oral</name>
+				<codeValue>02.14590</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dexamethasone Intensol oral</name>
+				<codeValue>02.16235</codeValue>
+			</listItem>
+			<listItem>
+				<name>DexPak 13 Day oral</name>
+				<codeValue>02.18160</codeValue>
+			</listItem>
+			<listItem>
+				<name>methylprednisolone sodium succ intravenous</name>
+				<codeValue>02.18427</codeValue>
+			</listItem>
+			<listItem>
+				<name>Orapred oral</name>
+				<codeValue>02.20260</codeValue>
+			</listItem>
+			<listItem>
+				<name>Entocort EC oral</name>
+				<codeValue>02.22007</codeValue>
+			</listItem>
+			<listItem>
+				<name>budesonide oral</name>
+				<codeValue>02.22008</codeValue>
+			</listItem>
+			<listItem>
+				<name>Orapred ODT oral</name>
+				<codeValue>02.144840</codeValue>
+			</listItem>
+			<listItem>
+				<name>DexPak 10 day oral</name>
+				<codeValue>02.144972</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone sodium phosphate (PF) injection</name>
+				<codeValue>02.147015</codeValue>
+			</listItem>
+			<listItem>
+				<name>Millipred oral</name>
+				<codeValue>02.150393</codeValue>
+			</listItem>
+			<listItem>
+				<name>Veripred 20 oral</name>
+				<codeValue>02.151444</codeValue>
+			</listItem>
+			<listItem>
+				<name>Millipred DP oral</name>
+				<codeValue>02.152249</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol intravenous</name>
+				<codeValue>02.152303</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol (PF) injection</name>
+				<codeValue>02.153539</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Medrol (PF) intravenous</name>
+				<codeValue>02.153540</codeValue>
+			</listItem>
+			<listItem>
+				<name>Solu-Cortef (PF) injection</name>
+				<codeValue>02.154003</codeValue>
+			</listItem>
+			<listItem>
+				<name>Flo-Pred oral</name>
+				<codeValue>02.156314</codeValue>
+			</listItem>
+			<listItem>
+				<name>dexamethasone in 0.9 % sodium chloride intravenous</name>
+				<codeValue>02.159920</codeValue>
+			</listItem>
+			<listItem>
+				<name>DexPak 6 Day oral</name>
+				<codeValue>02.162098</codeValue>
+			</listItem>
+			<listItem>
+				<name>Rayos oral</name>
+				<codeValue>02.162206</codeValue>
+			</listItem>
+			<listItem>
+				<name>prednisolone sodium phosphate oral</name>
+				<codeValue>02.150393</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Crohns Disease - Aminosalicylates and Related Agents</name>
+			<codeValue>16.07</codeValue>
+			<listType>adhoc</listType>
+			
+			<listItem>
+				<name>Pentasa oral</name>
+				<codeValue>02.3332</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asacol oral</name>
+				<codeValue>02.9006</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lialda oral</name>
+				<codeValue>02.147055</codeValue>
+			</listItem>
+			<listItem>
+				<name>Apriso oral</name>
+				<codeValue>02.151692</codeValue>
+			</listItem>
+			<listItem>
+				<name>Asacol HD oral</name>
+				<codeValue>02.152452</codeValue>
+			</listItem>
+			<listItem>
+				<name>Delzicol oral</name>
+				<codeValue>02.163434</codeValue>
+			</listItem>
+			<listItem>
+				<name>sulfasalazine oral</name>
+				<codeValue>02.6260</codeValue>
+			</listItem>
+			<listItem>
+				<name>Azulfidine EN-tabs oral</name>
+				<codeValue>02.6309</codeValue>
+			</listItem>
+			<listItem>
+				<name>Azulfidine oral</name>
+				<codeValue>02.11925</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sulfazine EC oral</name>
+				<codeValue>02.22470</codeValue>
+			</listItem>
+			<listItem>
+				<name>Sulfazine oral</name>
+				<codeValue>02.63166</codeValue>
+			</listItem>
+			<listItem>
+				<name>Paser oral</name>
+				<codeValue>02.11410</codeValue>
+			</listItem>
+			<listItem>
+				<name>Dipentum oral</name>
+				<codeValue>02.14039</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Immunosuppressive - Purine Analogs</name>
+			<codeValue>09.1251</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>Azathioprine injection</name>
+				<codeValue>02.11928</codeValue>
+			</listItem>
+			<listItem>
+				<name>Azasan oral</name>
+				<codeValue>02.64887</codeValue>
+			</listItem>
+			<listItem>
+				<name>azathioprine oral</name>
+				<codeValue>02.13771</codeValue>
+			</listItem>
+			<listItem>
+				<name>Imuran oral</name>
+				<codeValue>02.13983</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>Antineoplastic - Antimetabolite - Purine Analogs</name>
+			<codeValue>09.2848</codeValue>
+			<listType>class</listType>
+			<listItem>
+				<name>mercaptopurine oral</name>
+				<codeValue>02.5903</codeValue>
+			</listItem>
+			<listItem>
+				<name>Purinethol oral</name>
+				<codeValue>02.1370</codeValue>
+			</listItem>
+			<listItem>
+				<name>Purixan oral</name>
+				<codeValue>02.166385</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

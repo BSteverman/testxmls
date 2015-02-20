@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<?oxy_comment_start author="paulnguyen" timestamp="20141031T144748-0700" comment="Contra: Presence of prosthetic heart valve (ICD10: 12.Z95.2)"?>
+		<routedMedId><?oxy_comment_end?>156265</routedMedId>
+		<routedMedName>Xarelto 10 mg tablet</routedMedName>
+		<routedGenericName>rivaroxaban 10 mg tablet</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>564784</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Hip Surgery Deep Vein Thrombosis Prevention</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.1695</icd9>
+			<symbolic>HipSurgDVTPreven</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy/>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.3475|02.1837|02.22499|02.22498|02.7320|02.3949|02.4096|02.77321|02.163073|02.154839</codeValues>
+								<selectedListName>anticoagulant</selectedListName>
+								<selectedListClassCode>16.10</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Presence of prosthetic heart valve</name>
+								<codeValues>12.Z95.2</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>ever</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>10 mg orally every day for 35 days</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>564784</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>35 tablets per year</initPerIntervalDesc>
+					<renewPerDayDesc>Not Specified</renewPerDayDesc>
+					<renewPerIntervalDesc>Not Specified</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>35</dur>
+					<durUnit>d</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>35</dur>
+					<durUnit>d</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Product Information: Xarelto. Janssen Pharmaceuticals, Inc., 2014.</reference>
+				<reference>FDB/AHFS On-Line Pharmacy Reference.  Retrieved June 4, 2014, from http://inweb2/FDBReference/</reference>
+				<reference>Guyatt GH, Akl EA, Crowther M, et al.  Executive Summary : Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.  CHEST, 141(Suppl), 7S-47S.</reference>
+				<reference>Kwong LM.  Therapeutic Potential of Rivaroxaban in the Prevention of Venous Thromboembolism Following Hip and Knee Replacement Surgery: A Review of Clinical Trial Data.  Clinical Pharmacology: Advances and Applications, 2011:7, 461-46.</reference>
+				<reference>Kwong LM.  Comparative Safety and Efficacy of Antithrombotics in the Management of Venous Thromboembolism After Knee or Hip Replacement Surgery: Focus on Rivaroxaban.  Clinical Pharmacology: Advances and Applications, 2013:5, 143-48.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Knee Replacement Deep Vein Thrombosis Prevention</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.1696</icd9>
+			<symbolic>KneeReplDVTPreven</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Not Applicable</name>
+					<code>Not Applicable</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Presence of prosthetic heart valve</name>
+					<code>12.Z95.2</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>group</interventionType>
+								<name/>
+								<codeValues>02.3475|02.1837|02.22499|02.22498|02.7320|02.3949|02.4096|02.77321|02.163073|02.154839</codeValues>
+								<selectedListName>anticoagulant</selectedListName>
+								<selectedListClassCode>16.10</selectedListClassCode>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Presence of prosthetic heart valve</name>
+								<codeValues>12.Z95.2</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>ever</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>10 mg orally every day for 12 days</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>564784</medId>
+					<initPerDayDesc>1 tablet</initPerDayDesc>
+					<initPerIntervalDesc>12 tablets per year</initPerIntervalDesc>
+					<renewPerDayDesc>Not Specified</renewPerDayDesc>
+					<renewPerIntervalDesc>Not Specified</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>12</dur>
+					<durUnit>d</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>12</dur>
+					<durUnit>d</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Product Information: Xarelto. Janssen Pharmaceuticals, Inc., 2014.</reference>
+				<reference>FDB/AHFS On-Line Pharmacy Reference.  Retrieved June 4, 2014, from http://inweb2/FDBReference/</reference>
+				<reference>Guyatt GH, Akl EA, Crowther M, et al.  Executive Summary : Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.  CHEST, 141(Suppl), 7S-47S.</reference>
+				<reference>Kwong LM.  Therapeutic Potential of Rivaroxaban in the Prevention of Venous Thromboembolism Following Hip and Knee Replacement Surgery: A Review of Clinical Trial Data.  Clinical Pharmacology: Advances and Applications, 2011:7, 461-46.</reference>
+				<reference>Kwong LM.  Comparative Safety and Efficacy of Antithrombotics in the Management of Venous Thromboembolism After Knee or Hip Replacement Surgery: Focus on Rivaroxaban.  Clinical Pharmacology: Advances and Applications, 2013:5, 143-48.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+		<listDef>
+			<name>warfarin oral</name>
+			<codeValue>18.3949</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Coumadin oral</name>
+				<codeValue>02.4096</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jantoven oral</name>
+				<codeValue>02.77321</codeValue>
+			</listItem>
+			<listItem>
+				<name>warfarin oral</name>
+				<codeValue>02.3949</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>enoxaparin subcutaneous</name>
+			<codeValue>18.3475</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>enoxaparin subcutaneous</name>
+				<codeValue>02.3475</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lovenox subcutaneous</name>
+				<codeValue>02.1837</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>fondaparinux subcutaneous</name>
+			<codeValue>18.22499</codeValue>
+			<listType>generic</listType>
+			<listItem>
+				<name>Arixtra subcutaneous</name>
+				<codeValue>02.22498</codeValue>
+			</listItem>
+			<listItem>
+				<name>fondaparinux subcutaneous</name>
+				<codeValue>02.22499</codeValue>
+			</listItem>
+		</listDef>
+		<listDef>
+			<name>anticoagulant</name>
+			<codeValue>16.10</codeValue>
+			<listType>adhoc</listType>
+			<listItem>
+				<name>enoxaparin subcutaneous</name>
+				<codeValue>02.3475</codeValue>
+			</listItem>
+			<listItem>
+				<name>Lovenox subcutaneous</name>
+				<codeValue>02.1837</codeValue>
+			</listItem>
+			<listItem>
+				<name>fondaparinux subcutaneous</name>
+				<codeValue>02.22499</codeValue>
+			</listItem>
+			<listItem>
+				<name>Arixtra subcutaneous</name>
+				<codeValue>02.22498</codeValue>
+			</listItem>
+			<listItem>
+				<name>Fragmin subcutaneous</name>
+				<codeValue>02.7320</codeValue>
+			</listItem>
+			<listItem>
+				<name>warfarin oral</name>
+				<codeValue>02.3949</codeValue>
+			</listItem>
+			<listItem>
+				<name>Coumadin oral</name>
+				<codeValue>02.4096</codeValue>
+			</listItem>
+			<listItem>
+				<name>Jantoven oral</name>
+				<codeValue>02.77321</codeValue>
+			</listItem>
+			<listItem>
+				<name>Eliquis oral</name>
+				<codeValue>02.163073</codeValue>
+			</listItem>
+			<listItem>
+				<name>Pradaxa oral</name>
+				<codeValue>02.154839</codeValue>
+			</listItem>
+		</listDef>
+	</lists>
+</paload>

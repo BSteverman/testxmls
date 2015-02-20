@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>150396</routedMedId>
+		<routedMedName>Cimzia subcutaneous</routedMedName>
+		<routedGenericName>certolizumab subcutaneous</routedGenericName>
+		<etcIds>
+			<etc_id>5708</etc_id>
+		</etcIds>
+		<medIds>
+			<medId>554844</medId>
+			<medId>558316</medId>
+			<medId>561420</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Crohn's Disease-moderate to severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2084</icd9>
+			<symbolic>Cimzia-Crohns</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Gastroenterology</name>
+					<code>207RG0100X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<treatment>
+							<dosing/>
+							<rating>rtherapy</rating>
+							<treatmentLine>
+								<option>WITH</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<concurrentTherapyExclusion/>
+			<dosing>
+				<text/>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId/>
+					<initPerDayDesc/>
+					<initPerIntervalDesc/>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc/>
+				</qlimit>
+				<qlimit>
+					<medId/>
+					<initPerDayDesc/>
+					<initPerIntervalDesc/>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc/>
+				</qlimit>
+				<qlimit>
+					<medId/>
+					<initPerDayDesc/>
+					<initPerIntervalDesc/>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc/>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Cimzia (certolizumab pegol). Physician Prescribing Information [Internet] UCB, Inc. 2013 Oct Accessed at: http://cimzia.com/. [created 2008; accessed 2013 Dec 3]</reference>
+				<reference>Evans AT, Lee SD. A review and expert opinion of the use of certolizumab for Crohn's disease. Expert Opinion on Biological Therapy 2012;12(3):363-70. DOI: 10.1517/14712598.2012.658770.</reference>
+				<reference>Ford AC, Sandborn WJ, Khan KJ, Hanauer SB, Talley NJ, Moayyedi P. Efficacy of biological therapies in inflammatory bowel disease: systematic review and meta-analysis. American Journal of Gastroenterology 2011;106(4):644-59, quiz 660. DOI: 10.1038/ajg.2011.73.</reference>
+				<reference>Shao LM, Chen MY, Cai JT. Meta-analysis: the efficacy and safety of certolizumab pegol in Crohn's disease. Alimentary Pharmacology and Therapeutics 2009;29(6):605-14. DOI: 10.1111/j.1365-2036.2009.03929.x.</reference>
+				<reference>Behm BW, Bickston SJ. Tumor necrosis factor-alpha antibody for maintenance of remission in Crohn's disease. Cochrane Database of Systematic Reviews 2008, (verified by Cochrane 2009 Apr), Issue 1. Art. No.: CD006893. DOI: 10.1002/14651858.CD006893.</reference>
+				<reference>Schreiber S, Lawrance IC, Thomsen OO, Hanauer SB, Bloomfield R, Sandborn WJ. Randomised clinical trial: certolizumab pegol for fistulas in Crohn's disease - subgroup results from a placebo-controlled study. Alimentary Pharmacology and Therapeutics 2011;33(2):185-93. DOI: 10.1111/j.1365-2036.2010.04509.x.</reference>
+				<reference>Crohn's disease: management in adults, children and young people. NICE Clinical Guideline CG152 [Internet] National Institute for Clinical Excellence. 2012 Oct Accessed at: http://guidance.nice.org.uk/. [accessed 2013 Oct 2]</reference>
+				<reference>Dignass A, et al. The second European evidence-based Consensus on the diagnosis and management of Crohn's disease: Current management. Journal of Crohn's &amp; Colitis 2010;4(1):28-62. DOI: 10.1016/j.crohns.2009.12.002. (Reaffirmed 2013 Nov)</reference>
+				<reference>Orlando A, et al. The Italian Society of Gastroenterology (SIGE) and the Italian Group for the study of Inflammatory Bowel Disease (IG-IBD) Clinical Practice Guidelines: The use of tumor necrosis factor-alpha antagonist therapy in inflammatory bowel disease. Digestive and Liver Disease 2011;43(1):1-20. DOI: 10.1016/j.dld.2010.07.010.</reference>
+				<reference>D'Haens GR, et al. The London Position Statement of the World Congress of Gastroenterology on Biological Therapy for IBD with the European Crohn's and Colitis Organization: when to start, when to stop, which drug to choose, and how to predict response? American Journal of Gastroenterology 2011;106(2):199-212; quiz 213. DOI: 10.1038/ajg.2010.392.</reference>
+				<reference>Lichtenstein GR, Hanauer SB, Sandborn WJ, Practice Parameters Committee of American College of Gastroenterology. Management of Crohn's disease in adults. American Journal of Gastroenterology 2009;104(2):465-83; quiz 464, 484. DOI: 10.1038/ajg.2008.168. (Reaffirmed 2013 Oct)</reference>
+				<reference>Fasci Spurio F, Aratari A, Margagnoni G, Doddato MT, Papi C. Early treatment in Crohn's disease: do we have enough evidence to reverse the therapeutic pyramid? Journal of Gastrointestinal and Liver Diseases 2012;21(1):67-73.</reference>
+				<reference>D'Haens G, et al. Early combined immunosuppression or conventional management in patients with newly diagnosed Crohn's disease: an open randomised trial. Lancet 2008;371(9613):660-7. DOI: 10.1016/S0140-6736(08)60304-9.</reference>
+				<reference>Colombel JF, et al. Infliximab, azathioprine, or combination therapy for Crohn's disease. New England Journal of Medicine 2010;362(15):1383-95. DOI: 10.1056/NEJMoa0904492.</reference>
+				<reference>Lichtenstein GR, et al. Continuous therapy with certolizumab pegol maintains remission of patients with Crohn's disease for up to 18 months. Clinical Gastroenterology and Hepatology 2010;8(7):600-9. DOI: 10.1016/j.cgh.2010.01.014.</reference>
+				<reference>Oussalah A, Danese S, Peyrin-Biroulet L. Efficacy of TNF antagonists beyond one year in adult and pediatric inflammatory bowel diseases: a systematic review. Current Drug Targets 2010;11(2):156-75.</reference>
+				<reference>Desilva S, Kaplan G, Panaccione R. Sequential therapies for Crohn's disease: optimizing conventional and biologic strategies. Reviews in Gastroenterological Disorders 2008;8(2):109-16.</reference>
+				<reference>Sandborn WJ, et al. Certolizumab pegol in patients with moderate to severe Crohn's disease and secondary failure to infliximab. Clinical Gastroenterology and Hepatology 2010;8(8):688-695.e2. DOI: 10.1016/j.cgh.2010.04.021.</reference>
+				<reference>Feagan BG, et al. Randomised clinical trial: improvement in health outcomes with certolizumab pegol in patients with active Crohn's disease with prior loss of response to infliximab. Alimentary Pharmacology and Therapeutics 2011;33(5):541-50. DOI: 10.1111/j.1365-2036.2010.04568.x.</reference>
+				<reference>Vigano M, Degasperi E, Aghemo A, Lampertico P, Colombo M. Anti-TNF drugs in patients with hepatitis B or C virus infection: safety and clinical management. Expert Opinion on Biological Therapy 2012;12(2):193-207. DOI: 10.1517/14712598.2012.646986.</reference>
+				<reference>Perez-Alvarez R, et al. Hepatitis B virus (HBV) reactivation in patients receiving tumor necrosis factor (TNF)-targeted therapy: analysis of 257 cases. Medicine 2011;90(6):359-71. DOI: 10.1097/MD.0b013e3182380a76.</reference>
+				<reference>Singh JA, et al. Adverse effects of biologics: a network meta-analysis and Cochrane overview. Cochrane Database of Systematic Reviews 2011, (verified by Cochrane 2013 Feb), Issue 2. Art. No.: CD008794. DOI: 10.1002/14651858.CD008794.pub2.</reference>
+				<reference>Bombardier C, et al. Canadian Rheumatology Association recommendations for the pharmacological management of rheumatoid arthritis with traditional and biologic disease-modifying antirheumatic drugs: part II safety. Journal of Rheumatology 2012;39(8):1583-602. DOI: 10.3899/jrheum.120165. (Reaffirmed 2013 Nov)</reference>
+				<reference>Salgado E, Gomez-Reino JJ. The risk of tuberculosis in patients treated with TNF antagonists. Expert Review of Clinical Immunology 2011;7(3):329-40. DOI: 10.1586/eci.11.6.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			<alternatives/>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Rheumatoid Arthritis-moderate to severe</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2805</icd9>
+			<symbolic>Cimzia-RA</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Rheumatologist</name>
+					<code>207RR0500X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy/>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>nocode</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>any</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+				<criteriaSet>
+					<excludedTherapy>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<timeFrame>nocode</timeFrame>
+							</treatmentLine>
+						</treatment>
+					</excludedTherapy>
+				</criteriaSet>
+			</triedTherapyExclusion>
+			<concurrentTherapyExclusion/>
+			<dosing>
+				<text/>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId/>
+					<initPerDayDesc/>
+					<initPerIntervalDesc/>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc/>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Cimzia (certolizumab pegol). Physician Prescribing Information [Internet] UCB, Inc. 2013 Oct Accessed at: http://cimzia.com/. [created 2008; accessed 2013 Dec 3]</reference>
+				<reference>Connock M, et al. Certolizumab pegol (CIMZIA) for the treatment of rheumatoid arthritis. Health Technology Assessment 2010;14(Suppl. 2):1-10. DOI: 10.3310/hta14suppl2/01.</reference>
+				<reference>Furst DE, et al. Updated consensus statement on biological agents for the treatment of rheumatic diseases, 2012. Annals of the Rheumatic Diseases 2013;72 Suppl 2:ii2-ii34. DOI: 10.1136/annrheumdis-2013-203348.</reference>
+				<reference>Smolen JS, et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs. Annals of the Rheumatic Diseases 2010;69(6):964-75. DOI: 10.1136/ard.2009.126532. (Reaffirmed 2013 Nov)</reference>
+				<reference>Mease PJ. Certolizumab pegol in the treatment of rheumatoid arthritis: a comprehensive review of its clinical efficacy and safety. Rheumatology 2011;50(2):261-70. DOI: 10.1093/rheumatology/keq285.</reference>
+				<reference>Smolen JS, et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs. Annals of the Rheumatic Diseases 2010;69(6):964-75. DOI: 10.1136/ard.2009.126532. (Reaffirmed 2013 Nov)</reference>
+				<reference>Mease PJ. Certolizumab pegol in the treatment of rheumatoid arthritis: a comprehensive review of its clinical efficacy and safety. Rheumatology 2011;50(2):261-70. DOI: 10.1093/rheumatology/keq285.</reference>
+				<reference>Certolizumab pegol for the treatment of rheumatoid arthritis. NICE Technology Appraisal TA186 [Internet] National Institute for Health and Clinical Excellence. 2010 Feb Accessed at: http://guidance.nice.org.uk. [accessed 2013 Oct 2]</reference>
+				<reference>Ruiz Garcia V, et al. Certolizumab pegol (CDP870) for rheumatoid arthritis in adults. Cochrane Database of Systematic Reviews 2011, Issue 2. Art. No.: CD007649. DOI: 10.1002/14651858.CD007649.pub2.</reference>
+				<reference>Aaltonen KJ, Virkki LM, Malmivaara A, Konttinen YT, Nordstrom DC, Blom M. Systematic review and meta-analysis of the efficacy and safety of existing TNF blocking agents in treatment of rheumatoid arthritis. PLoS ONE 2012;7(1):e30275. DOI: 10.1371/journal.pone.0030275.</reference>
+				<reference>Kristensen LE, et al. The number needed to treat for second-generation biologics when treating established rheumatoid arthritis: a systematic quantitative review of randomized controlled trials. Scandinavian Journal of Rheumatology 2011;40(1):1-7. DOI: 10.3109/03009742.2010.491834.</reference>
+				<reference>Lopez-Olivo MA, et al. Risk of malignancies in patients with rheumatoid arthritis treated with biologic therapy: a meta-analysis. Journal of the American Medical Association 2012;308(9):898-908. DOI: 10.1001/2012.jama.10857.</reference>
+				<reference>van Vollenhoven RF, Felson D, Strand V, Weinblatt ME, Luijtens K, Keystone EC. American College of Rheumatology hybrid analysis of certolizumab pegol plus methotrexate in patients with active rheumatoid arthritis: data from a 52-week phase III trial. Arthritis Care &amp; Research 2011;63(1):128-34. DOI: 10.1002/acr.20331.</reference>
+				<reference>Choy E, et al. Certolizumab pegol plus MTX administered every 4 weeks is effective in patients with RA who are partial responders to MTX. Rheumatology 2012;51(7):1226-34. DOI: 10.1093/rheumatology/ker519.</reference>
+				<reference>Weinblatt ME, et al. Efficacy and safety of certolizumab pegol in a broad population of patients with active rheumatoid arthritis: results from the REALISTIC phase IIIb study. Rheumatology 2012;51(12):2204-14. DOI: 10.1093/rheumatology/kes150.</reference>
+				<reference>Bykerk VP, et al. Canadian Rheumatology Association recommendations for pharmacological management of rheumatoid arthritis with traditional and biologic disease-modifying antirheumatic drugs. Journal of Rheumatology 2012;39(8):1559-82. DOI: 10.3899/jrheum.110207. (Reaffirmed 2013 Nov)</reference>
+				<reference>Scott DL, Wolfe F, Huizinga TW. Rheumatoid arthritis. Lancet 2010;376(9746):1094-108. DOI: 10.1016/S0140-6736(10)60826-4.</reference>
+				<reference>Miller AV, Ranatunga SK. Immunotherapies in rheumatologic disorders. Medical Clinics of North America 2012;96(3):475-96, ix-x. DOI: 10.1016/j.mcna.2012.04.003.</reference>
+				<reference>Malottki K, et al. Adalimumab, etanercept, infliximab, rituximab and abatacept for the treatment of rheumatoid arthritis after the failure of a tumour necrosis factor inhibitor: a systematic review and economic evaluation. Health Technology Assessment 2011;15(14):1-278. DOI: 10.3310/hta15140.</reference>
+				<reference>Remy A, Avouac J, Gossec L, Combe B. Clinical relevance of switching to a second tumour necrosis factor-alpha inhibitor after discontinuation of a first tumour necrosis factor-alpha inhibitor in rheumatoid arthritis: a systematic literature review and meta-analysis. Clinical and Experimental Rheumatology 2011;29(1):96-103.</reference>
+				<reference>Moots RJ, Naisbett-Groet B. The efficacy of biologic agents in patients with rheumatoid arthritis and an inadequate response to tumour necrosis factor inhibitors: a systematic review. Rheumatology 2012;51(12):2252-61. DOI: 10.1093/rheumatology/kes217.</reference>
+				<reference>Schoels M, Aletaha D, Smolen JS, Wong JB. Comparative effectiveness and safety of biological treatment options after tumour necrosis factor a inhibitor failure in rheumatoid arthritis: systematic review and indirect pairwise meta-analysis. Annals of the Rheumatic Diseases 2012;71(8):1303-8. DOI: 10.1136/annrheumdis-2011-200490.</reference>
+				<reference>Nam JL, et al. Current evidence for the management of rheumatoid arthritis with biological disease-modifying antirheumatic drugs: a systematic literature review informing the EULAR recommendations for the management of RA. Annals of the Rheumatic Diseases 2010;69(6):976-86. DOI: 10.1136/ard.2009.126573.</reference>
+				<reference>Keystone EC, et al. Sustained efficacy of certolizumab pegol added to methotrexate in the treatment of rheumatoid arthritis: 2-year results from the RAPID 1 trial. Rheumatology 2012;51(9):1628-38. DOI: 10.1093/rheumatology/kes082.</reference>
+				<reference>Vigano M, Degasperi E, Aghemo A, Lampertico P, Colombo M. Anti-TNF drugs in patients with hepatitis B or C virus infection: safety and clinical management. Expert Opinion on Biological Therapy 2012;12(2):193-207. DOI: 10.1517/14712598.2012.646986.</reference>
+				<reference>Perez-Alvarez R, et al. Hepatitis B virus (HBV) reactivation in patients receiving tumor necrosis factor (TNF)-targeted therapy: analysis of 257 cases. Medicine 2011;90(6):359-71. DOI: 10.1097/MD.0b013e3182380a76.</reference>
+				<reference>Singh JA, et al. Adverse effects of biologics: a network meta-analysis and Cochrane overview. Cochrane Database of Systematic Reviews 2011, (verified by Cochrane 2013 Feb), Issue 2. Art. No.: CD008794. DOI: 10.1002/14651858.CD008794.pub2.</reference>
+				<reference>Bombardier C, et al. Canadian Rheumatology Association recommendations for the pharmacological management of rheumatoid arthritis with traditional and biologic disease-modifying antirheumatic drugs: part II safety. Journal of Rheumatology 2012;39(8):1583-602. DOI: 10.3899/jrheum.120165. (Reaffirmed 2013 Nov)</reference>
+				<reference>Salgado E, Gomez-Reino JJ. The risk of tuberculosis in patients treated with TNF antagonists. Expert Review of Clinical Immunology 2011;7(3):329-40. DOI: 10.1586/eci.11.6.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			<alternatives/>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Plaque Psoriasis-inconclusive or non-supportive evidence</fqn>
+			<age>
+				<ageRangeType>nocode</ageRangeType>
+				<ageRangeMin/>
+				<ageRangeMax/>
+				<ageRangeUnit>nocode</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>nocode</gender>
+			<icd9>22.2686</icd9>
+			<symbolic/>
+			<rating>recommendedDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype_name>
+				<name/>
+			</subtype_name>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name/>
+					<code/>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name/>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype_name/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy/>
+			<triedtherapy/>
+			<triedTherapyExclusion/>
+			<concurrentTherapyExclusion/>
+			<dosing>
+				<text/>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId/>
+					<initPerDayDesc/>
+					<initPerIntervalDesc/>
+					<renewPerDayDesc/>
+					<renewPerIntervalDesc/>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Cimzia (certolizumab pegol). Physician Prescribing Information [Internet] UCB, Inc. 2013 Oct Accessed at: http://cimzia.com/. [created 2008; accessed 2013 Dec 3]</reference>
+				<reference>Reich K, et al. Successful treatment of moderate to severe plaque psoriasis with the PEGylated Fab' certolizumab pegol: results of a phase II randomized, placebo-controlled trial with a re-treatment extension. British Journal of Dermatology 2012;167(1):180-90. DOI: 10.1111/j.1365-2133.2012.10941.x.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+			<alternatives/>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists/>
+</paload>

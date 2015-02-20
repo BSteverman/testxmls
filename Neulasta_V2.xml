@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paload id="" version="">
+	<toplevel>
+		<routedMedId>32756</routedMedId>
+		<routedMedName>Neulasta</routedMedName>
+		<routedGenericName>pegfilgrastim</routedGenericName>
+		<etcIds>
+			<etc_id/>
+		</etcIds>
+		<medIds>
+			<medId>400575</medId>
+		</medIds>
+	</toplevel>
+	<diagnoses>
+		<diagnosis>
+			<fqn>Prevention of Neutropenia from Cancer Chemotherapy</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.13444</icd9>
+			<symbolic>PrevNeutroFromChemo</symbolic>
+			<rating>labeledDx</rating>
+			<genotype>
+				<name></name>
+			</genotype>
+			<polymorphism>
+				<name></name>
+			</polymorphism>
+			<subtype>
+				<name></name>
+			</subtype>
+			<severity>
+				<name></name>
+				<code></code>
+				<dur></dur>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Hematology &amp; Oncology</name>
+					<code>207RH0003X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Acute respiratory distress syndrome</name>
+					<code>12.J80</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype></subtype>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur></dur>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<name>Sickle-cell disorders</name>
+					<code>12.D57</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<name>Cancer</name>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Neupogen injection</name>
+								<codeValues>02.9370</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Granix subcutaneous</name>
+								<codeValues>02.165401</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>6 mg subcutaneously once per chemotherapy cycle</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>400575</medId>
+					<initPerDayDesc>Not Specified</initPerDayDesc>
+					<initPerIntervalDesc>1.2 mL per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not Specified</renewPerDayDesc>
+					<renewPerIntervalDesc>1.2 mL per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>6</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>6</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>6</dur>
+					<durUnit>m</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Neulasta [package insert]. Thousand Oaks, CA: Amgen Inc; February 2014</reference>
+				<reference>National Comprehensive Cancer Network.  Referenced with permission from the NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines ®) for Myeloid Growth Factors V.2.2014 available at NCCN.org.  Accessed August 5, 2014.  National Comprehensive Cancer Network, 2014.  To view the most recent and complete version of the Compendium, go online to NCCN.org.  2014.</reference>
+				<reference>National Comprehensive Cancer Network.  Referenced with permission from the NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines ®) for Prevention and Treatment of Cancer-Related Infections V.1.2014 available at NCCN.org.  Accessed August 5, 2014.  National Comprehensive Cancer Network, 2014.  To view the most recent and complete version of the Compendium, go online to NCCN.org.  2014.</reference>
+				<reference>Flowers CR, Seidenfeld J, Bow EJ, et al.  Antimicrobial Prophylaxis and Outpatient Management of Fever and Neutropenia in Adults Treated for Malignancy: American Society of Clinical Oncology Clinical Practice Guideine.  Journal of Clinical Oncology.  2013;31(3):794-810.</reference>
+				<reference>Smith TJ, Khatcheressian J, Lyman GH, et al.  2006 Update of Recommendations for the Use of White Blood Cell Growth Factors: An Evidence-Based Clinical Practice Guideline.  Journal of Clinical Oncology.  2006;24(19):3187-205.</reference>
+				<reference>Beaupain B, Leblanc T, Reman O, et al.  Is Pegfilgrastim Safe and Effective in Congenital Neutropenia? An Analysis of the French Severe Chronic Neutropenia Registry.  Pediatr Blood Cancer.  2009;53:1068-1073.</reference>
+				<reference>Fioredda F, Calvillo M, Lanciotti M, et al.  Pegfilgrastim in Children with Severe Congenital Neutropenia.  Pediatr Blood Cancer.  2010;54:465-467.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+		<diagnosis>
+			<fqn>Chemotherapy-Induced Neutropenia</fqn>
+			<age>
+				<ageRangeType>ge</ageRangeType>
+				<ageRangeMin>18</ageRangeMin>
+				<ageRangeMax/>
+				<ageRangeUnit>y</ageRangeUnit>
+				<ageDesc/>
+			</age>
+			<gender>not specified</gender>
+			<icd9>22.889</icd9>
+			<symbolic>ChemoInducedNeutro</symbolic>
+			<rating>recommendedDx</rating>
+			<genotype>
+				<name/>
+			</genotype>
+			<polymorphism>
+				<name/>
+			</polymorphism>
+			<subtype>
+				<name/>
+			</subtype>
+			<severity>
+				<name/>
+				<code/>
+				<dur/>
+				<durUnit>nocode</durUnit>
+			</severity>
+			<prescribers>
+				<prescriber>
+					<name>Hematology &amp; Oncology</name>
+					<code>207RH0003X</code>
+				</prescriber>
+			</prescribers>
+			<comorbidities>
+				<comorbidity>
+					<name>Acute respiratory distress syndrome</name>
+					<code>12.J80</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<name>Sickle-cell disorders</name>
+					<code>12.D57</code>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>exclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+				<comorbidity>
+					<name>Cancer</name>
+					<code/>
+					<severity_name/>
+					<severity_code/>
+					<subtype/>
+					<inclusion_exclusion>inclusion</inclusion_exclusion>
+					<dur/>
+					<durUnit>nocode</durUnit>
+				</comorbidity>
+			</comorbidities>
+			<concurrenttherapy>
+			</concurrenttherapy>
+			<triedtherapy>
+				<criteriaSet>
+					<patientHxType>
+						<typeName>all</typeName>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name/>
+								<codeValues/>
+								<selectedListName/>
+								<selectedListClassCode/>
+							</treatmentLine>
+						</treatment>
+					</patientHxType>
+					<preferredTherapy>
+						<numRequired>allorder</numRequired>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Neupogen injection</name>
+								<codeValues>02.9370</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+						<treatment>
+							<treatmentLine>
+								<option>OR</option>
+								<interventionType>drug</interventionType>
+								<name>Granix subcutaneous</name>
+								<codeValues>02.165401</codeValues>
+								<selectedListName/>
+								<selectedListClassCode/>
+								<durModifier>nocode</durModifier>
+								<dur/>
+								<durUnit>nocode</durUnit>
+								<timeFrame>nocode</timeFrame>
+								<numRequired>any</numRequired>
+							</treatmentLine>
+							<mustBeIneligible>false</mustBeIneligible>
+							<documentationRequired>false</documentationRequired>
+						</treatment>
+					</preferredTherapy>
+				</criteriaSet>
+			</triedtherapy>
+			<triedTherapyExclusion>
+			</triedTherapyExclusion>
+			<dosing>
+				<text>6 mg subcutaneously once per chemotherapy cycle</text>
+			</dosing>
+			<instructions>
+				<instruction/>
+			</instructions>
+			<qlimits>
+				<qlimit>
+					<medId>400575</medId>
+					<initPerDayDesc>Not Specified</initPerDayDesc>
+					<initPerIntervalDesc>1.2 mL per 30 days</initPerIntervalDesc>
+					<renewPerDayDesc>Not Specified</renewPerDayDesc>
+					<renewPerIntervalDesc>1.2 mL per 30 days</renewPerIntervalDesc>
+				</qlimit>
+			</qlimits>
+			<durations>
+				<initialDur>
+					<dur>6</dur>
+					<durUnit>m</durUnit>
+				</initialDur>
+				<renewalDur>
+					<dur>6</dur>
+					<durUnit>m</durUnit>
+				</renewalDur>
+				<overallMax>
+					<dur>6</dur>
+					<durUnit>m</durUnit>
+				</overallMax>
+			</durations>
+			<references>
+				<reference>Neulasta [package insert]. Thousand Oaks, CA: Amgen Inc; February 2014</reference>
+				<reference>National Comprehensive Cancer Network.  Referenced with permission from the NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines ®) for Myeloid Growth Factors V.2.2014 available at NCCN.org.  Accessed August 5, 2014.  National Comprehensive Cancer Network, 2014.  To view the most recent and complete version of the Compendium, go online to NCCN.org.  2014.</reference>
+				<reference>National Comprehensive Cancer Network.  Referenced with permission from the NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines ®) for Prevention and Treatment of Cancer-Related Infections V.1.2014 available at NCCN.org.  Accessed August 5, 2014.  National Comprehensive Cancer Network, 2014.  To view the most recent and complete version of the Compendium, go online to NCCN.org.  2014.</reference>
+				<reference>Flowers CR, Seidenfeld J, Bow EJ, et al.  Antimicrobial Prophylaxis and Outpatient Management of Fever and Neutropenia in Adults Treated for Malignancy: American Society of Clinical Oncology Clinical Practice Guideine.  Journal of Clinical Oncology.  2013;31(3):794-810.</reference>
+				<reference>Smith TJ, Khatcheressian J, Lyman GH, et al.  2006 Update of Recommendations for the Use of White Blood Cell Growth Factors: An Evidence-Based Clinical Practice Guideline.  Journal of Clinical Oncology.  2006;24(19):3187-205.</reference>
+				<reference>Beaupain B, Leblanc T, Reman O, et al.  Is Pegfilgrastim Safe and Effective in Congenital Neutropenia? An Analysis of the French Severe Chronic Neutropenia Registry.  Pediatr Blood Cancer.  2009;53:1068-1073.</reference>
+				<reference>Fioredda F, Calvillo M, Lanciotti M, et al.  Pegfilgrastim in Children with Severe Congenital Neutropenia.  Pediatr Blood Cancer.  2010;54:465-467.</reference>
+			</references>
+			<precautions>
+				<precaution>
+					<text/>
+					<severity/>
+				</precaution>
+			</precautions>
+		</diagnosis>
+	</diagnoses>
+	<precautions>
+		<geriatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</geriatric>
+		<pregnancy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pregnancy>
+		<pediatric>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</pediatric>
+		<lactation>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</lactation>
+		<allergy>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</allergy>
+		<sideEffect>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</sideEffect>
+		<drugDisease>
+			<caution>
+				<drug/>
+				<severity/>
+				<text/>
+			</caution>
+		</drugDisease>
+	</precautions>
+	<lists>
+	</lists>
+</paload>
